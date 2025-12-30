@@ -1,0 +1,3 @@
+nome;cognome;username;password;ruolo;dataNascita;domicilio
+Mario;Rossi;mario123;password123;cliente;;Milano
+Luigi;Bianchi;luigiB;pass456;ristoratore;1985-02-20;Varese

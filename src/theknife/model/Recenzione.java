@@ -1,4 +1,4 @@
-package model;
+package theknife.model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
  */
 public class Recenzione {
     
-    private String idRecensione;
+    private final String idRecensione;
     private String usernameCliente;
     private String idRistorante;
     private int stelle; // da 1 a 5
@@ -31,7 +31,10 @@ public class Recenzione {
     public Recenzione(String usernameCliente, String idRistorante, int stelle, String testo) {
         this.usernameCliente = usernameCliente;
         this.idRistorante = idRistorante;
-        setStelle(stelle); // validazione
+        if (stelle < 1 || stelle > 5) {
+            throw new IllegalArgumentException("Le stelle devono essere comprese tra 1 e 5");
+        }
+        this.stelle = stelle;
         this.testo = testo;
         this.dataOra = LocalDateTime.now();
         this.rispostaRistoratore = null;

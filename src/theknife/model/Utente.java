@@ -1,4 +1,4 @@
-package model;
+package theknife.model;
 
 
 import java.time.LocalDate;

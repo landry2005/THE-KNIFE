@@ -1,4 +1,4 @@
-package model;
+package theknife.model;
 
 /**
  * Classe che rappresenta un ristorante nella piattaforma TheKnife.
