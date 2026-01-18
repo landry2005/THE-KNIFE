@@ -1,4 +1,4 @@
-package theknife.model;
+package model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
  */
 public class Recenzione {
     
-    private final String idRecensione;
+    private String idRecensione;
     private String usernameCliente;
     private String idRistorante;
     private int stelle; // da 1 a 5
@@ -31,19 +31,37 @@ public class Recenzione {
     public Recenzione(String usernameCliente, String idRistorante, int stelle, String testo) {
         this.usernameCliente = usernameCliente;
         this.idRistorante = idRistorante;
-        if (stelle < 1 || stelle > 5) {
-            throw new IllegalArgumentException("Le stelle devono essere comprese tra 1 e 5");
-        }
-        this.stelle = stelle;
+        setStelle(stelle); // validazione
         this.testo = testo;
         this.dataOra = LocalDateTime.now();
         this.rispostaRistoratore = null;
         this.dataOraRisposta = null;
         this.idRecensione = generaId();
     }
+
+    /**
+     * Costruttore per caricamento da file
+     */
+    public Recenzione(String idRecensione, String usernameCliente, String idRistorante, int stelle,
+                      String testo, LocalDateTime dataOra, String rispostaRistoratore,
+                      LocalDateTime dataOraRisposta) {
+        this.idRecensione = idRecensione;
+        this.usernameCliente = usernameCliente;
+        this.idRistorante = idRistorante;
+        setStelle(stelle); // validazione
+        this.testo = testo;
+        this.dataOra = (dataOra != null) ? dataOra : LocalDateTime.now();
+        this.rispostaRistoratore = rispostaRistoratore;
+        this.dataOraRisposta = dataOraRisposta;
+
+        if (this.idRecensione == null || this.idRecensione.trim().isEmpty()) {
+            this.idRecensione = generaId();
+        }
+    }
     
     /**
      * Genera un ID univoco per la recensione
+     * @return ID univoco per la recensione
      */
     private String generaId() {
         return usernameCliente + "_" + idRistorante + "_" + 
@@ -117,6 +135,7 @@ public class Recenzione {
     
     /**
      * Verifica se il ristoratore ha risposto alla recensione
+     * @return true se il ristoratore ha risposto alla recensione, false altrimenti
      */
     public boolean hasRisposta() {
         return rispostaRistoratore != null && !rispostaRistoratore.trim().isEmpty();
@@ -124,6 +143,7 @@ public class Recenzione {
     
     /**
      * Genera la rappresentazione visiva delle stelle
+     * @return Stringa rappresentazione visiva delle stelle
      */
     public String getStelleSimbolo() {
         StringBuilder sb = new StringBuilder();
@@ -135,8 +155,11 @@ public class Recenzione {
         }
         return sb.toString();
     }
-    
-    @Override
+
+    /**
+     * Rappresentazione della recensione
+     * @return Stringa rappresentazione della recensione
+     */
     public String toString() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
         StringBuilder sb = new StringBuilder();
@@ -159,6 +182,7 @@ public class Recenzione {
     
     /**
      * Rappresentazione compatta della recensione
+     * @return Stringa rappresentazione compatta della recensione
      */
     public String toStringCompatto() {
         return String.format("%s - %s: %s", getStelleSimbolo(), usernameCliente, 

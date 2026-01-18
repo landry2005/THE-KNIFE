@@ -1,4 +1,5 @@
-package theknife.model;
+package model;
+
 
 /**
  * Classe che rappresenta un ristorante nella piattaforma TheKnife.
@@ -24,6 +25,17 @@ public class Ristorante {
 
     /**
      * Costruttore completo della classe Ristorante
+     * @param nome Nome del ristorante
+     * @param nazione Nazione del ristorante
+     * @param citta Città del ristorante
+     * @param indirizzo Indirizzo del ristorante
+     * @param latitudine Latitudine del ristorante
+     * @param longitudine Longitudine del ristorante
+     * @param tipoCucina Tipo di cucina del ristorante
+     * @param prezzoMedio Prezzo medio del ristorante
+     * @param delivery Se il ristorante offre delivery
+     * @param prenotazione Se il ristorante offre prenotazione
+     * @param idRistoratore ID del ristoratore proprietario
      */
     public Ristorante(String nome, String nazione, String citta, String indirizzo, 
                       double latitudine, double longitudine, String tipoCucina, 
@@ -46,9 +58,18 @@ public class Ristorante {
     
     /**
      * Costruttore semplificato per compatibilità
+     * @param nome Nome del ristorante
+     * @param nazione Nazione del ristorante
+     * @param citta Città del ristorante
+     * @param indirizzo Indirizzo del ristorante
+     * @param tipoCucina Tipo di cucina del ristorante
+     * @param prezzoMedio Prezzo medio del ristorante
+     * @param delivery Se il ristorante offre delivery
+     * @param prenotazione Se il ristorante offre prenotazione
+     * @param idRistoratore ID del ristoratore proprietario
      */
     public Ristorante(String nome, String nazione, String citta, String indirizzo, 
-                      String tipoCucina, int prezzoMedio, boolean delivery, boolean prenotazione) {
+                      String tipoCucina, double prezzoMedio, boolean delivery, boolean prenotazione) {
         this(nome, nazione, citta, indirizzo, 0.0, 0.0, tipoCucina, 
              prezzoMedio, delivery, prenotazione, null);
     }
@@ -160,6 +181,7 @@ public class Ristorante {
     
     /**
      * Genera un ID univoco per il ristorante basato su nome e città
+     * @return ID univoco per il ristorante
      */
     public String getId() {
         return nome.replaceAll("\\s+", "_") + "_" + citta.replaceAll("\\s+", "_");
@@ -167,12 +189,16 @@ public class Ristorante {
     
     /**
      * Restituisce la locazione completa del ristorante
+     * @return Locazione completa del ristorante
      */
     public String getLocazione() {
         return indirizzo + ", " + citta + ", " + nazione;
     }
 
-    @Override
+    /**
+     * Rappresentazione della ristorante
+     * @return Stringa rappresentazione della ristorante
+     */
     public String toString() {
         return String.format("%s (%s) - %s - Prezzo medio: %.2f€ - ★ %.1f (%d recensioni)%s%s",
             nome, citta, tipoCucina, prezzoMedio, mediaStelle, numeroRecensioni,
@@ -182,6 +208,7 @@ public class Ristorante {
     
     /**
      * Restituisce una rappresentazione dettagliata del ristorante
+     * @return Stringa rappresentazione dettagliata del ristorante
      */
     public String toStringDettagliato() {
         StringBuilder sb = new StringBuilder();
