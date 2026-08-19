@@ -309,7 +309,7 @@ Sojiki Nakahigashi,Japan,Kyoto,32-3 Jodoji Ishibashicho; Sakyo-ku; Kyoto; 606-84
 Kodaiji Jugyuan,Japan,Kyoto,353 Masuyacho; Higashiyama-ku; Kyoto; 605-0826; Japan,34.998694,135.781565,Japanese,30.0,false,true,,0.0,0
 Gion Matayoshi,Japan,Kyoto,570-123 Giommachi Minamigawa; Higashiyama-ku; Kyoto; 605-0074; Japan,35.003349,135.774545,Japanese,30.0,false,true,,0.0,0
 Gion Maruyama,Japan,Kyoto,570-171 Giommachi Minamigawa; Higashiyama-ku; Kyoto; 605-0074; Japan,35.002587,135.776068,Japanese,30.0,false,true,,0.0,0
-Ryō-shō,Japan,Kyoto,570-166 Giommachi Minamigawa; Higashiyama-ku; Kyoto; 605-0074; Japan,35.00237,135.775871,Japanese,30.0,false,true,,0.0,0
+Ry�?-sh�?,Japan,Kyoto,570-166 Giommachi Minamigawa; Higashiyama-ku; Kyoto; 605-0074; Japan,35.00237,135.775871,Japanese,30.0,false,true,,0.0,0
 Rùn,Hong Kong SAR China,Hong Kong,2F; The St. Regis Hotel; 1 Harbour Drive; Wan Chai; Hong Kong; Hong Kong SAR China,22.2801399,114.175716,Cantonese,30.0,false,true,,0.0,0
 The Eight,Unknown,Macau,2F; Grand Lisboa Hotel; Avenida de Lisboa; Macau; Macau,22.190475,113.54341,Cantonese,30.0,false,true,,0.0,0
 Octavium,Hong Kong SAR China,Hong Kong,8F; One Chinachem Central; 22 Des Voeux Road Central; Central; Hong Kong; Hong Kong SAR China,22.2825493,114.1571177,Italian,30.0,false,true,,0.0,0
@@ -810,7 +810,7 @@ COB,Slovenia,Portorož,Letoviška 1; Portorož; 6320; Slovenia,45.516425,13.5927
 Hiša Linhart,Slovenia,Radovljica,Linhartov trg 17; Radovljica; 4240; Slovenia,46.3408368,14.1750205,Contemporary/ Farm to table,75.0,false,true,,0.0,0
 Dam,Slovenia,Nova Gorica,Ulica Vinka Vodopivca 24; Nova Gorica; 5000; Slovenia,45.9580845,13.6621231,Modern Cuisine/ Mediterranean Cuisine,75.0,false,true,,0.0,0
 Gostilna Pri Lojzetu,Slovenia,Vipava,Dvorec Zemono; Vipava; 5271; Slovenia,45.8557213,13.9491988,Modern Cuisine,120.0,false,true,,0.0,0
-Grič,Slovenia,Šentjošt nad Horjulom,Šentjošt nad Horjulom 24d; Šentjošt nad Horjulom; 1354; Slovenia,46.0283624,14.2216299,Farm to table/ Creative,120.0,false,true,,0.0,0
+Gri�?,Slovenia,Šentjošt nad Horjulom,Šentjošt nad Horjulom 24d; Šentjošt nad Horjulom; 1354; Slovenia,46.0283624,14.2216299,Farm to table/ Creative,120.0,false,true,,0.0,0
 Hiša Denk,Slovenia,Zgornja Kungota,Zgornja Kungota 11A; Zgornja Kungota; 2201; Slovenia,46.6383891,15.6146801,Creative/ Modern Cuisine,120.0,false,true,,0.0,0
 Pavus,Slovenia,Lasko,Grad Tabor Laško; Cesta na Svetino 23; Lasko; 3270; Slovenia,46.1571174,15.237399,Modern Cuisine,75.0,false,true,,0.0,0
 NUTA,Poland,Warsaw,Plac Trzech Krzyży 10/14; Warsaw; 00-499; Poland,52.2290249,21.023509,Creative,120.0,false,true,,0.0,0
@@ -840,31 +840,31 @@ Masala y Maíz,Mexico,Cuauhtémoc,C. Artículo 123 116; Colonia Centro; Cuauhté
 Expendio de Maíz,Mexico,Cuauhtémoc,Av. Yucatán 84; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4141912,-99.1626171,Mexican,30.0,false,true,,0.0,0
 Levadura de Olla Restaurante,Mexico,Oaxaca,C. de Manuel García Vigil #304; Oaxaca; 68000; Mexico,17.064329,-96.7249541,Mexican/ Traditional Cuisine,30.0,false,true,,0.0,0
 KOLI Cocina de Origen,Mexico,Monterrey,Río Amazonas 225; Colonia Del Valle; Monterrey; 66220; Mexico,25.6599666,-100.3630254,Mexican/ Creative,30.0,false,true,,0.0,0
-Sud 777,Mexico,Álvaro Obregón,Blvd. De La Luz 777; Jardines del Pedregal ; Álvaro Obregón; 01900; Mexico,19.3091352,-99.2093593,Creative/ Vegetarian,30.0,false,true,,0.0,0
+Sud 777,Mexico,�?lvaro Obregón,Blvd. De La Luz 777; Jardines del Pedregal ; �?lvaro Obregón; 01900; Mexico,19.3091352,-99.2093593,Creative/ Vegetarian,30.0,false,true,,0.0,0
 Lunario,Mexico,El Porvenir,Camino Vecinal Parcela 71 Fracc. 3 Lote 13; San Marcos; El Porvenir; 22750; Mexico,32.018246,-116.6628715,Mexican/ Contemporary,30.0,false,true,,0.0,0
 Damiana,Mexico,Valle de Guadalupe,Viñedos de la Reina; México 3 Supermanzana; Km. 71; Valle de Guadalupe; 22034; Mexico,32.1384068,-116.5288726,Mexican/ Fusion,30.0,false,true,,0.0,0
 Rosetta,Mexico,Cuauhtémoc,Colima 166; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4198433,-99.1597893,Creative/ Mexican,30.0,false,true,,0.0,0
 Esquina Común,Mexico,Cuauhtémoc,Fernando Montes De Oca; 86; Condesa; Cuauhtémoc; 06140; Mexico,19.4138958,-99.1767786,Mexican/ Creative,30.0,false,true,,0.0,0
 Animalón,Mexico,Valle de Guadalupe,Carr. Tecate-Ensenada Km. 83; Ejido Francisco Zarco; Valle de Guadalupe; 22750; Mexico,32.0674475,-116.6002861,Mexican/ Contemporary,30.0,false,true,,0.0,0
 HA',Mexico,Playa del Carmen,Carr. Chetumal - Puerto Juárez Kilometro 282; Solidaridad; Playa del Carmen; 77710; Mexico,20.5893883,-87.1114426,Mexican/ Contemporary,30.0,false,true,,0.0,0
-Máximo,Mexico,Cuauhtémoc,Álvaro Obregón; 65 Bis; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4188657,-99.1579904,Mexican,30.0,false,true,,0.0,0
+Máximo,Mexico,Cuauhtémoc,�?lvaro Obregón; 65 Bis; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4188657,-99.1579904,Mexican,30.0,false,true,,0.0,0
 Pas mus,Lithuania,Vilnius,Pilies Gatvė 28; Vilnius; 01123; Lithuania,54.6822264,25.2892157,Modern Cuisine/ Innovative,120.0,false,true,,0.0,0
 Nineteen18,Lithuania,Vilnius,Dominikonų Gatvė 11; Vilnius; 01131; Lithuania,54.6812129,25.2855231,Modern Cuisine,120.0,false,true,,0.0,0
 Džiaugsmas,Lithuania,Vilnius,Vilniaus Gatvė 28; Vilnius; 01144; Lithuania,54.6829747,25.2805396,Modern Cuisine,75.0,false,true,,0.0,0
-Demo,Lithuania,Vilnius,T. Ševčenkos Gatvė 16A; Vilnius; 03111; Lithuania,54.6769416,25.2646205,Innovative,120.0,false,true,,0.0,0
+Demo,Lithuania,Vilnius,T. Šev�?enkos Gatvė 16A; Vilnius; 03111; Lithuania,54.6769416,25.2646205,Innovative,120.0,false,true,,0.0,0
 Al Muntaha,Unknown,Dubai,Burj Al Arab Jumeirah; Dubai,25.1414067,55.1853653,French,30.0,false,true,,0.0,0
 La Dame de Pic Dubai,Unknown,Dubai,25th Floor; The Link; One&Only One Za’abeel; Za'abeel 1; Dubai,25.2279953,55.2909409,Modern French,30.0,false,true,,0.0,0
 Tasca by José Avillez,Unknown,Dubai,Mandarin Oriental Jumeira Hotel; Jumeirah Beach Road; Jumeirah 1; Dubai,25.2168806,55.2510082,Portuguese,30.0,false,true,,0.0,0
 Dinner by Heston Blumenthal,Unknown,Dubai,Atlantis The Royal; Crescent Road; The Palm Jumeirah; Dubai,25.1384573,55.1275537,Traditional British,30.0,false,true,,0.0,0
-Manāo,Unknown,Dubai,Wasl Vita Mall ; Jumeirah 1; Dubai,25.2109571,55.2558556,Thai contemporary,30.0,false,true,,0.0,0
+Man�?o,Unknown,Dubai,Wasl Vita Mall ; Jumeirah 1; Dubai,25.2109571,55.2558556,Thai contemporary,30.0,false,true,,0.0,0
 moonrise,Unknown,Dubai,Eden House; 41 Street; Al Satwa; Dubai,25.2199042,55.2763284,Creative,30.0,false,true,,0.0,0
-Hōseki,Unknown,Dubai,Bulgari Resort Dubai Hotel; 4th Floor; Jumeirah Bay Island; Jumeirah 2; Dubai,25.2106143,55.2351396,Japanese,30.0,false,true,,0.0,0
+H�?seki,Unknown,Dubai,Bulgari Resort Dubai Hotel; 4th Floor; Jumeirah Bay Island; Jumeirah 2; Dubai,25.2106143,55.2351396,Japanese,30.0,false,true,,0.0,0
 Hakkasan Dubai,Unknown,Dubai,Atlantis The Palm; Crescent Road; The Palm Jumeriah; Dubai,25.132521,55.1180364,Chinese/ Contemporary,30.0,false,true,,0.0,0
 Orfali Bros,Unknown,Dubai,Wasl 51 Mall; Jumeirah 1; Dubai,25.2187603,55.2614595,Contemporary/ Middle Eastern,30.0,false,true,,0.0,0
 Jamavar,Unknown,Dubai,Address Residences; Opera District; Downtown Dubai; Dubai,25.197712,55.2710297,Indian,30.0,false,true,,0.0,0
 Ossiano,Unknown,Dubai,Atlantis The Palm; Crescent Road; The Palm; Dubai,25.1318677,55.1180262,Creative,30.0,false,true,,0.0,0
 Smoked Room,Unknown,Dubai,St Regis Gardens; The Palm Jumeirah; Dubai,25.1148676,55.1378975,Contemporary,30.0,false,true,,0.0,0
-avatāra,Unknown,Dubai,Business Park 1; Dubai Hills Estate; Dubai Hills; Dubai,25.107342,55.240847,Indian Vegetarian,30.0,false,true,,0.0,0
+avat�?ra,Unknown,Dubai,Business Park 1; Dubai Hills Estate; Dubai Hills; Dubai,25.107342,55.240847,Indian Vegetarian,30.0,false,true,,0.0,0
 11 Woodfire,Unknown,Dubai,Villa 11; 75B Street; Jumeirah 1; Dubai,25.2156197,55.2512424,Modern Cuisine,30.0,false,true,,0.0,0
 Légende,Canada,Québec,255 rue Saint-Paul; Québec; G1K 3W5; Canada,46.8170936,-71.210159,Creative/ Regional Cuisine,30.0,false,true,,0.0,0
 Narval,Canada,Rimouski,144-A avenue de la Cathédrale; Rimouski; G5L 5H8; Canada,48.450805,-68.5269536,Creative/ Modern Cuisine,30.0,false,true,,0.0,0
@@ -1067,7 +1067,7 @@ Stubborn Seed,USA,Miami Beach,101 Washington Ave.; Miami Beach; 33139; USA,25.77
 EntreNos,USA,Miami,9840 N.E. 2nd Ave.; Miami; 33138; USA,25.8656875,-80.1935941,Contemporary,30.0,false,true,,0.0,0
 Itamae Ao,USA,Miami,3225 N.E. 1st Ave.; Miami; 33137; USA,25.8072307,-80.1929221,Peruvian/ Japanese,30.0,false,true,,0.0,0
 Natsu,USA,Orlando,777 N. Orange Ave.; Ste. C; Orlando; 32801; USA,28.5545626,-81.3790486,Japanese/ Sushi,30.0,false,true,,0.0,0
-Kōsen,USA,Tampa,307 W. Palm Ave.; Tampa; 33602; USA,27.9623377,-82.4638787,Japanese/ Sushi,30.0,false,true,,0.0,0
+K�?sen,USA,Tampa,307 W. Palm Ave.; Tampa; 33602; USA,27.9623377,-82.4638787,Japanese/ Sushi,30.0,false,true,,0.0,0
 Los Félix,USA,Miami,3413 Main Hwy.; Miami; 33133; USA,25.7276768,-80.2428184,Mexican/ Regional Cuisine,30.0,false,true,,0.0,0
 Cote Miami,USA,Miami,3900 N.E. 2nd Ave.; Miami; 33137; USA,25.812906,-80.1914524,Korean/ Steakhouse,30.0,false,true,,0.0,0
 Le Jardinier Miami,USA,Miami,151 N.E. 41st St.; Ste. 135; Miami; 33137; USA,25.814363,-80.19222,French/ Contemporary,30.0,false,true,,0.0,0
@@ -1789,7 +1789,7 @@ Neighborhood,Hong Kong SAR China,Hong Kong,61-63 Hollywood Road; Central; Hong K
 Mono,Hong Kong SAR China,Hong Kong,5F; 18 On Lan Street; Central; Hong Kong; Hong Kong SAR China,22.2805997,114.1567846,Latin American,30.0,false,true,,0.0,0
 Yè Shanghai (Tsim Sha Tsui),Hong Kong SAR China,Hong Kong,702; 7F; K11 Musea; 18 Salisbury Road; Tsim Sha Tsui; Hong Kong; Hong Kong SAR China,22.294118,114.1741651,Shanghainese,30.0,false,true,,0.0,0
 Zuicho,Unknown,Macau,Shop 302; 3F; The Karl Lagerfeld; Grand Lisboa Palace Resort; Rua do Tiro; Cotai; Macau,22.1442132,113.5753495,Japanese,30.0,false,true,,0.0,0
-Andō,Hong Kong SAR China,Hong Kong,1F; Somptueux Central; 52-54 Wellington Street; Central; Hong Kong; Hong Kong SAR China,22.2817911,114.1553834,Innovative,30.0,false,true,,0.0,0
+And�?,Hong Kong SAR China,Hong Kong,1F; Somptueux Central; 52-54 Wellington Street; Central; Hong Kong; Hong Kong SAR China,22.2817911,114.1553834,Innovative,30.0,false,true,,0.0,0
 Yardbird,Hong Kong SAR China,Hong Kong,154-158 Wing Lok Street; Sheung Wan; Hong Kong; Hong Kong SAR China,22.2869992,114.1492298,Yakitori,30.0,false,true,,0.0,0
 Pearl Dragon,Unknown,Macau,Shop 2111; 2F; Star Tower; Studio City Hotel; Estrada do Istmo; Cotai; Macau,22.1415956,113.5610548,Cantonese,30.0,false,true,,0.0,0
 8 1/2 Otto e Mezzo - Bombana,Unknown,Macau,Shop 1031; 1F; The Promenade; Galaxy; Avenida de Cotai; Cotai; Macau,22.1465088,113.5553965,Italian,30.0,false,true,,0.0,0
@@ -1882,7 +1882,7 @@ Vinha,Portugal,Vila Nova de Gaia,Rua Quinta Fonte da Vinha 383; Vila Nova de Gai
 Blind,Portugal,Porto,Rua de Entreparedes 40; Porto; 4000-197; Portugal,41.1451049,-8.6060592,Creative,120.0,false,true,,0.0,0
 Grenache,Portugal,Lisbon,Pátio de Dom Fradique 12; Lisbon; 1100-624; Portugal,38.7124025,-9.13165,French Contemporary,120.0,false,true,,0.0,0
 Ó Balcão,Portugal,Santarém,Rua Pedro de Santarém 73; Santarém; 2000-223; Portugal,39.2318525,-8.6858779,Modern Cuisine,40.0,false,true,,0.0,0
-SÁLA de João Sá,Portugal,Lisbon,Rua dos Bacalhoeiros 103; Lisbon; 1100-068; Portugal,38.7091165,-9.1338667,Modern Cuisine,75.0,false,true,,0.0,0
+S�?LA de João Sá,Portugal,Lisbon,Rua dos Bacalhoeiros 103; Lisbon; 1100-068; Portugal,38.7091165,-9.1338667,Modern Cuisine,75.0,false,true,,0.0,0
 Lab by Sergi Arola,Portugal,Sintra,Estrada da Lagoa Azul; Sintra; 2714-511; Portugal,38.762978,-9.397945,Creative,120.0,false,true,,0.0,0
 Oculto,Portugal,Vila do Conde,Largo Dom Afonso Sanches; Vila do Conde; 4480-754; Portugal,41.3530831,-8.7395553,Modern Cuisine/ Contemporary,120.0,false,true,,0.0,0
 Gusto by Heinz Beck,Portugal,Almancil,Estrada da Quinta do Lago; Almancil; 8135-106; Portugal,37.0633302,-8.0301921,Mediterranean Cuisine,120.0,false,true,,0.0,0
@@ -1943,7 +1943,7 @@ Pentonbridge Inn,United Kingdom,Penton,Penton; CA6 5QB; United Kingdom,55.079880
 Àclèaf,United Kingdom,Plymouth,Boringdon Hill; Colebrook; Plymouth; PL7 4DP; United Kingdom,50.4016374,-4.0566742,Modern Cuisine,30.0,false,true,,0.0,0
 Behind,United Kingdom,London,20 Sidworth Street; London Fields; London; E8 3SD; United Kingdom,51.5392307,-0.0575568,Seafood,30.0,false,true,,0.0,0
 SO|LA,United Kingdom,London,64 Dean Street; Soho; London; W1D 4QQ; United Kingdom,51.513156,-0.1322751,Californian/ Modern Cuisine,30.0,false,true,,0.0,0
-Casa Fofō,United Kingdom,London,158 Sandringham Road; Dalston; London; E8 2HS; United Kingdom,51.5499681,-0.0641532,Modern Cuisine,30.0,false,true,,0.0,0
+Casa Fof�?,United Kingdom,London,158 Sandringham Road; Dalston; London; E8 2HS; United Kingdom,51.5499681,-0.0641532,Modern Cuisine,30.0,false,true,,0.0,0
 Condita,United Kingdom,Edinburgh,15 Salisbury Place; Edinburgh; EH9 1SL; United Kingdom,55.9371131,-3.1787608,Modern Cuisine,30.0,false,true,,0.0,0
 mana,United Kingdom,Manchester,42 Blossom Street; Ancoats; Manchester; M4 6BF; United Kingdom,53.4848226,-2.2278659,Creative British/ Modern Cuisine,30.0,false,true,,0.0,0
 Bastion,Ireland,Kinsale,Main Street; Kinsale; P17 NX44; Ireland,51.7057019,-8.524059,Modern Cuisine,120.0,false,true,,0.0,0
@@ -2039,7 +2039,7 @@ Angler,United Kingdom,London,3 South Place; Finsbury; London; EC2M 2AF; United K
 Mountain,United Kingdom,London,16-18 Beak Street; Soho; London; W1F 9RD; United Kingdom,51.5120143,-0.1382586,Spanish,30.0,false,true,,0.0,0
 The Ninth,United Kingdom,London,22 Charlotte Street; Fitzrovia; London; W1T 2NB; United Kingdom,51.5188446,-0.1349237,Mediterranean Cuisine,30.0,false,true,,0.0,0
 The Morrison Room,Ireland,Maynooth,Carton House; Carton Demesne; Maynooth; W23 TD98; Ireland,53.3905215,-6.5675043,Modern Cuisine,120.0,false,true,,0.0,0
-sō–lō,United Kingdom,Aughton,17 Town Green Lane; Aughton; L39 6SE; United Kingdom,53.5445999,-2.9003591,Modern British,30.0,false,true,,0.0,0
+s�?–l�?,United Kingdom,Aughton,17 Town Green Lane; Aughton; L39 6SE; United Kingdom,53.5445999,-2.9003591,Modern British,30.0,false,true,,0.0,0
 Glovers Alley,Ireland,Dublin City,The Fitzwilliam Hotel; 127-128 St. Stephen’s Green; Dublin City; D02 HE18; Ireland,53.3392746,-6.2614299,Modern Cuisine,120.0,false,true,,0.0,0
 Winteringham Fields,United Kingdom,Winteringham,1 Silver Street; Winteringham; DN15 9ND; United Kingdom,53.6877042,-0.5904314,Modern Cuisine,30.0,false,true,,0.0,0
 The Kitchin,United Kingdom,Leith,78 Commercial Quay; Leith; EH6 6LX; United Kingdom,55.9770648,-3.1725849,Modern Cuisine,30.0,false,true,,0.0,0
@@ -2070,7 +2070,7 @@ Club Gascon,United Kingdom,London,57 West Smithfield; City of London; London; EC
 Pied à Terre,United Kingdom,London,34 Charlotte Street; Fitzrovia; London; W1T 2NH; United Kingdom,51.5191109,-0.1352265,Creative,30.0,false,true,,0.0,0
 Mark Poynton at Caistor Hall,United Kingdom,Caistor St Edmund,Stoke Road; Caistor St Edmund; NR14 8QN; United Kingdom,52.5860232,1.2983797,Modern Cuisine,30.0,false,true,,0.0,0
 LYLA,United Kingdom,Edinburgh,3 Royal Terrace; Edinburgh; EH7 5AB; United Kingdom,55.9568362,-3.1807017,Modern British/ Creative,30.0,false,true,,0.0,0
-mýse,United Kingdom,Hovingham,Main Street; Hovingham; YO62 4LF; United Kingdom,54.1723889,-0.9790181,Modern Cuisine,30.0,false,true,,0.0,0
+my�?se,United Kingdom,Hovingham,Main Street; Hovingham; YO62 4LF; United Kingdom,54.1723889,-0.9790181,Modern Cuisine,30.0,false,true,,0.0,0
 Homestead Cottage,Ireland,Doolin,Luogh North; Doolin; V95 KH30; Ireland,52.990241,-9.4046028,Modern Cuisine,120.0,false,true,,0.0,0
 Humo,United Kingdom,London,12 St George Street; Mayfair; London; W1S 2FB; United Kingdom,51.5124716,-0.1432558,Grills,30.0,false,true,,0.0,0
 The Tudor Pass,United Kingdom,Egham,Great Fosters; Stroude Road; Egham; TW20 9UR; United Kingdom,51.4172749,-0.544566,Modern Cuisine,30.0,false,true,,0.0,0
@@ -2157,7 +2157,7 @@ Spondi,Greece,Athens,5 Pyrronos Street; Athens; 116 36; Greece,37.9653138,23.743
 The Zillers Rooftop Gastronomy,Greece,Athens,54 Mitropoleos; Athens; 10563; Greece,37.9757055,23.7294908,Contemporary/ Greek,75.0,false,true,,0.0,0
 Pelagos,Greece,Athens,40 Apollonos Street; Athens; 166 71; Greece,37.8058168,23.7722339,Contemporary/ Mediterranean Cuisine,120.0,false,true,,0.0,0
 Soil,Greece,Athens,5 Ferekidou Street; Athens; 116 35; Greece,37.9669545,23.7429946,Modern Cuisine/ Contemporary,120.0,false,true,,0.0,0
-Pajta,Hungary,Őriszentpéter,Templomszer 7; Őriszentpéter; 9941; Hungary,46.8498752,16.4043202,Modern Cuisine,120.0,false,true,,0.0,0
+Pajta,Hungary,�?riszentpéter,Templomszer 7; �?riszentpéter; 9941; Hungary,46.8498752,16.4043202,Modern Cuisine,120.0,false,true,,0.0,0
 Rumour by Jenő Rácz,Hungary,Budapest,Petőfi tér 3; Budapest; 1051; Hungary,47.4938437,19.0506611,Creative,120.0,false,true,,0.0,0
 Salt,Hungary,Budapest,Hotel Rum Budapest; Királyi Pál utca 4; Budapest; 1053; Hungary,47.4904,19.05914,Modern Cuisine,120.0,false,true,,0.0,0
 Borkonyha Winekitchen,Hungary,Budapest,Sas utca 3; Budapest; 1051; Hungary,47.4993951,19.0524595,Modern Cuisine,75.0,false,true,,0.0,0
@@ -2178,7 +2178,7 @@ Le Pavillon,USA,New York,1 Vanderbilt Ave.; New York; 10017; USA,40.752517,-73.9
 Corima,USA,New York,3 Allen St.; New York; 10002; USA,40.7146562,-73.9929074,Mexican/ Contemporary,30.0,false,true,,0.0,0
 Jua,USA,New York,36 E. 22nd St.; New York; 10010; USA,40.740014,-73.9874479,Korean/ Korean Contemporary,30.0,false,true,,0.0,0
 One White Street,USA,New York,1 White St.; New York; 10013; USA,40.7193546,-74.006101,Contemporary,30.0,false,true,,0.0,0
-bōm,USA,New York,17 W. 19th St.; New York; 10011; USA,40.7396183,-73.9924497,Korean/ Contemporary,30.0,false,true,,0.0,0
+b�?m,USA,New York,17 W. 19th St.; New York; 10011; USA,40.7396183,-73.9924497,Korean/ Contemporary,30.0,false,true,,0.0,0
 Red Paper Clip,USA,New York,120 Christopher St.; New York; 10014; USA,40.7331693,-74.005433,Contemporary,30.0,false,true,,0.0,0
 Tuome,USA,New York,536 E. 5th St.; New York; 10009; USA,40.724194,-73.9828,Fusion/ Asian Contemporary,30.0,false,true,,0.0,0
 Dirt Candy,USA,New York,86 Allen St.; New York; 10002; USA,40.71794,-73.99087,Vegetarian/ Vegan,30.0,false,true,,0.0,0
@@ -2210,7 +2210,7 @@ Semma,USA,New York,60 Greenwich Ave.; New York; 10011; USA,40.7360595,-74.000672
 Café Boulud,USA,New York,100 E. 63rd St.; New York; 10065; USA,40.7651685,-73.9676194,French,30.0,false,true,,0.0,0
 Kochi,USA,New York,652 Tenth Ave.; New York; 10036; USA,40.7619767,-73.9935116,Korean/ Contemporary,30.0,false,true,,0.0,0
 Frevo,USA,New York,48 W. 8th St.; New York; 10011; USA,40.7331992,-73.9988216,Contemporary,30.0,false,true,,0.0,0
-Nōksu,USA,New York,49 W. 32nd St.; New York; 10001; USA,40.7483502,-73.9879966,Contemporary/ Korean,30.0,false,true,,0.0,0
+N�?ksu,USA,New York,49 W. 32nd St.; New York; 10001; USA,40.7483502,-73.9879966,Contemporary/ Korean,30.0,false,true,,0.0,0
 Le Coucou,USA,New York,138 Lafayette St.; New York; 10013; USA,40.719162,-74.00001,French/ Classic French,30.0,false,true,,0.0,0
 Estela,USA,New York,47 E. Houston St.; New York; 10012; USA,40.72471,-73.9948,Contemporary/ American,30.0,false,true,,0.0,0
 Tempura Matsui,USA,New York,222 E. 39th St.; New York; 10016; USA,40.748191,-73.974663,Japanese/ Tempura,30.0,false,true,,0.0,0
@@ -2219,7 +2219,7 @@ Torien,USA,New York,292 Elizabeth St.; New York; 10012; USA,40.7247064,-73.99326
 Noda,USA,New York,37 W. 20th St.; New York; 10001; USA,40.7404543,-73.9930802,Japanese/ Sushi,30.0,false,true,,0.0,0
 Shion 69 Leonard Street,USA,New York,69 Leonard St.; New York; 10013; USA,40.71757,-74.00549,Japanese/ Sushi,30.0,false,true,,0.0,0
 Cote,USA,New York,16 W. 22nd St.; New York; 10010; USA,40.7414233,-73.9914627,Korean/ Steakhouse,30.0,false,true,,0.0,0
-Jōji,USA,New York,1 Vanderbilt Ave.; New York; 10017; USA,40.7532627,-73.9783451,Japanese/ Sushi,30.0,false,true,,0.0,0
+J�?ji,USA,New York,1 Vanderbilt Ave.; New York; 10017; USA,40.7532627,-73.9783451,Japanese/ Sushi,30.0,false,true,,0.0,0
 Xiquet,USA,Washington,2404 Wisconsin Ave. NW; Washington; 20007; USA,38.9215871,-77.0723834,Spanish,30.0,false,true,,0.0,0
 Rooster & Owl,USA,Washington,2436 14th St. NW; Washington; 20009; USA,38.9214669,-77.0321599,Contemporary/ Fusion,30.0,false,true,,0.0,0
 Masseria,USA,Washington,1340 4th St. NE; Washington; 20002; USA,38.909504,-76.99908,Italian/ Regional Cuisine,30.0,false,true,,0.0,0
@@ -2246,7 +2246,7 @@ Kinship,USA,Washington,1015 7th St. NW; Washington; 20001; USA,38.903282,-77.021
 Cariño,USA,Chicago,4662 N. Broadway; Chicago; 60640; USA,41.9669579,-87.6585142,Mexican/ Contemporary,30.0,false,true,,0.0,0
 Indienne,USA,Chicago,217 W. Huron St.; Chicago; 60654; USA,41.8946053,-87.6347482,Indian/ Contemporary,30.0,false,true,,0.0,0
 Elske,USA,Chicago,1350 W. Randolph Ave.; Chicago; 60607; USA,41.8843534,-87.6608602,Contemporary/ American Contemporary,30.0,false,true,,0.0,0
-Esmé,USA,Chicago,2200 N. Clark St.; Chicago; 60614; USA,41.92198,-87.63824,Contemporary/ Creative,30.0,false,true,,0.0,0
+Esme�?,USA,Chicago,2200 N. Clark St.; Chicago; 60614; USA,41.92198,-87.63824,Contemporary/ Creative,30.0,false,true,,0.0,0
 Mako,USA,Chicago,731 W. Lake St.; Chicago; 60661; USA,41.8857746,-87.6468966,Japanese/ Sushi,30.0,false,true,,0.0,0
 Galit,USA,Chicago,2429 N. Lincoln Ave.; Chicago; 60614; USA,41.92607,-87.64959,Middle Eastern/ Mediterranean Cuisine,30.0,false,true,,0.0,0
 Schwa,USA,Chicago,1466 N. Ashland Ave.; Chicago; 60662; USA,41.9087844,-87.667733,Contemporary/ Innovative,30.0,false,true,,0.0,0
@@ -2277,7 +2277,7 @@ Omakase Table,USA,Atlanta,3330 Piedmont Rd. NE; #22A; Atlanta; 30305; USA,33.846
 O by Brush,USA,Atlanta,3009 Peachtree Rd. NE; #140; Atlanta; 30305; USA,33.8374855,-84.3810816,Japanese/ Sushi,30.0,false,true,,0.0,0
 Bacchanalia,USA,Atlanta,1460 Ellsworth Industrial Blvd.; Ste. A; Atlanta; 30318; USA,33.7948042,-84.4273895,American,30.0,false,true,,0.0,0
 Hayakawa,USA,Atlanta,1055 Howell Mill Rd.; Atlanta; 30318; USA,33.7839564,-84.4117022,Japanese/ Sushi,30.0,false,true,,0.0,0
-Mujō,USA,Atlanta,691 14th St. NW; Atlanta; 30318; USA,33.7858291,-84.4115398,Japanese/ Sushi,30.0,false,true,,0.0,0
+Muj�?,USA,Atlanta,691 14th St. NW; Atlanta; 30318; USA,33.7858291,-84.4115398,Japanese/ Sushi,30.0,false,true,,0.0,0
 Lazy Betty,USA,Atlanta,999 Peachtree St. NE; Atlanta; 30309; USA,33.7817,-84.384,Contemporary,30.0,false,true,,0.0,0
 Atlas,USA,Atlanta,88 W. Paces Ferry Rd. NW; Atlanta; 30305; USA,33.8404462,-84.3836692,American,30.0,false,true,,0.0,0
 Spring,USA,Marietta,36 Mill St.; Marietta; 30060; USA,33.9535173,-84.5509835,Contemporary,30.0,false,true,,0.0,0
@@ -2697,18 +2697,18 @@ Pondus,Denmark,Aarhus,Åboulevarden 51; Aarhus; 8000; Denmark,56.1561762,10.2049
 Marv & Ben,Denmark,Copenhagen,Snaregade 4; Copenhagen; 1205 K; Denmark,55.6772861,12.5770331,Modern Cuisine,20.0,false,true,,0.0,0
 Frances Vinbar,Norway,Oslo,Henrik Ibsens gate 48; Oslo; 0255; Norway,59.9151253,10.723368,Mediterranean Cuisine,40.0,false,true,,0.0,0
 Bjørnekælderen,Denmark,Copenhagen,Frederiksberg Allé 55; Copenhagen; 1820; Denmark,55.6740601,12.5372477,Modern Cuisine,20.0,false,true,,0.0,0
-Gredič,Slovenia,Dobrovo v Brdih,Ceglo 9; Dobrovo v Brdih; 5212; Slovenia,45.9763412,13.522168,Modern Cuisine,75.0,false,true,,0.0,0
-Gostilna in vinoteka Faladur,Slovenia,Vipava,Ulica Ivana Ščeka 6; Vipava; 5271; Slovenia,45.8464,13.9632,Country cooking,40.0,false,true,,0.0,0
+Gredi�?,Slovenia,Dobrovo v Brdih,Ceglo 9; Dobrovo v Brdih; 5212; Slovenia,45.9763412,13.522168,Modern Cuisine,75.0,false,true,,0.0,0
+Gostilna in vinoteka Faladur,Slovenia,Vipava,Ulica Ivana Š�?eka 6; Vipava; 5271; Slovenia,45.8464,13.9632,Country cooking,40.0,false,true,,0.0,0
 Restavracija Jožef,Slovenia,Idrija,Vojkova Ulica 9A; Idrija; 5280; Slovenia,46.006865,14.0277163,Regional Cuisine/ Country cooking,40.0,false,true,,0.0,0
 LALÚ Bistro,Slovenia,Celje,Trg celjskih knezov 3; Celje; 3000; Slovenia,46.2292868,15.2616833,Modern Cuisine/ Regional European,20.0,false,true,,0.0,0
 Lesnika,Slovenia,Mozirje,Na trgu 32; Mozirje; 3330; Slovenia,46.3398797,14.9627275,Traditional Cuisine,20.0,false,true,,0.0,0
-Etna,Slovenia,Divača,Kolodvorska ulica 3/a; Divača; 6215; Slovenia,45.6822074,13.9671424,Regional Cuisine/ Pizza,20.0,false,true,,0.0,0
+Etna,Slovenia,Diva�?a,Kolodvorska ulica 3/a; Diva�?a; 6215; Slovenia,45.6822074,13.9671424,Regional Cuisine/ Pizza,20.0,false,true,,0.0,0
 Gostilnica Ruj,Slovenia,Dol pri Vogljah,Dol Pri Vogljah 16; Dol pri Vogljah; 6221; Slovenia,45.7243204,13.8162299,Regional Cuisine/ Seasonal Cuisine,40.0,false,true,,0.0,0
 Restavracija Majerca,Slovenia,Stara Fužina,Stara Fužina 19; Stara Fužina; 4265; Slovenia,46.28352,13.89019,Regional Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
 Gostilna Rajh,Slovenia,Murska Sobota,Soboška ulica 32; Bakovci; Murska Sobota; 9000; Slovenia,46.6220488,16.1489409,Traditional Cuisine,40.0,false,true,,0.0,0
 Kodila,Slovenia,Murska Sobota,Markišavci 44; Murska Sobota; 9000; Slovenia,46.68362,16.16325,Meats and Grills,40.0,false,true,,0.0,0
 Triangel,Slovenia,Gozd Martuljek,Zgornje Rute 9; Gozd Martuljek; 4282; Slovenia,46.4822236,13.8375125,Regional Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
-Gostilna Mahorčič,Slovenia,Rodik,Rodik 51; Rodik; 6240; Slovenia,45.6247236,13.9801944,Regional European/ Farm to table,40.0,false,true,,0.0,0
+Gostilna Mahor�?i�?,Slovenia,Rodik,Rodik 51; Rodik; 6240; Slovenia,45.6247236,13.9801944,Regional European/ Farm to table,40.0,false,true,,0.0,0
 Vinissimo,Poland,Sopot,Generała Józefa Bema 6; Sopot; 81-753; Poland,54.443559,18.5674248,Modern Cuisine,40.0,false,true,,0.0,0
 NOAH,Poland,Kraków,ul. Meiselsa 24; Kraków; 31-058; Poland,50.05145,19.9441865,Israeli/ Sharing,20.0,false,true,,0.0,0
 Hewelke,Poland,Gdańsk,Jana Kilińskiego 7; Gdańsk; 80-452; Poland,54.3829347,18.6081502,Modern Cuisine,20.0,false,true,,0.0,0
@@ -2718,7 +2718,7 @@ SPOT.,Poland,Poznań,Dolna Wilda 87; Poznań; 61 501; Poland,52.3889711,16.92427
 Koneser Grill,Poland,Warsaw,ul. Ząbkowska 29; Warsaw; 03 736; Poland,52.2550025,21.0442343,Meats and Grills,40.0,false,true,,0.0,0
 Tarasowa,Poland,Wrocław,The Centennial Hall Complex Wroclaw Congress Centre Wystawowa 1; Wrocław; 51-618; Poland,51.1080797,17.077607,Modern Cuisine/ Contemporary,40.0,false,true,,0.0,0
 TU.REStAURANT,Poland,Poznań,Grunwaldzka 34A; Poznań; 60 786; Poland,52.4031076,16.8942082,Modern Cuisine,40.0,false,true,,0.0,0
-MOLÁM,Poland,Kraków,ul. Rajska 3/4; Kraków; 31 124; Poland,50.0648387,19.9276183,Thai,20.0,false,true,,0.0,0
+MOL�?M,Poland,Kraków,ul. Rajska 3/4; Kraków; 31 124; Poland,50.0648387,19.9276183,Thai,20.0,false,true,,0.0,0
 Kieliszki na Próżnej,Poland,Warsaw,ul. Próżna 12; Warsaw; 00 107; Poland,52.2364549,21.0046741,Modern Cuisine,40.0,false,true,,0.0,0
 Posto,Poland,Poznań,Kościelna 43/10; Poznań; 60-537; Poland,52.4174263,16.9056267,European/ French,20.0,false,true,,0.0,0
 Folga,Poland,Kraków,ul. Estery 12; Kraków; 31-056; Poland,50.0518199,19.9454617,Modern Cuisine,40.0,false,true,,0.0,0
@@ -2728,22 +2728,22 @@ BABA,Poland,Wrocław,Nożownicza 1D; Wrocław; 50-119; Poland,51.1127484,17.0318
 Le Braci,Poland,Warsaw,ul. Górnośląska 24; Warsaw; 00 484; Poland,52.2243896,21.028538,Italian,40.0,false,true,,0.0,0
 Ceviche Bar,Poland,Warsaw,Twarda 2-4; Warsaw; 00 105; Poland,52.2355435,21.0019124,South American,40.0,false,true,,0.0,0
 kontakt,Poland,Warsaw,Sandomierska 13; Warsaw; 02 567; Poland,52.2079464,21.0190128,Mediterranean Cuisine/ Contemporary,40.0,false,true,,0.0,0
-IDA kuchnia i wino,Poland,Wrocław,ul. Łazienna 4; Wrocław; 50-133; Poland,51.1124986,17.0290602,Regional Cuisine,20.0,false,true,,0.0,0
+IDA kuchnia i wino,Poland,Wrocław,ul. �?azienna 4; Wrocław; 50-133; Poland,51.1124986,17.0290602,Regional Cuisine,20.0,false,true,,0.0,0
 Treinta y Tres,Poland,Gdańsk,Olivia Centre; Aleja Grunwaldzka 472c; Gdańsk; 80-309; Poland,54.403643,18.5708193,Spanish,40.0,false,true,,0.0,0
 Phở Khôi Hói,Vietnam,Hanoi,50 Hang Vai Street; Hang Bo Ward; Hoan Kiem District; Hanoi; 11014; Vietnam,21.035698,105.8459795,Street Food,30.0,false,true,,0.0,0
-Ngọc Chi,Vietnam,Da Nang,202 Hoang Dieu Street; Nam Duong Ward; Hai Chau District; Da Nang; 50000; Vietnam,16.0620931,108.2174064,Vegetarian,30.0,false,true,,0.0,0
-Bà Đông,Vietnam,Da Nang,145 Huynh Thuc Khang Street; Binh Hien Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0574415,108.2181012,Noodles,30.0,false,true,,0.0,0
+Ng�?c Chi,Vietnam,Da Nang,202 Hoang Dieu Street; Nam Duong Ward; Hai Chau District; Da Nang; 50000; Vietnam,16.0620931,108.2174064,Vegetarian,30.0,false,true,,0.0,0
+Bà �?ông,Vietnam,Da Nang,145 Huynh Thuc Khang Street; Binh Hien Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0574415,108.2181012,Noodles,30.0,false,true,,0.0,0
 Phở Bò Lâm,Vietnam,Hanoi,48 Hang Vai Street; Hang Bo Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.0357021,105.8464413,Street Food,30.0,false,true,,0.0,0
 Bánh Xèo 76,Vietnam,Da Nang,85A Le Van Huu Street; Bac My An Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.0424731,108.2399598,Vietnamese,30.0,false,true,,0.0,0
 Bún Bò Huế Bà Thương,Vietnam,Da Nang,23 Tran Quoc Toan Street; Hai Chau 1 Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0669093,108.2229997,Noodles,30.0,false,true,,0.0,0
-Miến Lươn Đông Thịnh,Vietnam,Hanoi,87 Hang Dieu Street; Cua Dong Ward; Hoan Kiem District; Hanoi; 111000; Vietnam,21.0320059,105.8468122,Noodles,30.0,false,true,,0.0,0
+Miến Lươn �?ông Thịnh,Vietnam,Hanoi,87 Hang Dieu Street; Cua Dong Ward; Hoan Kiem District; Hanoi; 111000; Vietnam,21.0320059,105.8468122,Noodles,30.0,false,true,,0.0,0
 Bò Kho Gánh,Vietnam,Ho Chi Minh City,029 Lot H; Ngo Gia Tu Apartment; Su Van Hanh Street; Ward 2; District 10; Ho Chi Minh City; 700000; Vietnam,10.761215,106.669885,Street Food,30.0,false,true,,0.0,0
 Bánh Xèo Tôm Nhảy Cô Ba,Vietnam,Da Nang,248 Trung Nu Vuong Street; Binh Thuan Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0545067,108.2197565,Vietnamese,30.0,false,true,,0.0,0
 Bún Chả Cá 109,Vietnam,Da Nang,109 Nguyen Chi Thanh Street; Hai Chau 1 Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0745199,108.2207547,Noodles,30.0,false,true,,0.0,0
 Ăn Thôi,Vietnam,Da Nang,114 Bach Dang Street; Hai Chau 1 Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0684464,108.2248426,Vietnamese,30.0,false,true,,0.0,0
 Quán Nhân,Vietnam,Da Nang,83 Phan Tu Street; My An Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.0464239,108.2455548,Street Food,30.0,false,true,,0.0,0
-Bún Chả Cá Hờn,Vietnam,Da Nang,113/03 Nguyen Chi Thanh Street; Hai Chau 1 Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0741438,108.2212217,Noodles,30.0,false,true,,0.0,0
-Phở Miến Gà Kỳ Đồng,Vietnam,Ho Chi Minh City,14/5 Bis Ky Dong Street; Ward 9; District 3; Ho Chi Minh City; 700000; Vietnam,10.7839019,106.6820208,Street Food,30.0,false,true,,0.0,0
+Bún Chả Cá H�?n,Vietnam,Da Nang,113/03 Nguyen Chi Thanh Street; Hai Chau 1 Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0741438,108.2212217,Noodles,30.0,false,true,,0.0,0
+Phở Miến Gà Kỳ �?ồng,Vietnam,Ho Chi Minh City,14/5 Bis Ky Dong Street; Ward 9; District 3; Ho Chi Minh City; 700000; Vietnam,10.7839019,106.6820208,Street Food,30.0,false,true,,0.0,0
 Thìa Gỗ,Vietnam,Da Nang,53 Phan Thuc Duyen Street; My An Ward; Ngu Hanh Son District; Da Nang; 50507; Vietnam,16.052986,108.24158,Vietnamese,30.0,false,true,,0.0,0
 Nhà Tú,Vietnam,Ho Chi Minh City,129/4 Vo Van Tan Street; Vo Thi Sau Ward; District 3; Ho Chi Minh City; 722700; Vietnam,10.7753712,106.6898829,Vietnamese,30.0,false,true,,0.0,0
 Bánh Xèo 46A,Vietnam,Ho Chi Minh City,46 Dinh Cong Trang Street; Tan Dinh Ward; District 1; Ho Chi Minh City; 710776; Vietnam,10.7895934,106.6913619,Vietnamese,30.0,false,true,,0.0,0
@@ -2756,9 +2756,9 @@ Phở Lệ (District 5),Vietnam,Ho Chi Minh City,413-415 Nguyen Trai Street; War
 Bún Chả Chan,Vietnam,Hanoi,114 Mai Hac De Street; Le Dai Hanh Ward; Hai Ba Trung District; Hanoi; 11606; Vietnam,21.010189,105.850778,Noodles,30.0,false,true,,0.0,0
 The East,Vietnam,Hanoi,5B Tong Duy Tan Street; Hang Bong Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.0311887,105.8419136,Vietnamese,30.0,false,true,,0.0,0
 Chay Garden (District 3),Vietnam,Ho Chi Minh City,52 Vo Van Tan Street; Ward 6; District 3; Ho Chi Minh City; 700000; Vietnam,10.778071,106.6909017,Vegetarian,30.0,false,true,,0.0,0
-Phở Gia Truyền (Hoan Kiem),Vietnam,Hanoi,49 Bat Dan Street; Cua Dong Ward; Hoan Kiem District; Hanoi; 11016; Vietnam,21.0336032,105.8461911,Street Food,30.0,false,true,,0.0,0
-Ưu Đàm,Vietnam,Hanoi,55 Nguyen Du Street; Nguyen Du Ward; Hai Ba Trung District; Hanoi; 10000; Vietnam,21.018924,105.8481131,Vegetarian,30.0,false,true,,0.0,0
-Cô Chủ Nhỏ,Vietnam,Da Nang,36 Phan Tu Street; My An Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.0462151,108.245465,Street Food,30.0,false,true,,0.0,0
+Phở Gia Truy�?n (Hoan Kiem),Vietnam,Hanoi,49 Bat Dan Street; Cua Dong Ward; Hoan Kiem District; Hanoi; 11016; Vietnam,21.0336032,105.8461911,Street Food,30.0,false,true,,0.0,0
+Ưu �?àm,Vietnam,Hanoi,55 Nguyen Du Street; Nguyen Du Ward; Hai Ba Trung District; Hanoi; 10000; Vietnam,21.018924,105.8481131,Vegetarian,30.0,false,true,,0.0,0
+Cô Chủ Nh�?,Vietnam,Da Nang,36 Phan Tu Street; My An Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.0462151,108.245465,Street Food,30.0,false,true,,0.0,0
 Shamballa,Vietnam,Da Nang,277 Tran Hung Dao Street; An Hai Bac Ward; Son Tra District; Da Nang; 550000; Vietnam,16.0759305,108.2289527,Vegetarian,30.0,false,true,,0.0,0
 Miến Lươn Chân Cầm (Hoan Kiem),Vietnam,Hanoi,1 Chan Cam Street; Hang Trong Ward; Hoan Kiem District; Hanoi; 11006; Vietnam,21.0305622,105.8487874,Noodles,30.0,false,true,,0.0,0
 Hà Thành Mansion,Vietnam,Hanoi,14 Ngo Van So Street; Tran Hung Dao Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.021938,105.8489796,Vietnamese,30.0,false,true,,0.0,0
@@ -2767,7 +2767,7 @@ Bún Bò Bà Rơi (Hai Chau),Vietnam,Da Nang,5 Phan Thanh Tai Street; Hoa Thuan 
 Bé Ni 2,Vietnam,Da Nang,228 Vo Nguyen Giap Street; Phuoc My Ward; Son Tra District; Da Nang; 550000; Vietnam,16.066809,108.244791,Seafood,30.0,false,true,,0.0,0
 Bún Bò Huế 14B,Vietnam,Ho Chi Minh City,14B Street 46; Ward 2; District 4; Ho Chi Minh City; 754000; Vietnam,10.759416,106.69741,Street Food,30.0,false,true,,0.0,0
 Phở Gà Nguyệt,Vietnam,Hanoi,5B Phu Doan Street; Hang Trong Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.0302935,105.8476631,Street Food,30.0,false,true,,0.0,0
-Năm Hiền (Phan Thanh Street),Vietnam,Da Nang,46 Phan Thanh Street; Thac Gian Ward; Thanh Khe District; Da Nang; 550000; Vietnam,16.064686,108.20793,Vietnamese,30.0,false,true,,0.0,0
+Năm Hi�?n (Phan Thanh Street),Vietnam,Da Nang,46 Phan Thanh Street; Thac Gian Ward; Thanh Khe District; Da Nang; 550000; Vietnam,16.064686,108.20793,Vietnamese,30.0,false,true,,0.0,0
 Vị Quê Kitchen,Vietnam,Ho Chi Minh City,110 Suong Nguyet Anh Street; Ben Thanh Ward; District 1; Ho Chi Minh City; 710000; Vietnam,10.77159,106.6885232,Vegetarian,30.0,false,true,,0.0,0
 1946 Cua Bac,Vietnam,Hanoi,3 Yen Thanh Alley; 61 Cua Bac Street; Quan Thanh Ward; Ba Dinh District; Hanoi; 100000; Vietnam,21.0428477,105.8429558,Vietnamese,30.0,false,true,,0.0,0
 Tuyết Bún Chả 34,Vietnam,Hanoi,34 Hang Than Street; Nguyen Trung Truc Ward; Ba Dinh District; Hanoi; 100000; Vietnam,21.0416366,105.8472363,Street Food,30.0,false,true,,0.0,0
@@ -2777,7 +2777,7 @@ Hồng Phát (District 3),Vietnam,Ho Chi Minh City,389-391 Vo Van Tan Street; Wa
 Habakuk,Vietnam,Hanoi,Alley 4; Phan Huy Chu Street; Phan Chu Trinh Ward; Hoan Kiem District; Hanoi; 11021; Vietnam,21.0203594,105.8575655,European Contemporary,30.0,false,true,,0.0,0
 Luk Lak,Vietnam,Hanoi,4A Le Thanh Tong Street; Phan Chu Trinh Ward; Hoan Kiem District; Hanoi; 000084; Vietnam,21.022512,105.857567,Vietnamese,30.0,false,true,,0.0,0
 Tiệm Cơm Thố Chuyên Ký,Vietnam,Ho Chi Minh City,67 Ton That Dam Street; Ben Nghe Ward; District 1; Ho Chi Minh City; 70000; Vietnam,10.7716032,106.7030242,Cantonese,30.0,false,true,,0.0,0
-Mr Bảy Miền Tây,Vietnam,Hanoi,79 Hang Dieu Street; Cua Dong Ward; Hoan Kiem District; Hanoi; 11000; Vietnam,21.032104,105.846885,Vietnamese,30.0,false,true,,0.0,0
+Mr Bảy Mi�?n Tây,Vietnam,Hanoi,79 Hang Dieu Street; Cua Dong Ward; Hoan Kiem District; Hanoi; 11000; Vietnam,21.032104,105.846885,Vietnamese,30.0,false,true,,0.0,0
 Phú Hồng,Vietnam,Da Nang,19 Yen Bai Street; Hai Chau 1 Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0696386,108.2229549,Street Food,30.0,false,true,,0.0,0
 Rang,Vietnam,Da Nang,384 Vo Nguyen Giap Street; My An Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.0430524,108.24779,Indian,30.0,false,true,,0.0,0
 Mỳ Quảng Sứa Hồng Vân,Vietnam,Da Nang,59 Le Hong Phong Street; Phuoc Ninh Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.064079,108.220627,Street Food,30.0,false,true,,0.0,0
@@ -2786,7 +2786,7 @@ Mậu Dịch Số 37,Vietnam,Hanoi,136G Tran Vu Street; Truc Bach Ward; Ba Dinh 
 Xới Cơm,Vietnam,Hanoi,107; Lane 36; Lang Ha Street; Lang Ha Ward; Dong Da District; Hanoi; 100000; Vietnam,21.0143203,105.813091,Vietnamese,30.0,false,true,,0.0,0
 Phở Minh,Vietnam,Ho Chi Minh City,63/6 Pasteur Street; Ben Nghe Ward; District 1; Ho Chi Minh City; 710000; Vietnam,10.774904,106.7002701,Noodles,30.0,false,true,,0.0,0
 Phở Hoàng (Nguyen Tri Phuong Street),Vietnam,Ho Chi Minh City,460 Nguyen Tri Phuong Street; Ward 9; District 10; Ho Chi Minh City; 740500; Vietnam,10.765992,106.667711,Noodles,30.0,false,true,,0.0,0
-Cơm Tấm Ba Ghiền,Vietnam,Ho Chi Minh City,84 Dang Van Ngu Street; Ward 10; Phu Nhuan District; Ho Chi Minh City; 725000; Vietnam,10.79444,106.66935,Street Food,30.0,false,true,,0.0,0
+Cơm Tấm Ba Ghi�?n,Vietnam,Ho Chi Minh City,84 Dang Van Ngu Street; Ward 10; Phu Nhuan District; Ho Chi Minh City; 725000; Vietnam,10.79444,106.66935,Street Food,30.0,false,true,,0.0,0
 Hum Garden,Vietnam,Ho Chi Minh City,32 D10 Street; Thao Dien Ward; Thu Duc City; Ho Chi Minh City; 700000; Vietnam,10.8042053,106.744484,Vegetarian,30.0,false,true,,0.0,0
 Chả Cá Thăng Long (6B Duong Thanh Street),Vietnam,Hanoi,6B Duong Thanh Street; Cua Dong Ward; Hoan Kiem District; Hanoi; 11016; Vietnam,21.0330434,105.8461533,Vietnamese,30.0,false,true,,0.0,0
 Cục Gạch Quán,Vietnam,Ho Chi Minh City,10 Dang Tat Street; Tan Dinh Ward; District 1; Ho Chi Minh City; 71008; Vietnam,10.7930299,106.6892557,Vietnamese,30.0,false,true,,0.0,0
@@ -2795,7 +2795,7 @@ Phở 10 Lý Quốc Sư (Hoan Kiem),Vietnam,Hanoi,10 Ly Quoc Su Street; Hang Tro
 Sol Kitchen & Bar (District 1),Vietnam,Ho Chi Minh City,112 Ly Tu Trong Street; Ben Thanh Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.7742548,106.6975079,Latin American,30.0,false,true,,0.0,0
 Vigneron,Mexico,Cuauhtémoc,Jalapa 181; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4146092,-99.1603684,Contemporary/ French,30.0,false,true,,0.0,0
 La 89,Mexico,Cuauhtémoc,Colima 134; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4201578,-99.1583785,Mexican,30.0,false,true,,0.0,0
-Tacos del Valle,Mexico,Cuauhtémoc,Av. Álvaro Obregón 130; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4178601,-99.1605919,Mexican,30.0,false,true,,0.0,0
+Tacos del Valle,Mexico,Cuauhtémoc,Av. �?lvaro Obregón 130; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4178601,-99.1605919,Mexican,30.0,false,true,,0.0,0
 Plonk,Mexico,Cuauhtémoc,Iztaccihuatl 52; Hipódromo; Cuauhtémoc; 06100; Mexico,19.4103973,-99.169358,Mexican/ Asian,30.0,false,true,,0.0,0
 Jowong,Mexico,Cuauhtémoc,C. Pachuca 51; Colonia Condesa; Cuauhtémoc; 06140; Mexico,19.4167662,-99.1769522,Korean,30.0,false,true,,0.0,0
 Pink Rambo,Mexico,Cuauhtémoc,C. Cedro 66; Sta. María la Ribera; Cuauhtémoc; 06400; Mexico,19.4453317,-99.163143,Contemporary,30.0,false,true,,0.0,0
@@ -2814,12 +2814,12 @@ Siembra Tortillería,Mexico,Miguel Hildalgo,Av. Isaac Newton 256; Polanco; Migue
 Cetli,Mexico,Tulum,Carr. Tulum-Coba Km. 2.5; Villas Tulum; Tulum; 77764; Mexico,20.2305289,-87.4588579,Mexican,30.0,false,true,,0.0,0
 Villa Torél,Mexico,Villa de Juárez,Santo Tomás Wineries; Km. 94.7 Federal Hwy. No. 3; Villa de Juárez; 22766; Mexico,31.9753343,-116.661332,Mexican/ Contemporary,30.0,false,true,,0.0,0
 Molino El Pujol,Mexico,Cuauhtémoc,Benjamín Hill; 146; Hipódromo Condesa; Cuauhtémoc; 06100; Mexico,19.4077163,-99.1771063,Mexican,30.0,false,true,,0.0,0
-Flora's Field Kitchen,Mexico,San José del Cabo,Ánimas Bajas; San José del Cabo; 23407; Mexico,23.0799707,-109.6771851,Contemporary,30.0,false,true,,0.0,0
+Flora's Field Kitchen,Mexico,San José del Cabo,�?nimas Bajas; San José del Cabo; 23407; Mexico,23.0799707,-109.6771851,Contemporary,30.0,false,true,,0.0,0
 El Vilsito,Mexico,Benito Juárez,Av. Universidad 248; Narvarte; Benito Juárez; 03020; Mexico,19.3895466,-99.1527829,Mexican,30.0,false,true,,0.0,0
 Taquería El Jarocho,Mexico,Cuauhtémoc,Tapachula 94; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4112574,-99.1659833,Mexican,30.0,false,true,,0.0,0
 Xaok,Mexico,Oaxaca,División Ote. 227 A; Ex-Marquezado; Oaxaca; 68034; Mexico,17.0659433,-96.7337119,Mexican,30.0,false,true,,0.0,0
 Tacos Doña Mary La Gritona,Mexico,Monterrey,Av. Francisco I. Madero Ote; Centro; Monterrey; 64000; Mexico,25.6861282,-100.3351957,Mexican,30.0,false,true,,0.0,0
-Taquería Los Milanesos,Mexico,Álvaro Obregón,Veracruz 156; Álvaro Obregón; 01080; Mexico,19.3415882,-99.2052741,Mexican,30.0,false,true,,0.0,0
+Taquería Los Milanesos,Mexico,�?lvaro Obregón,Veracruz 156; �?lvaro Obregón; 01080; Mexico,19.3415882,-99.2052741,Mexican,30.0,false,true,,0.0,0
 Galanga Thai House,Mexico,Cuauhtémoc,Monterrey 204; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4130716,-99.1626944,Thai,30.0,false,true,,0.0,0
 Punta Corcho,Mexico,Puerto Morelos,Av. Rafael E. Melgar; SM01; MZ6; Lt. 01-01; Puerto Morelos; 77580; Mexico,20.8472192,-86.8762427,Seafood/ Mexican,30.0,false,true,,0.0,0
 Pargot,Mexico,Cuauhtémoc,Córdoba 212; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4135412,-99.1571625,Mexican/ Creative,30.0,false,true,,0.0,0
@@ -2889,7 +2889,7 @@ Casavant,Canada,Montréal,350 rue de Castelnau Est; Montréal; H2R 1P9; Canada,4
 Le Petit Alep,Canada,Montréal,191 rue Jean-Talon Est; Montréal; H2R 1S8; Canada,45.5362847,-73.6163615,Middle Eastern,30.0,false,true,,0.0,0
 Côté Est,Canada,Kamouraska,76 avenue Morel; Kamouraska; G0L 1M0; Canada,47.5663607,-69.8684092,Regional Cuisine,30.0,false,true,,0.0,0
 Buvette Scott,Canada,Québec,821 rue Scott; Québec; G1R 3C8; Canada,46.8093018,-71.2212835,Regional Cuisine/ Modern Cuisine,30.0,false,true,,0.0,0
-Honō Izakaya,Canada,Québec,670 rue Saint-Joseph Est; Québec; G1K 3B9; Canada,46.8153661,-71.2210723,Japanese/ Izakaya,30.0,false,true,,0.0,0
+Hon�? Izakaya,Canada,Québec,670 rue Saint-Joseph Est; Québec; G1K 3B9; Canada,46.8153661,-71.2210723,Japanese/ Izakaya,30.0,false,true,,0.0,0
 Ike Edoyakiunagi Asahitei,Japan,Nara,29 Haibara Shimoidani; Uda; Nara; 633-0241; Japan,34.52878,135.950916,Unagi / Freshwater Eel,30.0,false,true,,0.0,0
 Tori Yamaguchi,Japan,Nara,618 Kumecho; Kashihara; Nara; 634-0063; Japan,34.483232,135.794621,Yakitori,30.0,false,true,,0.0,0
 Unagino Toyokawa,Japan,Nara,3-3-12 Tomio Motomachi; Nara; Nara; 631-0078; Japan,34.69246,135.732245,Unagi / Freshwater Eel,30.0,false,true,,0.0,0
@@ -2914,7 +2914,7 @@ Barú Marisquería,Brazil,São Paulo,Rua Augusta 2542; São Paulo; 01412-100; Br
 Banzeiro,Brazil,São Paulo,Rua Tabapuã 830; São Paulo; 04533-003; Brazil,-23.5838596,-46.6786397,Brazilian,30.0,false,true,,0.0,0
 Artigiano,Brazil,Rio de Janeiro,Avenida Epitácio Pessoa 204; Rio de Janeiro; 22471-002; Brazil,-22.9841868,-43.2145699,Italian,30.0,false,true,,0.0,0
 Miam Miam,Brazil,Rio de Janeiro,Rua General Góis Monteiro 34; Rio de Janeiro; 22290-080; Brazil,-22.9558572,-43.1800341,Modern Cuisine,30.0,false,true,,0.0,0
-AE! Cozinha,Brazil,São Paulo,Rua Áurea 343; São Paulo; 04015-070; Brazil,-23.5869125,-46.6455873,Brazilian,30.0,false,true,,0.0,0
+AE! Cozinha,Brazil,São Paulo,Rua �?urea 343; São Paulo; 04015-070; Brazil,-23.5869125,-46.6455873,Brazilian,30.0,false,true,,0.0,0
 Manioca,Brazil,São Paulo,Avenida Brigadeiro Faria Lima; 2232 3º andar; São Paulo; 01489-900; Brazil,-23.5773311,-46.6890029,Modern Cuisine,30.0,false,true,,0.0,0
 Cepa,Brazil,São Paulo,Praça Dos Omaguás 110; São Paulo; 05419-020; Brazil,-23.5619178,-46.6923032,Contemporary/ Farm to table,30.0,false,true,,0.0,0
 NOMO,Brazil,São Paulo,Rua Harmonia 815; São Paulo; 05435-000; Brazil,-23.5515407,-46.6907549,Contemporary,30.0,false,true,,0.0,0
@@ -3170,8 +3170,8 @@ Xiao Pan Ji Ya Xie Fen Si Tang,China Mainland,Nanjing,1F; Longtai Building; 198 
 You Mian,China Mainland,Nanjing,139 Zhongyang Road; Gulou; Nanjing; China Mainland,32.0700009,118.7786352,Noodles,30.0,false,true,,0.0,0
 Fang Po,China Mainland,Nanjing,50 Wangfu Street; Qinhuai; Nanjing; China Mainland,32.044298,118.785438,Small eats,30.0,false,true,,0.0,0
 Caseros,Argentina,Buenos Aires,Avenida Caseros 486; Buenos Aires; C1152AAN; Argentina,-34.6267862,-58.3721967,Traditional Cuisine/ Home Cooking,30.0,false,true,,0.0,0
-Ácido,Argentina,Buenos Aires,Charlone 999; Buenos Aires; C1427BXU; Argentina,-34.5806989,-58.4578382,Contemporary,30.0,false,true,,0.0,0
-MN Santa Inés,Argentina,Buenos Aires,Ávalos 360; Buenos Aires; C1427DGD; Argentina,-34.5926748,-58.4676992,Fusion/ Contemporary,30.0,false,true,,0.0,0
+�?cido,Argentina,Buenos Aires,Charlone 999; Buenos Aires; C1427BXU; Argentina,-34.5806989,-58.4578382,Contemporary,30.0,false,true,,0.0,0
+MN Santa Inés,Argentina,Buenos Aires,�?valos 360; Buenos Aires; C1427DGD; Argentina,-34.5926748,-58.4676992,Fusion/ Contemporary,30.0,false,true,,0.0,0
 República del Fuego,Argentina,Buenos Aires,Juncal 2682; Buenos Aires; C1425AYF; Argentina,-34.5898046,-58.4042439,Grills/ Argentinian,30.0,false,true,,0.0,0
 Reliquia,Argentina,Buenos Aires,Angel Justiniano Carranza 1601; Buenos Aires; C1414COQ; Argentina,-34.5832681,-58.4392531,Argentinian,30.0,false,true,,0.0,0
 Anafe,Argentina,Buenos Aires,Virrey Avilés 3216; Buenos Aires; C1426EEH; Argentina,-34.5739293,-58.4590023,Contemporary,30.0,false,true,,0.0,0
@@ -3844,7 +3844,7 @@ Terruja,Portugal,Alvados,Rua Dom Fuas Roupinho; 194; Alvados; 2480-032; Portugal
 Camelo,Portugal,Viana do Castelo,Rua de Santa Marta 119; Viana do Castelo; 4925-104; Portugal,41.7093706,-8.772368,Regional Cuisine,20.0,false,true,,0.0,0
 Tasquinha da Linda,Portugal,Viana do Castelo,Rua dos Mareantes A-10; Viana do Castelo; 4900-351; Portugal,41.6887829,-8.8366845,Seafood,40.0,false,true,,0.0,0
 Solar do Forcado,Portugal,Portalegre,Rua Candido dos Reis 14; Portalegre; 7300-129; Portugal,39.2907546,-7.4294786,Traditional Cuisine,20.0,false,true,,0.0,0
-O Típico,Portugal,Águeda,Rua Doutor Manuel Alegre 42; Águeda; 3750-139; Portugal,40.5761576,-8.4427506,Traditional Cuisine,20.0,false,true,,0.0,0
+O Típico,Portugal,�?gueda,Rua Doutor Manuel Alegre 42; �?gueda; 3750-139; Portugal,40.5761576,-8.4427506,Traditional Cuisine,20.0,false,true,,0.0,0
 Dóri,Portugal,Gafanha da Encarnação,Rua das Companhas - Costa Nova do Prado; Gafanha da Encarnação; 3830-000; Portugal,40.6111673,-8.7495746,Seafood,40.0,false,true,,0.0,0
 Casal da Penha,Portugal,Funchal,Rua Penha de França - Beco do Ataíde n.1; Funchal; 9000-014; Portugal,32.642883,-16.919317,Portuguese,40.0,false,true,,0.0,0
 O Javali,Portugal,Bragança,Quinta do Reconco 6; Bragança; 5300-245; Portugal,41.83615,-6.7476006,Regional Cuisine,40.0,false,true,,0.0,0
@@ -5157,7 +5157,7 @@ Vinophil,Germany,Gaggenau,Max-Roth-Straße 16; Gaggenau; 76571; Germany,48.78754
 Benders,Germany,Birkenfeld,Silcherstraße 1; Birkenfeld; 75217; Germany,48.8708874,8.6400041,Modern Cuisine/ Seasonal Cuisine,75.0,false,true,,0.0,0
 Konrad's,Germany,Bonn,Platz der Vereinten Nationen 4; Bonn; 53113; Germany,50.7195382,7.1221448,Contemporary/ Mediterranean Cuisine,75.0,false,true,,0.0,0
 Eatrenalin,Germany,Rust,Roland-Mack-Ring 5; Rust; 77977; Germany,48.2617631,7.7377402,Modern Cuisine/ Creative,120.0,false,true,,0.0,0
-KRasserie im verve⁵,Germany,Krefeld,Zur Feuerwache 5; Krefeld; 47805; Germany,51.3283475,6.5824909,International/ Modern Cuisine,75.0,false,true,,0.0,0
+KRasserie im verve�?�,Germany,Krefeld,Zur Feuerwache 5; Krefeld; 47805; Germany,51.3283475,6.5824909,International/ Modern Cuisine,75.0,false,true,,0.0,0
 l'Ecume,Germany,Frankfurt on the Main,Friedberger Landstraße 62; Frankfurt on the Main; 60316; Germany,50.122521,8.6915254,Modern French/ French Contemporary,75.0,false,true,,0.0,0
 Melkhus,Germany,Bad Malente-Gremsmühlen,Rothensande 1; Bad Malente-Gremsmühlen; 23714; Germany,54.1638261,10.5770158,Regional Cuisine/ Farm to table,75.0,false,true,,0.0,0
 In Vino Veritas,Germany,Haslach im Kinzigtal,Steinacher Straße 9; Haslach im Kinzigtal; 77716; Germany,48.2782824,8.0841633,Farm to table/ International,40.0,false,true,,0.0,0
@@ -5428,7 +5428,7 @@ Restaurant Palægade,Denmark,Copenhagen,Palægade 8; Copenhagen; 1261 K; Denmark
 JORD,Sweden,Linkoping,Johannesborgparken 1A; Linkoping; 582 49; Sweden,58.4073604,15.6022776,Modern Cuisine,75.0,false,true,,0.0,0
 Washoku TOMO,Sweden,Stockholm,Timmermansgatan 15; Stockholm; 118 25; Sweden,59.3187561,18.059922,Japanese,75.0,false,true,,0.0,0
 Madonna,Norway,Oslo,Operagata 17; Oslo; 0194; Norway,59.9073835,10.7560374,Modern Cuisine,40.0,false,true,,0.0,0
-Kappo Andō,Denmark,Copenhagen,Øster Farimagsgade 93; Copenhagen; 2100; Denmark,55.6953732,12.5794116,Japanese,40.0,false,true,,0.0,0
+Kappo And�?,Denmark,Copenhagen,Øster Farimagsgade 93; Copenhagen; 2100; Denmark,55.6953732,12.5794116,Japanese,40.0,false,true,,0.0,0
 Bravo,Norway,Stavanger,Pedersgata 71; Stavanger; 4013; Norway,58.9697952,5.7464651,Norwegian/ Modern Cuisine,40.0,false,true,,0.0,0
 Brút,Iceland,Reykjavík,Radisson Blu 1919 Hotel; Pósthússtræti 2; Reykjavík; 101; Iceland,64.1482483,-21.9364626,Modern Cuisine/ Seafood,120.0,false,true,,0.0,0
 Voisine,Sweden,Stockholm,Erstagatan 21; Stockholm; 116 36; Sweden,59.3140798,18.0903578,Modern Cuisine,20.0,false,true,,0.0,0
@@ -5436,31 +5436,31 @@ aster,Sweden,Malmo,Jagaregatan 6; Malmo; 211 19; Sweden,55.6112313,12.9894423,Co
 Moon,Norway,Bergen,Marken 33; Bergen; 5017; Norway,60.39094,5.3317,French,40.0,false,true,,0.0,0
 TIDES,Iceland,Reykjavík,The Reykjavik EDITION; Austurbakki 2; Reykjavík; 101; Iceland,64.1504573,-21.9331699,Modern Cuisine,120.0,false,true,,0.0,0
 Rizibizi,Slovenia,Portorož,Obala 20; Portorož; 6320; Slovenia,45.5127743,13.5946853,Mediterranean Cuisine,40.0,false,true,,0.0,0
-Restavracija Plesnik,Slovenia,Solčava,Logarska Dolina 10; Solčava; 3335; Slovenia,46.39811,14.63133,Regional Cuisine/ Seasonal Cuisine,40.0,false,true,,0.0,0
-Hiša Raduha,Slovenia,Luče,Luče 67; Luče; 3334; Slovenia,46.3556613,14.746365,Farm to table,75.0,false,true,,0.0,0
+Restavracija Plesnik,Slovenia,Sol�?ava,Logarska Dolina 10; Sol�?ava; 3335; Slovenia,46.39811,14.63133,Regional Cuisine/ Seasonal Cuisine,40.0,false,true,,0.0,0
+Hiša Raduha,Slovenia,Lu�?e,Lu�?e 67; Lu�?e; 3334; Slovenia,46.3556613,14.746365,Farm to table,75.0,false,true,,0.0,0
 Sophia,Slovenia,Portorož,Obala 45; Portorož; 6320; Slovenia,45.5148583,13.5916193,Mediterranean Cuisine,75.0,false,true,,0.0,0
 Restavracija Strelec,Slovenia,Ljubljana,Grajska planota 1; Ljubljana; 1000; Slovenia,46.0489023,14.5092497,Modern Cuisine/ Creative,75.0,false,true,,0.0,0
 Ošterija Debeluh,Slovenia,Brezice,Trg izgnancev 7; Brezice; 8250; Slovenia,45.9078197,15.5910199,Contemporary,75.0,false,true,,0.0,0
 Salicornia,Slovenia,Koper,Sermin 74; Koper; 6000; Slovenia,45.5495033,13.7643788,Seafood/ Classic Cuisine,40.0,false,true,,0.0,0
 Gostilna Vovko,Slovenia,Brusnice,Ratež 48; Brusnice; 8321; Slovenia,45.8223779,15.2432106,Regional Cuisine,40.0,false,true,,0.0,0
-Danilo,Slovenia,Škofja Loka,Reteče 48; Škofja Loka; 4220; Slovenia,46.1582777,14.3688129,Contemporary,40.0,false,true,,0.0,0
+Danilo,Slovenia,Škofja Loka,Rete�?e 48; Škofja Loka; 4220; Slovenia,46.1582777,14.3688129,Contemporary,40.0,false,true,,0.0,0
 Restavracija Sedem,Slovenia,Maribor,Cafova 7; Maribor; 2000; Slovenia,46.56147,15.65516,Contemporary,40.0,false,true,,0.0,0
 AFTR,Slovenia,Ljubljana,Nazorjeva ulica 2; Ljubljana; 1000; Slovenia,46.0524212,14.5057886,Modern Cuisine,40.0,false,true,,0.0,0
 Gostilna Krištof,Slovenia,Kranj,Predoslje 22; Kranj; 4000; Slovenia,46.2680267,14.385542,Traditional Cuisine/ Regional Cuisine,40.0,false,true,,0.0,0
 Landerik,Slovenia,Ljubljana,Stari Trg 11; Ljubljana; 1000; Slovenia,46.0478623,14.5062553,Farm to table/ Regional Cuisine,40.0,false,true,,0.0,0
 Stara Gostilna,Slovenia,Piran,Savudrijska ulica 2; Piran; 6330; Slovenia,45.5286573,13.5668019,Modern Cuisine/ Contemporary,120.0,false,true,,0.0,0
-Kendov Dvorec,Slovenia,Spodnja Idrija,Na Griču 2; Spodnja Idrija; 5281; Slovenia,46.0332986,14.0249171,Traditional Cuisine/ Organic,75.0,false,true,,0.0,0
+Kendov Dvorec,Slovenia,Spodnja Idrija,Na Gri�?u 2; Spodnja Idrija; 5281; Slovenia,46.0332986,14.0249171,Traditional Cuisine/ Organic,75.0,false,true,,0.0,0
 B-Restaurant,Slovenia,Ljubljana,Slovenska Cesta 59; Ljubljana; 1000; Slovenia,46.0571776,14.5054436,Modern Cuisine/ International,40.0,false,true,,0.0,0
 Špacapanova Hiša,Slovenia,Komen,Komen 85; Komen; 6223; Slovenia,45.8173515,13.7470004,Contemporary,75.0,false,true,,0.0,0
 Dvor Jezeršek,Slovenia,Cerklje na Gorenjskem,Zgornji Brnik 63; Cerklje na Gorenjskem; 4207; Slovenia,46.2359784,14.4867892,Traditional Cuisine,40.0,false,true,,0.0,0
 The Restaurant,Slovenia,Ljubljana,Mestni trg 15; Ljubljana; 1000; Slovenia,46.0487,14.50611,Regional European/ Grills,75.0,false,true,,0.0,0
 Julijana,Slovenia,Bled,Cesta Svobode 12; Bled; 4260; Slovenia,46.3664639,14.1079637,International,75.0,false,true,,0.0,0
-Dveri Pax,Slovenia,Jarenina,Polički Vrh 1; Jarenina; 2221; Slovenia,46.64497,15.69422,Contemporary/ Seasonal Cuisine,75.0,false,true,,0.0,0
+Dveri Pax,Slovenia,Jarenina,Poli�?ki Vrh 1; Jarenina; 2221; Slovenia,46.64497,15.69422,Contemporary/ Seasonal Cuisine,75.0,false,true,,0.0,0
 Altrokè,Slovenia,Ljubljana,Stari trg 19; Ljubljana; 1000; Slovenia,46.0471406,14.5065572,Regional Cuisine,20.0,false,true,,0.0,0
 Sushimama,Slovenia,Ljubljana,Wolfova ulica 12; Ljubljana; 1000; Slovenia,46.0506271,14.5051044,Japanese,40.0,false,true,,0.0,0
 Restavracija Hotela Marina,Slovenia,Izola,Veliki Trg 11; Izola; 6310; Slovenia,45.5390805,13.6569735,Mediterranean Cuisine/ Seafood,40.0,false,true,,0.0,0
-Restavracija Grad Otočec,Slovenia,Otočec na Krki,Grajska cesta 2; Otočec na Krki; 8222; Slovenia,45.8381531,15.2350579,Regional Cuisine,75.0,false,true,,0.0,0
-PEN KLUB Restavracija,Slovenia,Ljubljana,Tomšičeva ulica 12; Ljubljana; 1000; Slovenia,46.05285,14.49966,European/ Mediterranean Cuisine,40.0,false,true,,0.0,0
+Restavracija Grad Oto�?ec,Slovenia,Oto�?ec na Krki,Grajska cesta 2; Oto�?ec na Krki; 8222; Slovenia,45.8381531,15.2350579,Regional Cuisine,75.0,false,true,,0.0,0
+PEN KLUB Restavracija,Slovenia,Ljubljana,Tomši�?eva ulica 12; Ljubljana; 1000; Slovenia,46.05285,14.49966,European/ Mediterranean Cuisine,40.0,false,true,,0.0,0
 Miza za štiri,Slovenia,Zgornja Polskava,Mariborska ulica 17; Zgornja Polskava; 2314; Slovenia,46.42382,15.60557,Modern Cuisine,75.0,false,true,,0.0,0
 A3,Slovenia,Brestanica,Grad Rajhenburg; Cesta izgnancev 3; Brestanica; 8280; Slovenia,45.98894,15.46642,Modern Cuisine,75.0,false,true,,0.0,0
 Peti 181,Slovenia,Ljubljana,Dvorni trg 1; Ljubljana; 1000; Slovenia,46.0492539,14.5048986,Mediterranean Cuisine/ Seafood,75.0,false,true,,0.0,0
@@ -5469,14 +5469,14 @@ City Terasa,Slovenia,Maribor,Ulica kneza Koclja 22; Maribor; 2000; Slovenia,46.5
 Gostilna na Gradu,Slovenia,Ljubljana,Grajska planota 1; Ljubljana; 1000; Slovenia,46.0478785,14.5092591,Traditional Cuisine,40.0,false,true,,0.0,0
 MAK,Slovenia,Maribor,Osojnikova ulica 20; Maribor; 2000; Slovenia,46.5544414,15.6660942,Creative/ Modern Cuisine,120.0,false,true,,0.0,0
 Kogo,Slovenia,Koper,Šmarska cesta 1; Koper; 6000; Slovenia,45.53518,13.73658,Regional Cuisine,40.0,false,true,,0.0,0
-JB Restavracija,Slovenia,Ljubljana,Miklošičeva cesta 19; Ljubljana; 1000; Slovenia,46.0573549,14.5083198,Modern Cuisine/ Classic Cuisine,75.0,false,true,,0.0,0
-Restavracija Calypso,Slovenia,Nova Gorica,Kidričeva ulica 7; Nova Gorica; 5000; Slovenia,45.95539,13.64734,Traditional Cuisine/ Classic Cuisine,40.0,false,true,,0.0,0
+JB Restavracija,Slovenia,Ljubljana,Mikloši�?eva cesta 19; Ljubljana; 1000; Slovenia,46.0573549,14.5083198,Modern Cuisine/ Classic Cuisine,75.0,false,true,,0.0,0
+Restavracija Calypso,Slovenia,Nova Gorica,Kidri�?eva ulica 7; Nova Gorica; 5000; Slovenia,45.95539,13.64734,Traditional Cuisine/ Classic Cuisine,40.0,false,true,,0.0,0
 Gostilna AS,Slovenia,Ljubljana,Čopova ulica 5a; Ljubljana; 1000; Slovenia,46.0517191,14.5046716,Traditional Cuisine,75.0,false,true,,0.0,0
 Vila Planinka,Slovenia,Zgornje Jezersko,Zgornje Jezersko 67; Zgornje Jezersko; 4206; Slovenia,46.3950998,14.5006545,Regional Cuisine/ Innovative,75.0,false,true,,0.0,0
 TaBar,Slovenia,Ljubljana,Trubarjeva Cesta 72; Ljubljana; 1000; Slovenia,46.05215,14.51506,Modern Cuisine/ Contemporary,75.0,false,true,,0.0,0
 Restavracija 1906,Slovenia,Bled,Hotel Triglav; Kolodvorska cesta 33; Bled; 4260; Slovenia,46.3693625,14.0833677,Contemporary/ Traditional Cuisine,75.0,false,true,,0.0,0
 Restavracija Shambala,Slovenia,Ljubljana,Križevniška ulica 12; Ljubljana; 1000; Slovenia,46.0464199,14.5044235,Asian,20.0,false,true,,0.0,0
-Galerija okusov,Slovenia,Petrovče,Novo Celje 9; Petrovče; 3301; Slovenia,46.2457883,15.1784594,Modern Cuisine,75.0,false,true,,0.0,0
+Galerija okusov,Slovenia,Petrov�?e,Novo Celje 9; Petrov�?e; 3301; Slovenia,46.2457883,15.1784594,Modern Cuisine,75.0,false,true,,0.0,0
 Hiša Torkla,Slovenia,Izola,Korte 44b; Izola; 6310; Slovenia,45.488769,13.6565981,Regional Cuisine/ Grills,40.0,false,true,,0.0,0
 Gostilna Francl,Slovenia,Celje,Zagrad 77; Celje; 3000; Slovenia,46.21183,15.26504,Regional Cuisine,40.0,false,true,,0.0,0
 Jaz by Ana Roš,Slovenia,Ljubljana,Čopova Ulica 5a; Ljubljana; 1000; Slovenia,46.0517049,14.5040508,Modern Cuisine/ European Contemporary,75.0,false,true,,0.0,0
@@ -5556,7 +5556,7 @@ Rusiko,Poland,Warsaw,Wierzbowa 11; Warsaw; 00-094; Poland,52.2436561,21.0076576,
 Wierzbowa 15,Poland,Wrocław,Wierzbowa 15; Wrocław; 50-056; Poland,51.1049787,17.0364551,Modern Cuisine,75.0,false,true,,0.0,0
 NOTA_RESTO by Tomasz Leśniak,Poland,Kraków,ul. Św. Krzyża 17; Kraków; 31 023; Poland,50.0623966,19.9427542,Modern Cuisine,75.0,false,true,,0.0,0
 Port Sołacz,Poland,Poznań,Litewska 22; Poznań; 60-605; Poland,52.42108,16.9027596,Modern Cuisine,40.0,false,true,,0.0,0
-Restauracja Solmarina,Poland,Wiślinka,Grano Hotel Solmarina; Łąkowa 239; Wiślinka; 83-011; Poland,54.3401326,18.8219062,Polish/ Contemporary,40.0,false,true,,0.0,0
+Restauracja Solmarina,Poland,Wiślinka,Grano Hotel Solmarina; �?ąkowa 239; Wiślinka; 83-011; Poland,54.3401326,18.8219062,Polish/ Contemporary,40.0,false,true,,0.0,0
 Źródło,Poland,Warsaw,Targowa 81; Warsaw; 03-408; Poland,52.2563308,21.0333392,Traditional Cuisine,40.0,false,true,,0.0,0
 Café Xander,Poland,Sopot,Jana Jerzego Haffnera 59; Sopot; 81-715; Poland,54.4509112,18.5614153,International,40.0,false,true,,0.0,0
 Farina,Poland,Kraków,ul. Św. Marka 16; Kraków; 31 018; Poland,50.063989,19.9394017,Seafood,40.0,false,true,,0.0,0
@@ -5580,7 +5580,7 @@ Noriko Omakase,Poland,Warsaw,Mińska 45; lok 204u; Warsaw; 03-808; Poland,52.249
 Lamai Garden,Vietnam,Hanoi,36B De Quai Street; Tu Lien Ward; Tay Ho District; Hanoi; 11208; Vietnam,21.0673779,105.8357635,Vietnamese Contemporary,30.0,false,true,,0.0,0
 Olivia's Prime,Vietnam,Da Nang,Lot G1-G4; GF; Indochina Mall; 74 Bach Dang Street; Hai Chau 1 Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0701482,108.2242387,Steakhouse,30.0,false,true,,0.0,0
 Bà Diệu (Tran Tong Street),Vietnam,Da Nang,17 Tran Tong Street; Thac Gian Ward; Thanh Khe District; Da Nang; 550000; Vietnam,16.0586231,108.2109151,Noodles,30.0,false,true,,0.0,0
-Nu Đồ Kitchen,Vietnam,Da Nang,11/1 Luu Quang Thuan Street; My An Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.041299,108.245252,Noodles,30.0,false,true,,0.0,0
+Nu �?ồ Kitchen,Vietnam,Da Nang,11/1 Luu Quang Thuan Street; My An Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.041299,108.245252,Noodles,30.0,false,true,,0.0,0
 Bún Riêu Cua 39,Vietnam,Da Nang,39 Le Hong Phong Street; Phuoc Ninh Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0669234,108.2231894,Noodles,30.0,false,true,,0.0,0
 ST25 by KOTO,Vietnam,Ho Chi Minh City,2F; Sofitel Saigon Plaza; 17 Le Duan Blvd; Ben Nghe Ward; District 1; Ho Chi Minh City; 70000; Vietnam,10.7844289,106.7026459,Vietnamese Contemporary,30.0,false,true,,0.0,0
 Le Beaulieu,Vietnam,Hanoi,Sofitel Legend Metropole; 15 Ngo Quyen Street; Trang Tien Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.0256333,105.8555339,French,30.0,false,true,,0.0,0
@@ -5598,16 +5598,16 @@ Fashionista Café,Vietnam,Ho Chi Minh City,22B Phung Khac Khoan Street; Da Kao W
 Bánh Xèo Bà Dưỡng,Vietnam,Da Nang,280/23 Hoang Dieu Street; Nam Duong Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.058836,108.216052,Vietnamese,30.0,false,true,,0.0,0
 The Temptation,Vietnam,Da Nang,125 Ho Nghinh Street; Phuoc My Ward; Son Tra District; Da Nang; 550000; Vietnam,16.0735611,108.2433229,French Contemporary,30.0,false,true,,0.0,0
 Oryz,Vietnam,Ho Chi Minh City,51 Tran Nhat Duat Street; Tan Dinh Ward; District 1; Ho Chi Minh City; 710700; Vietnam,10.794029,106.689545,Asian Contemporary,30.0,false,true,,0.0,0
-Ốc Oanh,Vietnam,Ho Chi Minh City,534 Vinh Khanh Street; Ward 8; District 4; Ho Chi Minh City; 754000; Vietnam,10.760723,106.703309,Street Food,30.0,false,true,,0.0,0
+�?c Oanh,Vietnam,Ho Chi Minh City,534 Vinh Khanh Street; Ward 8; District 4; Ho Chi Minh City; 754000; Vietnam,10.760723,106.703309,Street Food,30.0,false,true,,0.0,0
 Bánh Cuốn Bà Xuân,Vietnam,Hanoi,16 Hoe Nhai Street; Nguyen Trung Truc Ward; Ba Dinh District; Hanoi; 11115; Vietnam,21.0423129,105.8476837,Street Food,30.0,false,true,,0.0,0
 Highway4 (Hang Tre Street),Vietnam,Hanoi,5 Hang Tre Street; Ly Thai To Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.0336338,105.8550549,Vietnamese,30.0,false,true,,0.0,0
 Bún Thịt Nướng Hoàng Văn,Vietnam,Ho Chi Minh City,137 Chan Hung Street; Ward 6; Tan Binh District; Ho Chi Minh City; 736090; Vietnam,10.7851694,106.6623288,Street Food,30.0,false,true,,0.0,0
 Olivia,Vietnam,Ho Chi Minh City,31A Le Van Mien Street; Thao Dien Ward; Thu Duc City; Ho Chi Minh City; 700000; Vietnam,10.80536,106.73358,European Contemporary,30.0,false,true,,0.0,0
-Ốc Vi Saigon,Vietnam,Hanoi,21 Gia Ngu Street; Hang Bac Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.0329841,105.8527937,Seafood,30.0,false,true,,0.0,0
+�?c Vi Saigon,Vietnam,Hanoi,21 Gia Ngu Street; Hang Bac Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.0329841,105.8527937,Seafood,30.0,false,true,,0.0,0
 Lửa,Vietnam,Ho Chi Minh City,2 Street No. 11; Thao Dien Ward; Thu Duc City; Ho Chi Minh City; 7000000; Vietnam,10.8051347,106.7466608,European Contemporary,30.0,false,true,,0.0,0
 Phở Việt Nam (District 1),Vietnam,Ho Chi Minh City,14 Pham Hong Thai Street; Ben Thanh Ward; District 1; Ho Chi Minh City; 71009; Vietnam,10.771283,106.696128,Noodles,30.0,false,true,,0.0,0
 3G Trois Gourmands,Vietnam,Ho Chi Minh City,39 Tran Ngoc Dien Street; Thao Dien Ward; Thu Duc City; Ho Chi Minh City; 721400; Vietnam,10.806161,106.740628,French,30.0,false,true,,0.0,0
-Bờm,Vietnam,Ho Chi Minh City,24 Nguyen Thi Nghia Street; Ben Thanh Ward; District 1; Ho Chi Minh City; 71009; Vietnam,10.770666,106.69366,Vietnamese Contemporary,30.0,false,true,,0.0,0
+B�?m,Vietnam,Ho Chi Minh City,24 Nguyen Thi Nghia Street; Ben Thanh Ward; District 1; Ho Chi Minh City; 71009; Vietnam,10.770666,106.69366,Vietnamese Contemporary,30.0,false,true,,0.0,0
 Cau Go,Vietnam,Hanoi,6-7F; 9 Dinh Tien Hoang Street; Hang Trong Ward; Hoan Kiem District; Hanoi; 11006; Vietnam,21.0321366,105.8519429,Vietnamese,30.0,false,true,,0.0,0
 Nén Light,Vietnam,Ho Chi Minh City,122/2 Tran Dinh Xu Street; Nguyen Cu Trinh Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.762612,106.6883681,Innovative,30.0,false,true,,0.0,0
 Phở Hùng (District 1),Vietnam,Ho Chi Minh City,241-243 Nguyen Trai Street; Nguyen Cu Trinh Ward; District 1; Ho Chi Minh City; 71014; Vietnam,10.7650032,106.6876257,Noodles,30.0,false,true,,0.0,0
@@ -5618,7 +5618,7 @@ Bếp Prime,Vietnam,Hanoi,12 Hang Dieu Street; Cua Dong Ward; Hoan Kiem District
 Square One,Vietnam,Ho Chi Minh City,2 Lam Son Square; Ben Nghe Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.7775862,106.7034062,International,30.0,false,true,,0.0,0
 Duong's (Ngo Huyen Street),Vietnam,Hanoi,27 Ngo Huyen Street; Hang Trong Ward; Hoan Kiem District; Hanoi; 110211; Vietnam,21.0295015,105.8486102,Vietnamese,30.0,false,true,,0.0,0
 Vietnam House,Vietnam,Ho Chi Minh City,93-97 Dong Khoi Street; Ben Nghe Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.7748944,106.7041683,Vietnamese,30.0,false,true,,0.0,0
-Bún Chả Đắc Kim (Hang Manh Street),Vietnam,Hanoi,1 Hang Manh Street; Hang Gai Ward; Hoan Kiem District; Hanoi; 11015; Vietnam,21.0323506,105.848169,Street Food,30.0,false,true,,0.0,0
+Bún Chả �?ắc Kim (Hang Manh Street),Vietnam,Hanoi,1 Hang Manh Street; Hang Gai Ward; Hoan Kiem District; Hanoi; 11015; Vietnam,21.0323506,105.848169,Street Food,30.0,false,true,,0.0,0
 Hemispheres Steak & Seafood Grill,Vietnam,Hanoi,2F; Sheraton Hotel; K5 Nghi Tam; 11 Xuan Dieu Road; Quang An Ward; Tay Ho District; Hanoi; 11207; Vietnam,21.05979,105.8314,Steakhouse,30.0,false,true,,0.0,0
 A Bản Mountain Dew,Vietnam,Hanoi,76 Tran Phu Street; Dien Bien Ward; Ba Dinh District; Hanoi; 100000; Vietnam,21.03254,105.8321,Vietnamese,30.0,false,true,,0.0,0
 Quán Ăn Ngon (Hoan Kiem),Vietnam,Hanoi,18 Phan Boi Chau Street; Cua Nam Ward; Hoan Kiem District; Hanoi; 11018; Vietnam,21.0264787,105.8435552,Vietnamese,30.0,false,true,,0.0,0
@@ -5626,7 +5626,7 @@ La Badiane,Vietnam,Hanoi,10 Nam Ngu Street; Cua Nam Ward; Hoan Kiem District; Ha
 Chapter,Vietnam,Hanoi,12C Chan Cam Street; Hang Trong Ward; Hoan Kiem District; Hanoi; 11006; Vietnam,21.0303781,105.8482559,Vietnamese Contemporary,30.0,false,true,,0.0,0
 Bếp Cuốn,Vietnam,Da Nang,31-33 Tran Bach Dang Street; Phuoc My Ward; Son Tra District; Da Nang; 550000; Vietnam,16.0579365,108.2451728,Vietnamese,30.0,false,true,,0.0,0
 Vien Dining,Vietnam,Hanoi,3 Ba Trieu Alley; Le Dai Hanh Ward; Hai Ba Trung District; Hanoi; 11606; Vietnam,21.0125232,105.8488674,Innovative,30.0,false,true,,0.0,0
-Bếp Người Hội An,Vietnam,Ho Chi Minh City,22 Tran Quoc Toan Street; Ward 8; District 3; Ho Chi Minh City; 72408; Vietnam,10.7885475,106.68881,Vietnamese,30.0,false,true,,0.0,0
+Bếp Ngư�?i Hội An,Vietnam,Ho Chi Minh City,22 Tran Quoc Toan Street; Ward 8; District 3; Ho Chi Minh City; 72408; Vietnam,10.7885475,106.68881,Vietnamese,30.0,false,true,,0.0,0
 Hanoi Garden,Vietnam,Hanoi,36 Hang Manh Street; Hang Gai Ward; Hoan Kiem District; Hanoi; 100000; Vietnam,21.031516,105.848364,Vietnamese,30.0,false,true,,0.0,0
 Hiệu Lực Canh Cá Rô Hưng Yên (Hai Ba Trung),Vietnam,Hanoi,39 Hai Ba Trung Street; Tran Hung Dao Ward; Hoan Kiem District; Hanoi; 111000; Vietnam,21.025273,105.8492572,Noodles,30.0,false,true,,0.0,0
 Phở Cuốn Chinh Thắng,Vietnam,Hanoi,7 Mac Dinh Chi Street; Truc Bach Ward; Ba Dinh District; Hanoi; 11117; Vietnam,21.0464519,105.8411791,Noodles,30.0,false,true,,0.0,0
@@ -5651,7 +5651,7 @@ Senté (Nguyen Quang Bich Street),Vietnam,Hanoi,20 Nguyen Quang Bich Street; Cua
 Tanh Tách,Vietnam,Hanoi,3 Yet Kieu Street; Nguyen Du Ward; Hai Ba Trung District; Hanoi; 112605; Vietnam,21.0201154,105.8427666,Seafood,30.0,false,true,,0.0,0
 Etēsia,Vietnam,Hanoi,14B Lo Su Street; Ly Thai To Ward; Hoan Kiem District; Hanoi; 11007; Vietnam,21.0313938,105.8556968,European Contemporary,30.0,false,true,,0.0,0
 Rice Field,Vietnam,Ho Chi Minh City,2F; 75-77 Ho Tung Mau Street; Ben Nghe Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.7723695,106.7036408,Vietnamese,30.0,false,true,,0.0,0
-Ốc Đào (District 1),Vietnam,Ho Chi Minh City,212B/D48 Nguyen Trai Street; Nguyen Cu Trinh Ward; District 1; Ho Chi Minh City; 71014; Vietnam,10.76523,106.68463,Seafood,30.0,false,true,,0.0,0
+�?c �?ào (District 1),Vietnam,Ho Chi Minh City,212B/D48 Nguyen Trai Street; Nguyen Cu Trinh Ward; District 1; Ho Chi Minh City; 71014; Vietnam,10.76523,106.68463,Seafood,30.0,false,true,,0.0,0
 Esta,Vietnam,Ho Chi Minh City,27 Tran Quy Khoach Street; Tan Dinh Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.7933721,106.6882191,Asian Contemporary,30.0,false,true,,0.0,0
 T.U.N.G dining,Vietnam,Hanoi,2C Quang Trung Street; Hang Trong Ward; Hoan Kiem District; Hanoi; 11006; Vietnam,21.0267108,105.8500595,Innovative,30.0,false,true,,0.0,0
 Azabu,Vietnam,Hanoi,2F; Hôtel du Parc; 84 Tran Nhan Tong Street; Nguyen Du Ward; Hai Ba Trung District; Hanoi; 113000; Vietnam,21.0177948,105.8423073,Japanese,30.0,false,true,,0.0,0
@@ -5665,20 +5665,20 @@ Du Yên,Vietnam,Ho Chi Minh City,26B Street 10; Thao Dien Ward; Thu Duc City; Ho
 Nephele,Vietnam,Ho Chi Minh City,125/12 Nguyen Cuu Van Street; Ward 17; Binh Thanh District;; Ho Chi Minh City; 700000; Vietnam,10.7960763,106.7054136,Asian Contemporary,30.0,false,true,,0.0,0
 The Albion by Kirk Westaway,Vietnam,Ho Chi Minh City,23F; Hôtel des Arts Saigon; 76-78 Nguyen Thi Minh Khai Street; Vo Thi Sau Ward; District 3; Ho Chi Minh City; 070000; Vietnam,10.7824166,106.6973055,British Contemporary,30.0,false,true,,0.0,0
 Vị An,Vietnam,Hanoi,145 Hoang Cau Street; Trung Liet Ward; Dong Da District; Hanoi; 11515; Vietnam,21.0162588,105.8212898,Vietnamese,30.0,false,true,,0.0,0
-Năm Đảnh,Vietnam,Da Nang,139/59/38 Tran Quang Khai Street; Tho Quang Ward; Son Tra District; Da Nang; 550000; Vietnam,16.1021138,108.2528756,Seafood,30.0,false,true,,0.0,0
+Năm �?ảnh,Vietnam,Da Nang,139/59/38 Tran Quang Khai Street; Tho Quang Ward; Son Tra District; Da Nang; 550000; Vietnam,16.1021138,108.2528756,Seafood,30.0,false,true,,0.0,0
 Luk Lak,Vietnam,Da Nang,28 Bach Dang Street; Thach Thang Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0788486,108.2236448,Vietnamese,30.0,false,true,,0.0,0
 Madame Lân,Vietnam,Da Nang,4 Bach Dang Street; Thach Thang Ward; Hai Chau District; Da Nang; 550000; Vietnam,16.0812954,108.2232854,Vietnamese,30.0,false,true,,0.0,0
 Mía Dining,Vietnam,Ho Chi Minh City,12G2 Nguyen Thi Minh Khai Street; Da Kao Ward; District 1; Ho Chi Minh City; 710000; Vietnam,10.7885676,106.7022256,European Contemporary,30.0,false,true,,0.0,0
 Thúy 94 Cũ,Vietnam,Ho Chi Minh City,84 Dinh Tien Hoang Street; Da Kao Ward; District 1; Ho Chi Minh City; 710000; Vietnam,10.790191,106.69786,Seafood,30.0,false,true,,0.0,0
-Ốc Di Tú,Vietnam,Hanoi,144C Quan Thanh Street; Quan Thanh Ward; Ba Dinh District; Hanoi; 100000; Vietnam,21.0426621,105.8417341,Seafood,30.0,false,true,,0.0,0
-Đông Phố,Vietnam,Ho Chi Minh City,57 Ho Xuan Huong Street; Ward 6; District 3; Ho Chi Minh City; 72407; Vietnam,10.7764018,106.6874161,Vietnamese,30.0,false,true,,0.0,0
+�?c Di Tú,Vietnam,Hanoi,144C Quan Thanh Street; Quan Thanh Ward; Ba Dinh District; Hanoi; 100000; Vietnam,21.0426621,105.8417341,Seafood,30.0,false,true,,0.0,0
+�?ông Phố,Vietnam,Ho Chi Minh City,57 Ho Xuan Huong Street; Ward 6; District 3; Ho Chi Minh City; 72407; Vietnam,10.7764018,106.6874161,Vietnamese,30.0,false,true,,0.0,0
 Si Dining,Vietnam,Da Nang,1 Giang Chau 2 Street; Khue My Ward; Ngu Hanh Son District; Da Nang; 550000; Vietnam,16.0302343,108.2380513,Italian Contemporary,30.0,false,true,,0.0,0
 Cô Liêng,Vietnam,Ho Chi Minh City,321 Vo Van Tan Street; Ward 5; District 3; Ho Chi Minh City; 72407; Vietnam,10.7735478,106.6871417,Street Food,30.0,false,true,,0.0,0
 The Monkey Gallery Dining,Vietnam,Ho Chi Minh City,3F; 91 Mac Thi Buoi Street; Ben Nghe Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.774419,106.70401,European Contemporary,30.0,false,true,,0.0,0
 Madame Lam,Vietnam,Ho Chi Minh City,10 Tran Ngoc Dien Street; Thao Dien Ward; Thu Duc City; Ho Chi Minh City; 700000; Vietnam,10.8031685,106.7398833,Vietnamese Contemporary,30.0,false,true,,0.0,0
 Elgin,Vietnam,Ho Chi Minh City,27 Mac Dinh Chi Street; Ben Nghe Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.784774,106.69932,European,30.0,false,true,,0.0,0
 Quince Eatery,Vietnam,Ho Chi Minh City,37 Bis Ky Con Street; Nguyen Thai Binh Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.7661947,106.6992335,Mediterranean Cuisine,30.0,false,true,,0.0,0
-Cồ Đàm,Vietnam,Hanoi,68 Tran Hung Dao Street; Tran Hung Dao Ward; Hoan Kiem District; Hanoi; 11019; Vietnam,21.0224737,105.8477632,Vegetarian,30.0,false,true,,0.0,0
+Cồ �?àm,Vietnam,Hanoi,68 Tran Hung Dao Street; Tran Hung Dao Ward; Hoan Kiem District; Hanoi; 11019; Vietnam,21.0224737,105.8477632,Vegetarian,30.0,false,true,,0.0,0
 Octo,Vietnam,Ho Chi Minh City,2F; 75 Ho Tung Mau Street; Ben Nghe Ward; District 1; Ho Chi Minh City; 700000; Vietnam,10.7720814,106.7037588,Spanish,30.0,false,true,,0.0,0
 Truffle,Vietnam,Ho Chi Minh City,73F; Landmark 81; Vinhomes Central Park; Binh Thanh District; Ho Chi Minh City; 700000; Vietnam,10.805325,106.58814,French Contemporary,30.0,false,true,,0.0,0
 Chả Cá Anh Vũ (Dong Da),Vietnam,Hanoi,120-K1 Giang Vo Street; O Cho Dua Ward; Dong Da District; Hanoi; 11511; Vietnam,21.0269484,105.8241614,Vietnamese,30.0,false,true,,0.0,0
@@ -5726,7 +5726,7 @@ Locanda Le Logge,Italy,Urbisaglia,corso Giannelli 34; Urbisaglia; 62010; Italy,4
 Exforo,Italy,Padua,Prato della Valle 70/a; Padua; 35123; Italy,45.3971877,11.8764709,Contemporary/ Italian,75.0,false,true,,0.0,0
 Mezcal,Mexico,Cabo San Lucas,Carr. Transpeninsular KM. 12.5 Int.; Bahía Santa María; Cabo San Lucas; 23450; Mexico,22.9318021,-109.8161624,Mexican,30.0,false,true,,0.0,0
 Jabalina,Mexico,Monterrey,C. Padre Mier 859; Barrio Antiguo; Centro; Monterrey; 64000; Mexico,25.6674299,-100.3081192,Mexican,30.0,false,true,,0.0,0
-LÍMO Heritage Kitchen at Suelo Sur,Mexico,San José del Cabo,Lote 320; Centro; San José del Cabo; 23400; Mexico,23.0653288,-109.6931685,Mexican,30.0,false,true,,0.0,0
+L�?MO Heritage Kitchen at Suelo Sur,Mexico,San José del Cabo,Lote 320; Centro; San José del Cabo; 23400; Mexico,23.0653288,-109.6931685,Mexican,30.0,false,true,,0.0,0
 Lalo!,Mexico,Cuauhtémoc,Zacatecas 173; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4154497,-99.1622499,Contemporary,30.0,false,true,,0.0,0
 Tacos Piedra 1,Mexico,Monterrey,Lirios 1830; Calle Cerro De La Silla; Monterrey; 64810; Mexico,25.654194,-100.2897026,Mexican,30.0,false,true,,0.0,0
 Al Pairo at Solaz,Mexico,Cabo San Lucas,Corredor Turistico; Km 18.5; Real; Cabo San Lucas; 23405; Mexico,22.9736851,-109.782118,Mexican,30.0,false,true,,0.0,0
@@ -5770,7 +5770,7 @@ KI'IS,Mexico,Playa del Carmen,Paseo Kanai 14; Solidaridad; Playa del Carmen; 777
 Bella Aurora,Mexico,Cuauhtémoc,Puebla 242; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4215394,-99.1672095,Italian,30.0,false,true,,0.0,0
 Taqueria El Gran Abanico,Mexico,Cuauhtémoc,Gutiérrez Nájera S/N; Tránsito; Cuauhtémoc; 06820; Mexico,19.4152102,-99.1305486,Mexican,30.0,false,true,,0.0,0
 Cariñito Tacos,Mexico,Cuauhtémoc,Guanajuato 53; Roma Norte; Cuauhtémoc; 06700; Mexico,19.4174489,-99.156818,Mexican,30.0,false,true,,0.0,0
-Tacos Hola El Güero,Mexico,Cuauhtémoc,Ámsterdam 135; Hipódromo; Cuauhtémoc; 06100; Mexico,19.4116887,-99.1714972,Mexican,30.0,false,true,,0.0,0
+Tacos Hola El Güero,Mexico,Cuauhtémoc,�?msterdam 135; Hipódromo; Cuauhtémoc; 06100; Mexico,19.4116887,-99.1714972,Mexican,30.0,false,true,,0.0,0
 Tacos El Compadre,Mexico,Monterrey,Nicolás Bravo S/N; Maria Luisa; Centro; Monterrey; 64000; Mexico,25.6771228,-100.3334271,Mexican,30.0,false,true,,0.0,0
 Ruba's Bakery,Mexico,San José del Cabo,Morelos 8; San José del Cabo; 23406; Mexico,23.0632278,-109.6963233,Mexican/ Bakery,30.0,false,true,,0.0,0
 Adamá,Mexico,Oaxaca,Callejon Aldama 101; Ruta Independencia; Barrio de Xochimilco; Oaxaca; 68040; Mexico,17.0710512,-96.7240187,Middle Eastern,30.0,false,true,,0.0,0
@@ -5810,7 +5810,7 @@ Almú,Mexico,Oaxaca,Progreso S/N; Carr. San Martín Tilcajete; Oaxaca; 71506; Me
 María Dolores,Mexico,Isla Mujeres,Condominio Playa Mujeres; Interior resort ATELIER Playa Mujeres; Isla Mujeres; 77400; Mexico,21.2532723,-86.8121965,Mexican/ Contemporary,30.0,false,true,,0.0,0
 Lumbre,Mexico,San José del Cabo,Jose Maria Morelos 162; San José del Cabo; 23400; Mexico,23.0615425,-109.6960783,Mexican,30.0,false,true,,0.0,0
 Nao,Mexico,San José del Cabo,Miguel Hidalgo 100 y Manuel Doblado; Centro; San José del Cabo; 23400; Mexico,23.0014381,-109.7341207,Mediterranean Cuisine,30.0,false,true,,0.0,0
-MeroToro,Mexico,Cuauhtémoc,Av. Ámsterdam 204; Hipódromo; Cuauhtémoc; 06100; Mexico,19.409639,-99.16986,Contemporary/ Mexican,30.0,false,true,,0.0,0
+MeroToro,Mexico,Cuauhtémoc,Av. �?msterdam 204; Hipódromo; Cuauhtémoc; 06100; Mexico,19.409639,-99.16986,Contemporary/ Mexican,30.0,false,true,,0.0,0
 Tacos Mi Ranchito El Fenix,Mexico,Ensenada,C Sexta y Espinoza 603; Zona Centro; Ensenada; 22830; Mexico,31.8654307,-116.615657,Mexican,30.0,false,true,,0.0,0
 Latitud 32,Mexico,El Porvenir,Carr. Guadalupe-El Tigre Parcela Km. 118; El Porvenir; 22755; Mexico,32.0616841,-116.647751,Mexican,30.0,false,true,,0.0,0
 Asador Bacanora Oaxaca,Mexico,Oaxaca,5 De Mayo; #614; Oaxaca; 68080; Mexico,17.068347,-96.7167677,Mexican,30.0,false,true,,0.0,0
@@ -5851,7 +5851,7 @@ Casa Nita,Spain,Terrassa,Grànius 4; Terrassa; 08224; Spain,41.5630307,2.007689,
 Cañete,Spain,Barcelona,Unió 17; Barcelona; 08001; Spain,41.3792,2.173065,Farm to table,75.0,false,true,,0.0,0
 Arre,Spain,Castelló de la Plana,Antonio Maura 31; Castelló de la Plana; 12001; Spain,39.9878793,-0.0364444,Contemporary/ Traditional Cuisine,40.0,false,true,,0.0,0
 ALBA Bistro,Lithuania,Klaipeda,Sukilėlių Gatvė 6; Klaipeda; 91244; Lithuania,55.7071883,21.1316865,Italian,40.0,false,true,,0.0,0
-MOTÍF,Lithuania,Vilnius,30 Didžioji Gatvė; Vilnius; 01128; Lithuania,54.6779329,25.2878075,Japanese Contemporary,75.0,false,true,,0.0,0
+MOT�?F,Lithuania,Vilnius,30 Didžioji Gatvė; Vilnius; 01128; Lithuania,54.6779329,25.2878075,Japanese Contemporary,75.0,false,true,,0.0,0
 Apvalaus Stalo Klubo,Lithuania,Trakai,Karaimų g. 53A; Trakai; 21104; Lithuania,54.64948,24.93048,Modern Cuisine,40.0,false,true,,0.0,0
 DIA,Lithuania,Kaunas,Maironio Street 9; Kaunas; 44298; Lithuania,54.8965678,23.9093753,International/ Creative,40.0,false,true,,0.0,0
 Protėviai,Lithuania,Vilnius,Odminių Gatvė 3; Vilnius; 01122; Lithuania,54.6855896,25.2848311,Barbecue,75.0,false,true,,0.0,0
@@ -5864,16 +5864,16 @@ Monte Pacis,Lithuania,Kaunas,T. Masiulio Street 31; Kaunas; 52436; Lithuania,54.
 Dine,Lithuania,Vilnius,Gedimino prospektas 35; Vilnius; 01109; Lithuania,54.68909,25.26836,Modern Cuisine,75.0,false,true,,0.0,0
 Arrivée,Lithuania,Kaunas,Vilniaus Street 29; Kaunas; 44285; Lithuania,54.89692,23.89485,French,75.0,false,true,,0.0,0
 Stikliai,Lithuania,Vilnius,Gaono Gatvė 7; Vilnius; 01131; Lithuania,54.6804973,25.2859912,Classic French,120.0,false,true,,0.0,0
-Stebuklai,Lithuania,Vilnius,L. Stuokos-Gucevičiaus Gatvė 1; Vilnius; 01122; Lithuania,54.6852129,25.2849952,Modern Cuisine/ Contemporary,20.0,false,true,,0.0,0
+Stebuklai,Lithuania,Vilnius,L. Stuokos-Gucevi�?iaus Gatvė 1; Vilnius; 01122; Lithuania,54.6852129,25.2849952,Modern Cuisine/ Contemporary,20.0,false,true,,0.0,0
 Ertlio Namas,Lithuania,Vilnius,Šv. Jono Gatvé 7; Vilnius; 01123; Lithuania,54.6819148,25.2874623,Regional Cuisine,75.0,false,true,,0.0,0
 Pacai,Lithuania,Vilnius,Didžioji Gatvė 7; Vilnius; 01128; Lithuania,54.6805911,25.2879241,Modern Cuisine,75.0,false,true,,0.0,0
 Telegrafas,Lithuania,Vilnius,Universiteto Gatvė 14; Vilnius; 01122; Lithuania,54.6848275,25.2857353,Modern Cuisine,75.0,false,true,,0.0,0
 monai,Lithuania,Klaipeda,Liepų Gatvė 4; Klaipeda; 92114; Lithuania,55.7119701,21.1329864,Modern Cuisine,75.0,false,true,,0.0,0
 Amandus,Lithuania,Vilnius,Užupio Gatvė 22; Vilnius; 01203; Lithuania,54.6808267,25.2973114,Modern Cuisine,120.0,false,true,,0.0,0
 Da Antonio,Lithuania,Vilnius,Vilnius Gatvė 23; Vilnius; 01402; Lithuania,54.6856897,25.2793345,Italian,75.0,false,true,,0.0,0
-Justa Pasta,Lithuania,Vilnius,Vokiečių Gatvė 20; Vilnius; 01130; Lithuania,54.6793046,25.2835479,Italian,40.0,false,true,,0.0,0
+Justa Pasta,Lithuania,Vilnius,Vokie�?ių Gatvė 20; Vilnius; 01130; Lithuania,54.6793046,25.2835479,Italian,40.0,false,true,,0.0,0
 Fabrikėlis,Lithuania,Vilnius,Pasakų Gatvė 9; Vilnius; 10103; Lithuania,54.7325825,25.3347379,Modern Cuisine,75.0,false,true,,0.0,0
-elven,Lithuania,Vilnius,L. Stuokos-Gucevičiaus Gatvė 7; Vilnius; 01122; Lithuania,54.6843712,25.2843156,Modern Cuisine,40.0,false,true,,0.0,0
+elven,Lithuania,Vilnius,L. Stuokos-Gucevi�?iaus Gatvė 7; Vilnius; 01122; Lithuania,54.6843712,25.2843156,Modern Cuisine,40.0,false,true,,0.0,0
 Momo Grill,Lithuania,Vilnius,Totorių Gatvė 1; Vilnius; 01103; Lithuania,54.6864098,25.2820864,Modern Cuisine,40.0,false,true,,0.0,0
 Indikaya,Unknown,Dubai,Level 2; Shangri-La Hotel Shaikh Zayed Road; Dubai,25.2083893,55.2718148,Indian/ Fusion,30.0,false,true,,0.0,0
 Trèsind,Unknown,Dubai,One&Only Royal Mirage; Arabian Court; Dubai Marina; Dubai,25.0990942,55.1542869,Indian,30.0,false,true,,0.0,0
@@ -6133,7 +6133,7 @@ Corrientes 348 - Marina da Glória,Brazil,Rio de Janeiro,Avenida Infante Dom Hen
 Loup,Brazil,São Paulo,Dr. Mário Ferraz 528; São Paulo; 01453-011; Brazil,-23.5849874,-46.6853155,International,30.0,false,true,,0.0,0
 Fasano,Brazil,São Paulo,Rua Vitório Fasano 88; São Paulo; 01414-020; Brazil,-23.5645122,-46.6695865,Italian,30.0,false,true,,0.0,0
 Charco,Brazil,São Paulo,Rua Peixoto Gomide 1492; São Paulo; 01409-002; Brazil,-23.5651497,-46.6616177,Brazilian/ Grills,30.0,false,true,,0.0,0
-Aiô,Brazil,São Paulo,Rua Áurea 307; São Paulo; 04015-070; Brazil,-23.5870733,-46.6454652,Taiwanese,30.0,false,true,,0.0,0
+Aiô,Brazil,São Paulo,Rua �?urea 307; São Paulo; 04015-070; Brazil,-23.5870733,-46.6454652,Taiwanese,30.0,false,true,,0.0,0
 Sud; O Pássaro Verde,Brazil,Rio de Janeiro,Rua Visconde de Carandaí 35; Rio de Janeiro; 22460-020; Brazil,-22.9658198,-43.2203784,Brazilian,30.0,false,true,,0.0,0
 Giuseppe Grill Leblon,Brazil,Rio de Janeiro,Avenida Bartolomeu Mitre 370; Rio de Janeiro; 22431-001; Brazil,-22.9805137,-43.224215,Traditional Cuisine,30.0,false,true,,0.0,0
 Chez Claude,Brazil,Rio de Janeiro,Rua Conde de Bernadotte 26 - Lojas Q e R; Rio de Janeiro; 22430-200; Brazil,-22.9807869,-43.2226213,Modern French,30.0,false,true,,0.0,0
@@ -6149,7 +6149,7 @@ Tiara,Brazil,Rio de Janeiro,Rua Ataulfo De Paiva; 270 loja 111; Rio de Janeiro; 
 Jiquitaia,Brazil,São Paulo,Rua Coronel Oscar Porto 808; São Paulo; 04003-004; Brazil,-23.5761535,-46.6458013,Brazilian,30.0,false,true,,0.0,0
 Ama.zo - Cozinha Peruana,Brazil,São Paulo,Rua Guaianases 1149; São Paulo; 01204-001; Brazil,-23.53255,-46.6467795,Peruvian/ Farm to table,30.0,false,true,,0.0,0
 Rufino Parrilla,Brazil,Rio de Janeiro,Rua Tubira; 43; Rio de Janeiro; 22441-070; Brazil,-22.9786737,-43.2234957,Meats and Grills,30.0,false,true,,0.0,0
-Vista,Brazil,São Paulo,Avenida Pedro Álvares Cabral 1301; São Paulo; 04094-050; Brazil,-23.58737,-46.652378,Brazilian,30.0,false,true,,0.0,0
+Vista,Brazil,São Paulo,Avenida Pedro �?lvares Cabral 1301; São Paulo; 04094-050; Brazil,-23.58737,-46.652378,Brazilian,30.0,false,true,,0.0,0
 Shin Zushi,Brazil,São Paulo,Rua Afonso de Freitas 169; São Paulo; 04006-050; Brazil,-23.574924,-46.64379,Japanese,30.0,false,true,,0.0,0
 Marine Restô,Brazil,Rio de Janeiro,Avenida Atlântica 4240; Rio de Janeiro; 22070-900; Brazil,-22.9858939,-43.1892062,Modern Cuisine,30.0,false,true,,0.0,0
 Tanit,Brazil,São Paulo,Oscar Freire 145; São Paulo; 01426-001; Brazil,-23.5679568,-46.6636877,Mediterranean Cuisine,30.0,false,true,,0.0,0
@@ -6172,13 +6172,13 @@ El Tranvia - Itaim Bibi,Brazil,São Paulo,Rua Leopoldo Couto de Magalhães 1372;
 Sushi Leblon,Brazil,Rio de Janeiro,Rua Dias Ferreira 256; Rio de Janeiro; 22431-050; Brazil,-22.9841634,-43.2272514,Japanese,30.0,false,true,,0.0,0
 Ama.zo - Pátio Higienópolis,Brazil,São Paulo,Avenida Higienópolis 618; São Paulo; 01238-001; Brazil,-23.5423921,-46.657901,Peruvian,30.0,false,true,,0.0,0
 TARAZ,Brazil,São Paulo,Rua Itapeva; 435; São Paulo; 01332-000; Brazil,-23.5601045,-46.6527894,South American,30.0,false,true,,0.0,0
-OCYÁ Ilha,Brazil,Rio de Janeiro,Ilha Primeira; Rio de Janeiro; 22641-990; Brazil,-23.0003361,-43.3109903,Seafood,30.0,false,true,,0.0,0
+OCY�? Ilha,Brazil,Rio de Janeiro,Ilha Primeira; Rio de Janeiro; 22641-990; Brazil,-23.0003361,-43.3109903,Seafood,30.0,false,true,,0.0,0
 Mondo,Brazil,São Paulo,Rua Oscar Freire 30; São Paulo; 01426-000; Brazil,-23.5685022,-46.6627895,Italian,30.0,false,true,,0.0,0
 Emiliano,Brazil,São Paulo,Rua Oscar Freire 384; São Paulo; 01426-000; Brazil,-23.5657988,-46.6658133,International,30.0,false,true,,0.0,0
 Vinheria Percussi,Brazil,São Paulo,Rua Bianchi Bertoldi 109; São Paulo; 05422-070; Brazil,-23.56877,-46.69108,Italian,30.0,false,true,,0.0,0
 La Villa - Bistrô Francês,Brazil,Rio de Janeiro,Rua Alvaro Ramos 408; Rio de Janeiro; 22280-110; Brazil,-22.9574121,-43.1839668,French,30.0,false,true,,0.0,0
-Nôa,Brazil,Rio de Janeiro,Rua Garcia D'Ávila; 135; Rio de Janeiro; 22421-010; Brazil,-22.9830825,-43.2093341,Mediterranean Cuisine,30.0,false,true,,0.0,0
-OCYÁ Leblon,Brazil,Rio de Janeiro,Rua Aristides Espínola; 88; Rio de Janeiro; 22440-050; Brazil,-22.9855906,-43.2274811,Seafood,30.0,false,true,,0.0,0
+Nôa,Brazil,Rio de Janeiro,Rua Garcia D'�?vila; 135; Rio de Janeiro; 22421-010; Brazil,-22.9830825,-43.2093341,Mediterranean Cuisine,30.0,false,true,,0.0,0
+OCY�? Leblon,Brazil,Rio de Janeiro,Rua Aristides Espínola; 88; Rio de Janeiro; 22440-050; Brazil,-22.9855906,-43.2274811,Seafood,30.0,false,true,,0.0,0
 Babbo Osteria,Brazil,Rio de Janeiro,Rua Barão Da Torre; 632; Rio de Janeiro; 22411 002; Brazil,-22.9826748,-43.2120814,Italian,30.0,false,true,,0.0,0
 Blaise,Brazil,São Paulo,Rua Itapeva; 435; São Paulo; 01332-000; Brazil,-23.5599768,-46.6527573,French Contemporary/ South American,30.0,false,true,,0.0,0
 De Segunda,Brazil,São Paulo,Rua Prof. Tamandaré Toledo; 160; São Paulo; 04532-020; Brazil,-23.5834874,-46.6752488,Brazilian,30.0,false,true,,0.0,0
@@ -6194,7 +6194,7 @@ Amadeus,Brazil,São Paulo,Rua Haddock Lobo 807; São Paulo; 01414-001; Brazil,-2
 Cantaloup,Brazil,São Paulo,Rua Manuel Guedes 474; São Paulo; 04536-070; Brazil,-23.58481,-46.67903,International,30.0,false,true,,0.0,0
 Dinho's,Brazil,São Paulo,Alameda Santos 86; São Paulo; 01418-000; Brazil,-23.5712927,-46.6462835,Meats and Grills,30.0,false,true,,0.0,0
 Toto,Brazil,Rio de Janeiro,Rua Joana Angélica; 155; Rio de Janeiro; 22420-030; Brazil,-22.9830346,-43.2049709,European/ Italian,30.0,false,true,,0.0,0
-Rudä,Brazil,Rio de Janeiro,Rua Garcia D'Ávila; 118; Rio de Janeiro; 22421-010; Brazil,-22.9834208,-43.2090335,Brazilian/ Contemporary,30.0,false,true,,0.0,0
+Rudä,Brazil,Rio de Janeiro,Rua Garcia D'�?vila; 118; Rio de Janeiro; 22421-010; Brazil,-22.9834208,-43.2090335,Brazilian/ Contemporary,30.0,false,true,,0.0,0
 Clan BBQ,Brazil,Rio de Janeiro,Rua Dias Ferreira; 233 Loja B; Rio de Janeiro; 22431 050; Brazil,-22.9841101,-43.2274659,Meats and Grills,30.0,false,true,,0.0,0
 Les Présidents,Brazil,São Paulo,Rua Da Consolação 3527; São Paulo; 01416-001; Brazil,-23.5625625,-46.6700946,French,30.0,false,true,,0.0,0
 Spicy Fish,Brazil,Rio de Janeiro,Rua Maria Quitéria; 99; Rio de Janeiro; 22410-040; Brazil,-22.9831796,-43.2071981,Asian Contemporary,30.0,false,true,,0.0,0
@@ -6288,7 +6288,7 @@ Vintage,Belgium,Kontich,Rijkerooistraat 14; Kontich; 2550; Belgium,51.1156516,4.
 L'Air de Rien,Belgium,Esneux,Place du Vieux Tilleul 14; Esneux; 4130; Belgium,50.5295679,5.5904606,Creative,75.0,false,true,,0.0,0
 Partage,Belgium,Namur,Rue des Fossés Fleuris 18; Namur; 5000; Belgium,50.4628364,4.8648718,Modern Cuisine,40.0,false,true,,0.0,0
 L'Opéra,Unknown,Luxembourg,100 Rue de Rollingergrund; 2440; Luxembourg,49.61715,6.11547,French/ Traditional Cuisine,75.0,false,true,,0.0,0
-Umā,Belgium,Brussels,Rue de la Reinette 8; Brussels; 1000; Belgium,50.8390072,4.3608629,Fusion/ International,40.0,false,true,,0.0,0
+Um�?,Belgium,Brussels,Rue de la Reinette 8; Brussels; 1000; Belgium,50.8390072,4.3608629,Fusion/ International,40.0,false,true,,0.0,0
 L'O de Source,Belgium,Sart,Station 32; Sart; 4845; Belgium,50.5006455,5.9569288,Farm to table,40.0,false,true,,0.0,0
 Wagyu,Belgium,Durbuy,Rue du Comte Théodule d'Ursel 1; Durbuy; 6940; Belgium,50.3526761,5.4569343,Meats and Grills/ Grills,75.0,false,true,,0.0,0
 Compagnique,Belgium,Lovendegem,Vellare 93; Lovendegem; 9920; Belgium,51.099486,3.5962814,Modern French,120.0,false,true,,0.0,0
@@ -6865,7 +6865,7 @@ The Gibson Room,USA,Miami,2224 S.W. 22nd St.; Miami; 33145; USA,25.7504714,-80.2
 Torno Subito,USA,Miami,200 E. Flagler St.; Miami; 33131; USA,25.7742258,-80.1898173,Italian/ Contemporary,30.0,false,true,,0.0,0
 Edoboy,USA,Orlando,728 N. Thornton Ave.; Orlando; 32803; USA,28.5542739,-81.3659056,Sushi,30.0,false,true,,0.0,0
 Ravello,USA,Orlando,10100 Dream Tree Blvd.; Orlando; 32836; USA,28.4030199,-81.5438513,Italian,30.0,false,true,,0.0,0
-Cítricos,USA,Orlando,4401 Floridian Way; Orlando; 32830; USA,28.410967,-81.5873008,American/ Regional Cuisine,30.0,false,true,,0.0,0
+Ci�?tricos,USA,Orlando,4401 Floridian Way; Orlando; 32830; USA,28.410967,-81.5873008,American/ Regional Cuisine,30.0,false,true,,0.0,0
 Shin Jung,USA,Orlando,1638 E. Colonial Dr.; Orlando; 32803; USA,28.5529122,-81.3587859,Korean,30.0,false,true,,0.0,0
 Sear + Sea,USA,Orlando,14900 Chelonia Pkwy.; Orlando; 32821; USA,28.35886,-81.5272783,Steakhouse,30.0,false,true,,0.0,0
 Estiatorio Milos,USA,Miami Beach,730 1st St.; Miami Beach; 33139; USA,25.7698852,-80.1355092,Greek,30.0,false,true,,0.0,0
@@ -7000,7 +7000,7 @@ Elena,Argentina,Buenos Aires,Posadas 1086/88; Buenos Aires; C1011ABB; Argentina,
 Gioia Cocina Botánica,Argentina,Buenos Aires,Posadas 1350; Buenos Aires; C1011ABH; Argentina,-34.5884905,-58.3857412,Vegan,30.0,false,true,,0.0,0
 Fogón Cocina de Viñedo,Argentina,Mendoza,San Martín 1745; Mendoza; M5507; Argentina,-33.0246477,-68.8725424,Meats and Grills,30.0,false,true,,0.0,0
 El Preferido de Palermo,Argentina,Buenos Aires,Jorge Luis Borges 2108; Buenos Aires; C1425FFD; Argentina,-34.5855314,-58.4253891,Traditional Cuisine,30.0,false,true,,0.0,0
-Kōnā,Argentina,Buenos Aires,Castañeda 1899; Buenos Aires; C1428BBA; Argentina,-34.5532829,-58.4370682,Japanese,30.0,false,true,,0.0,0
+K�?n�?,Argentina,Buenos Aires,Castañeda 1899; Buenos Aires; C1428BBA; Argentina,-34.5532829,-58.4370682,Japanese,30.0,false,true,,0.0,0
 Anchoíta,Argentina,Buenos Aires,Juan Ramírez De Velasco 1520; Buenos Aires; C1414ARF; Argentina,-34.5894403,-58.4453965,Contemporary,30.0,false,true,,0.0,0
 Corte Comedor,Argentina,Buenos Aires,Avenida Olazábal 1391; Buenos Aires; C1428DGE; Argentina,-34.5540242,-58.4482253,Meats and Grills,30.0,false,true,,0.0,0
 Centauro,Argentina,Mendoza,Avenida Perú 1156; Mendoza; M5500; Argentina,-32.8883595,-68.8483254,Contemporary,30.0,false,true,,0.0,0
@@ -7489,7 +7489,7 @@ Le Bouillon,France,Annecy,9 rue de la Gare; Annecy; 74000; France,45.89916,6.121
 La Bourse et la Vie,France,Paris,12 rue Vivienne; Paris; 75002; France,48.8676758,2.3394648,Traditional Cuisine,75.0,false,true,,0.0,0
 Semilla,France,Paris,54 rue de Seine; Paris; 75006; France,48.8540664,2.3368784,Modern Cuisine,75.0,false,true,,0.0,0
 Caffè Stern,France,Paris,47 passage des Panoramas; Paris; 75002; France,48.8707602,2.3416562,Italian,120.0,false,true,,0.0,0
-Kodawari Ramen - Yokochō,France,Paris,29 rue Mazarine; Paris; 75006; France,48.8547351,2.3380215,Japanese,40.0,false,true,,0.0,0
+Kodawari Ramen - Yokoch�?,France,Paris,29 rue Mazarine; Paris; 75006; France,48.8547351,2.3380215,Japanese,40.0,false,true,,0.0,0
 Huître Brûlée,France,Honfleur,8 rue Brûlée; Honfleur; 14600; France,49.420648,0.2322818,Modern Cuisine/ Creative,40.0,false,true,,0.0,0
 La Table d'Edgar,France,Saint-Brieuc,15 rue Jouallan; Saint-Brieuc; 22000; France,48.5134513,-2.7606052,Modern Cuisine,40.0,false,true,,0.0,0
 Tandem Saveurs Nomades,France,Saint-Maurice,50 avenue du Maréchal-de-Lattre-de-Tassigny; Saint-Maurice; 94410; France,48.8220506,2.4199056,Fusion,40.0,false,true,,0.0,0
@@ -8044,7 +8044,7 @@ Chai l'amère Kolette,France,Kervignac,Parc d'activités de Kernours; Kervignac;
 Jardin Secret,France,Cotignac,13 rue de l'Araignée; Cotignac; 83570; France,43.5271329,6.1488922,Provençal,75.0,false,true,,0.0,0
 Chante Bise,France,Seychalles,Lieu-dit Courcourt; Seychalles; 63190; France,45.8059866,3.317799,Traditional Cuisine,40.0,false,true,,0.0,0
 Le Petit Kembs,France,Kembs,49 rue du Maréchal-Foch; Kembs; 68680; France,47.686775,7.503926,Modern Cuisine,40.0,false,true,,0.0,0
-Hōra,France,Laguiole,2 allée de l'Amicale; Laguiole; 12210; France,44.6841853,2.8473317,Modern Cuisine,40.0,false,true,,0.0,0
+H�?ra,France,Laguiole,2 allée de l'Amicale; Laguiole; 12210; France,44.6841853,2.8473317,Modern Cuisine,40.0,false,true,,0.0,0
 L'Espace PH3,France,Vienne,14 boulevard Fernand-Point; Vienne; 38200; France,45.5168027,4.8668013,Modern Cuisine,75.0,false,true,,0.0,0
 MatCha,France,Cucuron,Montée du Château-Vieux; Cucuron; 84160; France,43.7736714,5.4396988,Modern Cuisine,40.0,false,true,,0.0,0
 Bloempot,France,Lille,22 rue des Bouchers; Lille; 59000; France,50.6381816,3.0582578,Modern Cuisine,75.0,false,true,,0.0,0
@@ -9073,7 +9073,7 @@ Kawahara,Japan,Osaka,2-4-21 Toyosaki; Kita-ku; Osaka; 531-0072; Japan,34.709936,
 Sushi Marumine,Japan,Osaka,6-2-20 Tenjimbashi; Kita-ku; Osaka; 530-0041; Japan,34.709842,135.512233,Sushi,30.0,false,true,,0.0,0
 Kitashinchi Fukutatei,Japan,Osaka,B1F; 1-11-19 Sonezakishinchi; Kita-ku; Osaka; 530-0002; Japan,34.698021,135.499116,Steakhouse,30.0,false,true,,0.0,0
 Sushi Yuden,Japan,Osaka,3-8-25 Ueshio; Tennoji-ku; Osaka; 543-0002; Japan,34.666267,135.516768,Sushi,30.0,false,true,,0.0,0
-MOTOÏ,Japan,Kyoto,186 Tawarayacho; Nakagyo-ku; Kyoto; 604-0952; Japan,35.012727,135.764903,French,30.0,false,true,,0.0,0
+MOTO�?,Japan,Kyoto,186 Tawarayacho; Nakagyo-ku; Kyoto; 604-0952; Japan,35.012727,135.764903,French,30.0,false,true,,0.0,0
 Unkaku,Japan,Osaka,1-18-17 Temma; Kita-ku; Osaka; 530-0043; Japan,34.69484,135.518716,Japanese,30.0,false,true,,0.0,0
 Yuyu,Japan,Kyoto,8 Koyama Kitakamifusacho; Kita-ku; Kyoto; 603-8142; Japan,35.044835,135.759172,Japanese,30.0,false,true,,0.0,0
 Gion Kajisho,Japan,Kyoto,570-127 Giommachi Minamigawa; Higashiyama-ku; Kyoto; 605-0074; Japan,35.002705,135.775145,Japanese,30.0,false,true,,0.0,0
@@ -9395,7 +9395,7 @@ Casa de Comidas,Spain,Madrid,Padre Damián 23; Madrid; 28001; Spain,40.45855,-3.
 Arraigo,Spain,Posada de Llanera,Avenida Oviedo 19; Posada de Llanera; 33424; Spain,43.4366025,-5.8472485,Contemporary/ Regional Cuisine,40.0,false,true,,0.0,0
 Cibû,Portugal,Leça da Palmeira,Rua do Castelo 15; Leça da Palmeira; 4450-632; Portugal,41.1882204,-8.7032532,Regional European/ Contemporary,40.0,false,true,,0.0,0
 Kaigi,Portugal,Porto,Rua De Eugénio De Castro 226; Porto; 4100-225; Portugal,41.1636883,-8.6479358,Japanese,40.0,false,true,,0.0,0
-Avista Ásia,Portugal,Funchal,Estrada Monumental;145; Funchal; 9004-532; Portugal,32.6395131,-16.9256067,Asian Influences/ Fusion,75.0,false,true,,0.0,0
+Avista �?sia,Portugal,Funchal,Estrada Monumental;145; Funchal; 9004-532; Portugal,32.6395131,-16.9256067,Asian Influences/ Fusion,75.0,false,true,,0.0,0
 Suba,Portugal,Lisbon,Rua de Santa Catarina 3; Lisbon; 1200-401; Portugal,38.7097117,-9.1471823,Contemporary/ Modern Cuisine,75.0,false,true,,0.0,0
 Al Quimia,Portugal,Albufeira,Pinhal do Concelho; Albufeira; 8200-593; Portugal,37.0884795,-8.168184,Modern Cuisine,120.0,false,true,,0.0,0
 A Carvalheira,Portugal,Ponte de Lima,Rua do Eido Velho 73; Ponte de Lima; 4990-620; Portugal,41.7390681,-8.561671,Traditional Cuisine,20.0,false,true,,0.0,0
@@ -9429,7 +9429,7 @@ Oven,Portugal,Lisbon,Rua Dos Fanqueiros 232; Lisbon; 1100-232; Portugal,38.71216
 34,Portugal,Guimaraes,Largo do Toural 23; Guimaraes; 4810 427; Portugal,41.4419617,-8.2953664,International,40.0,false,true,,0.0,0
 Kappo,Portugal,Cascais,Avenida Emídio Navarro 23A; Cascais; 2750-337; Portugal,38.6971584,-9.422948,Japanese,120.0,false,true,,0.0,0
 Apego,Portugal,Porto,Rua de Santa Catarina 1198; Porto; 4000-457; Portugal,41.1568534,-8.6045141,Creative,40.0,false,true,,0.0,0
-Bistrô by Vila Foz,Portugal,Matosinhos,Rua Álvaro Castelões 16; Matosinhos; 4450-037; Portugal,41.1873403,-8.6928936,Seafood/ Portuguese,40.0,false,true,,0.0,0
+Bistrô by Vila Foz,Portugal,Matosinhos,Rua �?lvaro Castelões 16; Matosinhos; 4450-037; Portugal,41.1873403,-8.6928936,Seafood/ Portuguese,40.0,false,true,,0.0,0
 Vibe by Mattia Stanchieri,Portugal,Lisbon,Rua da Horta Seca 5B; Lisbon; 1200-221; Portugal,38.7102704,-9.1440058,Contemporary,75.0,false,true,,0.0,0
 Avista,Portugal,Funchal,Estrada Monumental 145; Funchal; 9004-532; Portugal,32.6398651,-16.925279,Mediterranean Cuisine,75.0,false,true,,0.0,0
 Sem Porta,Portugal,Grândola,EN 261-1; CCI 3954; Muda; Grândola; 7570-337; Portugal,38.2886746,-8.7121804,Contemporary,75.0,false,true,,0.0,0
@@ -9478,12 +9478,12 @@ Horta,Portugal,Funchal,Rua De Leichlingen 11; Funchal; 9004-566; Portugal,32.636
 Memórias Santar,Portugal,Santar,Rua Gago Coutinho; Santar; 3520-147; Portugal,40.5700484,-7.8927331,Creative,40.0,false,true,,0.0,0
 Conceito,Portugal,Cascais,Rua Pequena (Urb. do Viso; lote 1; loja A - Bicesse); Cascais; 2645-486; Portugal,38.7321134,-9.3777676,Contemporary,75.0,false,true,,0.0,0
 Las Dos Manos,Portugal,Lisbon,Rua de São Pedro de Alcântara 59; Lisbon; 1200-459; Portugal,38.7144257,-9.1443476,Fusion,40.0,false,true,,0.0,0
-Ákua,Portugal,Funchal,Rua Dos Murças 6; Funchal; 9000 058; Portugal,32.6475151,-16.9093572,Contemporary,40.0,false,true,,0.0,0
+�?kua,Portugal,Funchal,Rua Dos Murças 6; Funchal; 9000 058; Portugal,32.6475151,-16.9093572,Contemporary,40.0,false,true,,0.0,0
 O Palco,Portugal,Coimbra,Avenida Dom Afonso Henriques; Coimbra; 3000-011; Portugal,40.2094663,-8.4145063,Contemporary,75.0,false,true,,0.0,0
 Gastro by Elemento,Portugal,Porto,Rua Maria Adelaide Freitas Gonçalves 13; Porto; 4350-109; Portugal,41.1641961,-8.5882792,Contemporary/ Grills,75.0,false,true,,0.0,0
 Oxalis,Portugal,Funchal,Rua da Estalagem 23; Funchal; 9060 415; Portugal,32.6583209,-16.8674228,Contemporary,40.0,false,true,,0.0,0
 Legacy Winery Restaurant,Portugal,Estremoz,EN 4 KM 136.4 - Herdade das Servas; Estremoz; 7100 600; Portugal,38.8368112,-7.6675027,Contemporary,40.0,false,true,,0.0,0
-À Mesa,Portugal,Tavira,R. Álvaro de Campos 14; Tavira; 8800-320; Portugal,37.12859,-7.6497412,Modern Cuisine/ Traditional Cuisine,75.0,false,true,,0.0,0
+À Mesa,Portugal,Tavira,R. �?lvaro de Campos 14; Tavira; 8800-320; Portugal,37.12859,-7.6497412,Modern Cuisine/ Traditional Cuisine,75.0,false,true,,0.0,0
 Âmago,Portugal,Lisbon,Rua da Alegria 41C; Lisbon; 1250-182; Portugal,38.7176011,-9.1473944,Farm to table/ Contemporary,75.0,false,true,,0.0,0
 Alameda,Portugal,Faro,Rua da Polícia da Segurança Pública 10; Faro; 8000-151; Portugal,37.0158521,-7.9285322,Modern Cuisine,75.0,false,true,,0.0,0
 fago,Portugal,Marvão,Travessa da Praça 2A; Marvão; 7330-124; Portugal,39.3944099,-7.3760821,Contemporary,40.0,false,true,,0.0,0
@@ -9496,7 +9496,7 @@ Quinta do Tedo Familia Geadas,Portugal,Folgosa,Quinta do Tedo N222 M512; Folgosa
 Audax,Portugal,Funchal,Rua Imperatriz Dona Amélia; 104; Funchal; 9000-018; Portugal,32.6431755,-16.9200848,Contemporary,40.0,false,true,,0.0,0
 SAFRA_,Portugal,Coimbra,Rua da Moeda 44; Coimbra; 3000-282; Portugal,40.2108207,-8.4301823,Contemporary,40.0,false,true,,0.0,0
 Aladin Grill,Portugal,Porches,Rua Anneliese Pohl - Alporchinhos; Porches; 8400-450; Portugal,37.10253,-8.38141,International/ Grills,75.0,false,true,,0.0,0
-Le Babachris,Portugal,Guimaraes,Largo Condessa do Juncal n⁰19-21; Guimaraes; 4800-159; Portugal,41.4419757,-8.2972531,Mediterranean Cuisine/ Fusion,40.0,false,true,,0.0,0
+Le Babachris,Portugal,Guimaraes,Largo Condessa do Juncal n�?�19-21; Guimaraes; 4800-159; Portugal,41.4419757,-8.2972531,Mediterranean Cuisine/ Fusion,40.0,false,true,,0.0,0
 Gazebo,Portugal,Funchal,Rua dos Ilhéus 30; Funchal; 9000-176; Portugal,32.645675,-16.9219852,Contemporary,75.0,false,true,,0.0,0
 Flor de Lis by Vila Foz,Portugal,Porto,Av. De Montevideu; 236; Porto; 4150-516; Portugal,41.16175,-8.6846908,International/ Traditional Cuisine,40.0,false,true,,0.0,0
 Casa do Gadanha,Portugal,Estremoz,Rua da Vasco da Gama 4; Estremoz; 7100-559; Portugal,38.8418766,-7.588567,Contemporary,40.0,false,true,,0.0,0
@@ -9943,7 +9943,7 @@ Chalk,United Kingdom,Pulborough,North Farm; Washington; Pulborough; RH20 4BB; Un
 Story Cellar,United Kingdom,London,17 Neal's Yard; Seven Dials; Covent Garden; London; WC2H 9DP; United Kingdom,51.5143012,-0.1260856,Modern British,30.0,false,true,,0.0,0
 Note,Ireland,Dublin City,26 Fenian Street; Dublin City; D02 FX09; Ireland,53.3416207,-6.2488931,Modern Cuisine,75.0,false,true,,0.0,0
 The Swan Inn,United Kingdom,Islip,1 Lower Street; Islip; OX5 2SB; United Kingdom,51.8218241,-1.2357716,Modern British,30.0,false,true,,0.0,0
-“8” By Andrew Sheridan,United Kingdom,Liverpool,16 Cook Street; Liverpool; L2 9RF; United Kingdom,53.4063407,-2.9889165,Modern Cuisine,30.0,false,true,,0.0,0
+“8�? By Andrew Sheridan,United Kingdom,Liverpool,16 Cook Street; Liverpool; L2 9RF; United Kingdom,53.4063407,-2.9889165,Modern Cuisine,30.0,false,true,,0.0,0
 Station Road,United Kingdom,Fort Augustus,The Lovat Hotel; Fort Augustus; PH32 4DU; United Kingdom,57.1436491,-4.6824823,Modern British,30.0,false,true,,0.0,0
 Mayha,United Kingdom,London,43 Chiltern Street; Marylebone; London; W1U 6LS; United Kingdom,51.5198677,-0.1554527,Japanese,30.0,false,true,,0.0,0
 Alumni Kitchen Table,Ireland,Rathangan,Glenaree; Feighcullen; Rathangan; R51 RH90; Ireland,53.2346697,-6.9300156,Modern Cuisine,120.0,false,true,,0.0,0
@@ -10315,7 +10315,7 @@ BIGFAN,Ireland,Dublin City,16 Aungier Street; Dublin City; D02 X044; Ireland,53.
 Square,Ireland,Dundalk,6 Market Square; Dundalk; A91 X9WY; Ireland,54.0041049,-6.4032226,Modern Cuisine,40.0,false,true,,0.0,0
 Maru,United Kingdom,London,18 Shepherd Market; Mayfair; London; W1J 7QH; United Kingdom,51.5067,-0.14633,Japanese/ Sushi,30.0,false,true,,0.0,0
 Mister S,Ireland,Dublin City,32 Camden Street Lower; Dublin City; D02 P029; Ireland,53.3345949,-6.2650164,Modern Cuisine,40.0,false,true,,0.0,0
-Orā,United Kingdom,Belfast,12 Great Victoria Street; Belfast; BT2 7BA; United Kingdom,54.5954507,-5.9345441,Modern Cuisine,30.0,false,true,,0.0,0
+Or�?,United Kingdom,Belfast,12 Great Victoria Street; Belfast; BT2 7BA; United Kingdom,54.5954507,-5.9345441,Modern Cuisine,30.0,false,true,,0.0,0
 Awabi,United Kingdom,Saint Helier,63 Halkett Place; Saint Helier; JE2 4WG; United Kingdom,49.1857448,-2.1044725,Asian,30.0,false,true,,0.0,0
 Catch at The Old Fishmarket,United Kingdom,Weymouth,1 Custom House Quay; Weymouth; DT4 8BE; United Kingdom,50.6072663,-2.4539895,Seafood,30.0,false,true,,0.0,0
 Lilac,United Kingdom,Lyme Regis,57-58 Broad Street; Lyme Regis; DY7 3QF; United Kingdom,50.7248292,-2.9347482,Modern British,30.0,false,true,,0.0,0
@@ -10570,7 +10570,7 @@ Vezené,Greece,Athens,11 Vrasida Street; Athens; 11 528; Greece,37.9747156,23.75
 Varoulko Seaside,Greece,Athens,54 Koumoundourou Coast; Athens; 18533; Greece,37.9373787,23.6585274,Seafood,75.0,false,true,,0.0,0
 see|ds,Greece,Athens,14 Oumplianis; 27 Diocharous; Athens; 16121; Greece,37.9730333,23.7536847,Modern Cuisine,75.0,false,true,,0.0,0
 Okio,Greece,Athens,Nikis 33 & Navarhou Nikodimou 3; Athens; 10557; Greece,37.9734614,23.7329767,Mediterranean Cuisine/ Fusion,40.0,false,true,,0.0,0
-Esthiō,Greece,Athens,7 Dimitrakopoulou; Athens; 11742; Greece,37.9667826,23.7282204,Balkan,75.0,false,true,,0.0,0
+Esthi�?,Greece,Athens,7 Dimitrakopoulou; Athens; 11742; Greece,37.9667826,23.7282204,Balkan,75.0,false,true,,0.0,0
 The Twenty Two,Serbia,Belgrade,Bulevar Kralja Aleksandra 69; Belgrade; 11000; Serbia,44.8067142,20.4731927,International,40.0,false,true,,0.0,0
 Enso,Serbia,Belgrade,Mitropolita Petra 8; Belgrade; 11000; Serbia,44.8166101,20.4852764,Creative,40.0,false,true,,0.0,0
 L'Adresse,Serbia,Belgrade,Svetog Save 10; Belgrade; 11000; Serbia,44.80143,20.46709,European/ International,40.0,false,true,,0.0,0
@@ -10584,8 +10584,8 @@ SkyLounge,Serbia,Belgrade,Kralja Milana 35; Belgrade; 11000; Serbia,44.804519,20
 Homa,Serbia,Belgrade,Senjanina Ive 2; Belgrade; 11000; Serbia,44.8221788,20.4679392,Creative,120.0,false,true,,0.0,0
 Pinòt,Serbia,Belgrade,Omladinskih Brigada 86ž; West 65; Belgrade; 11070; Serbia,44.8122,20.37615,Modern Cuisine,40.0,false,true,,0.0,0
 Salon 1905,Serbia,Belgrade,Karađorđeva 48; Belgrade; 11000; Serbia,44.8133311,20.4518661,Modern Cuisine/ Balkan,75.0,false,true,,0.0,0
-Legat 1903,Serbia,Belgrade,Jasenička 7; Belgrade; 11000; Serbia,44.7880554,20.4986732,Modern Cuisine,40.0,false,true,,0.0,0
-Gušti mora,Serbia,Belgrade,Ulica Radnička 27; Belgrade; 11000; Serbia,44.7862728,20.415648,Seafood,40.0,false,true,,0.0,0
+Legat 1903,Serbia,Belgrade,Jaseni�?ka 7; Belgrade; 11000; Serbia,44.7880554,20.4986732,Modern Cuisine,40.0,false,true,,0.0,0
+Gušti mora,Serbia,Belgrade,Ulica Radni�?ka 27; Belgrade; 11000; Serbia,44.7862728,20.415648,Seafood,40.0,false,true,,0.0,0
 The Square,Serbia,Belgrade,Studentski Trg 9; Belgrade; 11000; Serbia,44.8195322,20.4562003,Modern Cuisine,40.0,false,true,,0.0,0
 Metropolitan,Serbia,Belgrade,Milentija Popovića 5; Belgrade; 11070; Serbia,44.813117,20.4366413,International/ Balkan,40.0,false,true,,0.0,0
 Comunale Caffè e Cucina,Serbia,Belgrade,Karađorđeva 2-4; Beton Hala; Belgrade; 11000; Serbia,44.819708,20.4483005,Italian,20.0,false,true,,0.0,0
@@ -10618,7 +10618,7 @@ Kai’s Songbird,Qatar,Doha,Porto Arabia; The Pearl; Corinthia Yacht Club; Doha;
 Gymkhana,Qatar,Doha,Katara Hills; Doha LXR Hotels & Resorts; Doha; Qatar,25.3525876,51.5233563,Indian,30.0,false,true,,0.0,0
 Costes Downtown,Hungary,Budapest,Vigyázó Ferenc utca 5; Budapest; 1051; Hungary,47.5010814,19.0485638,Modern Cuisine,120.0,false,true,,0.0,0
 Botanica,Hungary,Dánszentmiklós,Hotel Botanica; Nyárfa utca 57; Dánszentmiklós; 2735; Hungary,47.2133318,19.5512953,Modern Cuisine,120.0,false,true,,0.0,0
-KOLLÁZS,Hungary,Budapest,Széchenyi István tér 5; Budapest; 1051; Hungary,47.4999796,19.0478164,French,75.0,false,true,,0.0,0
+KOLL�?ZS,Hungary,Budapest,Széchenyi István tér 5; Budapest; 1051; Hungary,47.4999796,19.0478164,French,75.0,false,true,,0.0,0
 NOON,Hungary,Balatonfüred,Lua Resort; Anna Sétány 3; Balatonfüred; 8230; Hungary,46.9445045,17.8792671,Modern Cuisine,40.0,false,true,,0.0,0
 Tihanyi Vinarius,Hungary,Tihany,Kiserdőtelepi utca; Tihany; 8237; Hungary,46.9154821,17.8816966,Contemporary,40.0,false,true,,0.0,0
 Bilanx,Hungary,Budapest,Mérleg utca 10; Budapest; 1051; Hungary,47.4997063,19.050379,Contemporary,40.0,false,true,,0.0,0
@@ -10828,7 +10828,7 @@ Moody Tongue Sushi,USA,New York,150 W. 10th St.; New York; 10014; USA,40.7344702
 Hav & Mar,USA,New York,245 Eleventh Ave.; New York; 10001; USA,40.7509279,-74.0057216,Ethiopian/ Fusion,30.0,false,true,,0.0,0
 Ito,USA,New York,75 Barclay St.; New York; 10007; USA,40.7129963,-74.0099765,Japanese/ Sushi,30.0,false,true,,0.0,0
 Altro Paradiso,USA,New York,234 Spring St.; New York; 10013; USA,40.7254751,-74.0045848,Italian,30.0,false,true,,0.0,0
-Van Đa,USA,New York,234 E. 4th St.; New York; 10009; USA,40.7233393,-73.9828147,Vietnamese/ Modern Cuisine,30.0,false,true,,0.0,0
+Van �?a,USA,New York,234 E. 4th St.; New York; 10009; USA,40.7233393,-73.9828147,Vietnamese/ Modern Cuisine,30.0,false,true,,0.0,0
 Kubeh,USA,New York,464 Sixth Ave.; New York; 10011; USA,40.73553,-73.998116,Middle Eastern,30.0,false,true,,0.0,0
 Le B,USA,New York,283 W. 12th St.; New York; 10014; USA,40.7376084,-74.0039699,Classic French/ Asian,30.0,false,true,,0.0,0
 Foul Witch,USA,New York,15 Avenue A; New York; 10009; USA,40.722805,-73.986267,Contemporary,30.0,false,true,,0.0,0
@@ -10880,7 +10880,7 @@ Ris,USA,Washington,2275 L St. NW; Washington; 20037; USA,38.90384,-77.04993,Amer
 Café Riggs,USA,Washington,900 F St. NW; Washington; 20004; USA,38.8975559,-77.0242625,Contemporary/ French,30.0,false,true,,0.0,0
 Thip Khao,USA,Washington,3462 14th St. NW; Washington; 20010; USA,38.932957,-77.032845,Lao,30.0,false,true,,0.0,0
 Annabelle,USA,Washington,2132 Florida Ave. NW; Washington; 20008; USA,38.9127449,-77.0475771,Contemporary/ American,30.0,false,true,,0.0,0
-Dōgon,USA,Washington,1330 Maryland Ave. SW; Washington; 20024; USA,38.8837174,-77.0301089,African/ Caribbean,30.0,false,true,,0.0,0
+D�?gon,USA,Washington,1330 Maryland Ave. SW; Washington; 20024; USA,38.8837174,-77.0301089,African/ Caribbean,30.0,false,true,,0.0,0
 Royal,USA,Washington,501 Florida Ave. NW; Washington; 20001; USA,38.914955,-77.018555,Latin American,30.0,false,true,,0.0,0
 Chaplin's,USA,Washington,1501 9th St. NW; Washington; 20001; USA,38.9097194,-77.0240574,Asian/ Ramen,30.0,false,true,,0.0,0
 El Secreto de Rosita,USA,Washington,1624 U St. NW; Washington; 20009; USA,38.9168755,-77.0376936,Peruvian/ Latin American,30.0,false,true,,0.0,0
@@ -10888,7 +10888,7 @@ Reveler's Hour,USA,Washington,1775 Columbia Rd. NW; Washington; 20009; USA,38.92
 Rasika,USA,Washington,633 D St. NW; Washington; 20004; USA,38.894913,-77.02162,Indian,30.0,false,true,,0.0,0
 Moon Rabbit,USA,Washington,927 F St. NW; Washington; 20004; USA,38.8974196,-77.0250307,Vietnamese,30.0,false,true,,0.0,0
 Das,USA,Washington,1201 28th St. NW; Washington; 20007; USA,38.905346,-77.056946,Ethiopian/ Regional Cuisine,30.0,false,true,,0.0,0
-Maydān,USA,Washington,1346 Florida Ave. NW; Washington; 20009; USA,38.92013,-77.03105,Middle Eastern/ Grills,30.0,false,true,,0.0,0
+Mayd�?n,USA,Washington,1346 Florida Ave. NW; Washington; 20009; USA,38.92013,-77.03105,Middle Eastern/ Grills,30.0,false,true,,0.0,0
 San Lorenzo,USA,Washington,1316 9th St. NW; Washington; 20001; USA,38.9078492,-77.0240655,Italian,30.0,false,true,,0.0,0
 Lutèce,USA,Washington,1522 Wisconsin Ave. NW; Washington; 20007; USA,38.9093379,-77.0644252,Contemporary/ American,30.0,false,true,,0.0,0
 Ottoman Taverna,USA,Washington,425 I St. NW; Washington; 20001; USA,38.901665,-77.01634,Turkish,30.0,false,true,,0.0,0
@@ -10927,7 +10927,7 @@ Sfoglina,USA,Washington,4445 Connecticut Ave. NW; Washington; 20008; USA,38.9466
 Dear Sushi at Love; Makoto,USA,Washington,200 Massachusetts Ave.; NW; Ste.150; Washington; 20001; USA,38.9040274,-77.0273913,Sushi/ Japanese Contemporary,30.0,false,true,,0.0,0
 Beloved BBQ at Love; Makoto,USA,Washington,200 Massachusetts Ave. NW; Ste.150; Washington; 20001; USA,38.89924,-77.01368,Japanese/ Steakhouse,30.0,false,true,,0.0,0
 Kappo,USA,Washington,4822 MacArthur Blvd. NW; Washington; 20007; USA,38.91688,-77.096197,Japanese,30.0,false,true,,0.0,0
-Shōtō,USA,Washington,1100 15th St. NW; Washington; 20005; USA,38.9038028,-77.0346039,Japanese,30.0,false,true,,0.0,0
+Sh�?t�?,USA,Washington,1100 15th St. NW; Washington; 20005; USA,38.9038028,-77.0346039,Japanese,30.0,false,true,,0.0,0
 Hank’s Oyster Bar,USA,Washington,1624 Q St. NW; Washington; 20009; USA,38.91101,-77.03817,Seafood/ Oyster Specialities,30.0,false,true,,0.0,0
 Chang Chang,USA,Washington,1200 19th St. NW; Washington; 20036; USA,38.9061,-77.04344,Chinese/ Asian,30.0,false,true,,0.0,0
 Patty O's Cafe & Bakery,USA,Washington,389 Main St.; Washington; 22747; USA,38.7109794,-78.1605748,European,30.0,false,true,,0.0,0
@@ -11621,7 +11621,7 @@ Arbequina,Spain,Córdoba,Ramírez de las Casas Deza 10-12; Córdoba; 14001; Spai
 VIVO Gourmet,Spain,Almería,Marín 14; Almería; 04003; Spain,36.84104,-2.46677,Meats and Grills/ Traditional Cuisine,40.0,false,true,,0.0,0
 Ibidem,Spain,Arnuero,Barrio Zoña 1 - Castillo de Siete Villas; Arnuero; 39193; Spain,43.4616069,-3.5414168,Modern Cuisine/ Creative,40.0,false,true,,0.0,0
 Trèsde,Spain,Madrid,Cava Alta 17; Madrid; 28005; Spain,40.4121856,-3.7092188,Contemporary,40.0,false,true,,0.0,0
-Barra de José Álvarez,Spain,El Ejido,Bulevar 46; El Ejido; 04700; Spain,36.7709769,-2.8276097,Contemporary/ Andalusian,40.0,false,true,,0.0,0
+Barra de José �?lvarez,Spain,El Ejido,Bulevar 46; El Ejido; 04700; Spain,36.7709769,-2.8276097,Contemporary/ Andalusian,40.0,false,true,,0.0,0
 ROM,Spain,Roses,Passeig Marítim 43; Roses; 17480; Spain,42.2644853,3.1614337,Traditional Cuisine,40.0,false,true,,0.0,0
 Vidocq,Spain,Sallent de Gállego,Avenida Huesca; Sallent de Gállego; 22640; Spain,42.7740701,-0.3606055,Contemporary/ Fusion,75.0,false,true,,0.0,0
 El Romero,Spain,Mahon,Plaza de la Conquesta 5; Mahon; 07701; Spain,39.8895774,4.2651836,Farm to table,75.0,false,true,,0.0,0
@@ -11657,7 +11657,7 @@ El Viejo Fogón,Spain,Majadahonda,San Andrés 14; Majadahonda; 28220; Spain,40.4
 El Vagón de Beni,Spain,Hoyo de Manzanares,San Macario 6; Hoyo de Manzanares; 28240; Spain,40.6230399,-3.90804,Traditional Cuisine/ Spanish,40.0,false,true,,0.0,0
 Soy Kitchen,Spain,Madrid,Zurbano 59; Madrid; 28010; Spain,40.4359433,-3.6931356,Fusion/ Chinese Contemporary,75.0,false,true,,0.0,0
 Lúa,Spain,Madrid,Eduardo Dato 5; Madrid; 28010; Spain,40.4328116,-3.6957424,Modern Cuisine,75.0,false,true,,0.0,0
-Zalacaín,Spain,Madrid,Álvarez de Baena 4; Madrid; 28006; Spain,40.4383311,-3.6888851,Classic Cuisine,120.0,false,true,,0.0,0
+Zalacaín,Spain,Madrid,�?lvarez de Baena 4; Madrid; 28006; Spain,40.4383311,-3.6888851,Classic Cuisine,120.0,false,true,,0.0,0
 Coquetto Bar,Spain,Madrid,Fortuny 2; Madrid; 28010; Spain,40.428176,-3.6910318,Traditional Cuisine,75.0,false,true,,0.0,0
 Taberna el nº 10,Spain,Córdoba,Romero 10; Córdoba; 14003; Spain,37.8800047,-4.7816733,Traditional Cuisine,20.0,false,true,,0.0,0
 Casa Rubio,Spain,Córdoba,Puerta Almodóvar 5; Córdoba; 14003; Spain,37.8806709,-4.7839754,Regional Cuisine,40.0,false,true,,0.0,0
@@ -11816,7 +11816,7 @@ Gresca,Spain,Barcelona,Provença 230; Barcelona; 08036; Spain,41.3913285,2.15703
 Gran Azul,Spain,Valencia,Avenida Aragón 12; Valencia; 46021; Spain,39.469364,-0.3589203,Traditional Cuisine,40.0,false,true,,0.0,0
 Paco Espinosa,Spain,Valladolid,Paseo Obregón 16; Valladolid; 47009; Spain,41.6658114,-4.7317513,Seafood,75.0,false,true,,0.0,0
 Ca's Milà,Spain,Sant Josep de sa Talaia,Playa de Cala Tarida; Sant Josep de sa Talaia; 07829; Spain,38.940023,1.2371103,Mediterranean Cuisine,40.0,false,true,,0.0,0
-El Almacén,Spain,Ávila,Carretera de Salamanca 6; Ávila; 05002; Spain,40.6575595,-4.7095654,Traditional Cuisine,75.0,false,true,,0.0,0
+El Almacén,Spain,�?vila,Carretera de Salamanca 6; �?vila; 05002; Spain,40.6575595,-4.7095654,Traditional Cuisine,75.0,false,true,,0.0,0
 Tony García Espacio Gastronómico,Spain,Almería,Avenida del Mediterráneo 281; Almería; 04009; Spain,36.8496989,-2.4467569,Contemporary,40.0,false,true,,0.0,0
 Ajo de Sopas,Spain,Palencia,Paseo del Salón 25; Palencia; 34002; Spain,42.0071336,-4.5276914,Modern Cuisine,40.0,false,true,,0.0,0
 Adrián Quetglas,Spain,Palma,Paseo de Mallorca 20; Palma; 07012; Spain,39.5734906,2.6432285,Modern Cuisine,75.0,false,true,,0.0,0
@@ -11913,7 +11913,7 @@ La Tronera,Spain,Villadepalos,El Caño 1; Villadepalos; 24565; Spain,42.5399874,
 San Mamés Jatetxea,Spain,Bilbao,Rafael Moreno Pitxitxi; Bilbao; 48013; Spain,43.2650474,-2.9492403,Traditional Cuisine,75.0,false,true,,0.0,0
 Quadrat,Spain,Palma,Plaza de Sant Francesc 5; Palma; 07001; Spain,39.5690448,2.6527307,Mediterranean Cuisine,40.0,false,true,,0.0,0
 Trumfes,Spain,Llívia,Raval 27; Llívia; 17527; Spain,42.4636321,1.9835776,Traditional Cuisine/ Creative,75.0,false,true,,0.0,0
-VÍTRIC Taverna Gastronòmica,Spain,Reus,Santa Anna 24; Reus; 43201; Spain,41.1566027,1.1087262,Contemporary,40.0,false,true,,0.0,0
+V�?TRIC Taverna Gastronòmica,Spain,Reus,Santa Anna 24; Reus; 43201; Spain,41.1566027,1.1087262,Contemporary,40.0,false,true,,0.0,0
 Apicius,Spain,Valencia,Eolo 7; Valencia; 46021; Spain,39.4704875,-0.3554382,Modern Cuisine,75.0,false,true,,0.0,0
 La Font,Spain,Canet de Mar,Rafael Masó 1-3; Canet de Mar; 08360; Spain,41.591863,2.5736958,Traditional Cuisine,40.0,false,true,,0.0,0
 La Ereta,Spain,Alacant,Parque de la Ereta; Alacant; 03001; Spain,38.3485812,-0.4815287,Modern Cuisine/ Mediterranean Cuisine,75.0,false,true,,0.0,0
@@ -11960,7 +11960,7 @@ RíasKru,Spain,Barcelona,Lleida 7; Barcelona; 08004; Spain,41.374144,2.1545293,S
 Sushi Bar Tottori,Spain,Madrid,Lagasca 67; Madrid; 28001; Spain,40.4290796,-3.6849964,Japanese,75.0,false,true,,0.0,0
 Montecruz,Spain,Aracena,Plaza San Pedro 36; Aracena; 21200; Spain,37.8913948,-6.5672197,Traditional Cuisine,20.0,false,true,,0.0,0
 Sa Jambina,Spain,Calella de Palafrugell,Boffil i Codina 21; Calella de Palafrugell; 17210; Spain,41.8886505,3.18579,Traditional Cuisine,75.0,false,true,,0.0,0
-Abarike,Spain,Gijón,Melquíades Álvarez 3; Gijón; 33201; Spain,43.5444694,-5.6628934,Seafood/ Contemporary,40.0,false,true,,0.0,0
+Abarike,Spain,Gijón,Melquíades �?lvarez 3; Gijón; 33201; Spain,43.5444694,-5.6628934,Seafood/ Contemporary,40.0,false,true,,0.0,0
 Sorondongo,Spain,Las Palmas de Gran Canaria,Armas 15; Las Palmas de Gran Canaria; 35001; Spain,28.10226,-15.41437,Traditional Cuisine/ Creative,40.0,false,true,,0.0,0
 La Morera de Pablo & Ester,Spain,Salou,Berenguer de Palou 10; Salou; 43840; Spain,41.0808265,1.1321247,Modern Cuisine/ Contemporary,40.0,false,true,,0.0,0
 Haramboure,Spain,Madrid,Maldonado 4; Madrid; 28006; Spain,40.4339414,-3.6859299,Basque,40.0,false,true,,0.0,0
@@ -12198,7 +12198,7 @@ Curios-City,Malaysia,George Town,164A-B Lebuh Victoria; George Town; 10300; Mala
 Shanghai Restaurant,Malaysia,Kuala Lumpur,1F; JW Marriott; 183 Jalan Bukit Bintang; Bukit Bintang; Kuala Lumpur; 55100; Malaysia,3.1478307,101.7137774,Shanghainese,30.0,false,true,,0.0,0
 Sushi Masa,Malaysia,Kuala Lumpur,Lot 1-03; 1F; Menara Hap Seng 3; Jalan P. Ramlee; Kuala Lumpur; Kuala Lumpur; 50250; Malaysia,3.15481,101.70874,Sushi,30.0,false,true,,0.0,0
 Ushi,Malaysia,Kuala Lumpur,3A; The St. Regis; 6 Jalan Stesen Sentral 2; Kuala Lumpur Sentral; Kuala Lumpur; 50470; Malaysia,3.1370359,101.6887247,Japanese,30.0,false,true,,0.0,0
-Bōl,Malaysia,Kuala Lumpur,15 Jalan Sin Chew Kee; Bukit Bintang; Kuala Lumpur; 50150; Malaysia,3.143192,101.7049335,Asian Contemporary,30.0,false,true,,0.0,0
+B�?l,Malaysia,Kuala Lumpur,15 Jalan Sin Chew Kee; Bukit Bintang; Kuala Lumpur; 50150; Malaysia,3.143192,101.7049335,Asian Contemporary,30.0,false,true,,0.0,0
 Marini's on 57,Malaysia,Kuala Lumpur,57F; Menara 3 Petronas; Persiaran KLCC; Kuala Lumpur City Centre; Kuala Lumpur; 50088; Malaysia,3.1567422,101.7115501,Italian,30.0,false,true,,0.0,0
 Tanglin (Bukit Damansara),Malaysia,Kuala Lumpur,57G; Jalan Medan Setia 1; Bukit Damansara; Kuala Lumpur; 50490; Malaysia,3.1503107,101.6533012,Malaysian,30.0,false,true,,0.0,0
 Hide,Malaysia,Kuala Lumpur,Concourse; Ritz-Carlton Residences; 105 Jalan Ampang; Kuala Lumpur; Kuala Lumpur; 50450; Malaysia,3.1566062,101.7057561,Innovative,30.0,false,true,,0.0,0
@@ -12258,7 +12258,7 @@ Toshokan,USA,Austin,807 E. 4th St.; Austin; 78702; USA,30.2635894,-97.7346333,Su
 Lenoir,USA,Austin,1807 S. 1st St.; Austin; 78704; USA,30.2473196,-97.7560024,Contemporary/ Regional Cuisine,30.0,false,true,,0.0,0
 2M Smokehouse,USA,San Antonio,2731 S. Ww White Rd.; San Antonio; 78222; USA,29.3824237,-98.4046035,Barbecue/ Mexican,30.0,false,true,,0.0,0
 Baso,USA,Houston,633 W. 19th St.; #A; Houston; 77008; USA,29.8029324,-95.4095137,American/ Contemporary,30.0,false,true,,0.0,0
-Nicōsi,USA,San Antonio,221 Newell Ave.; San Antonio; 78215; USA,29.4409555,-98.4806909,Creative,30.0,false,true,,0.0,0
+Nic�?si,USA,San Antonio,221 Newell Ave.; San Antonio; 78215; USA,29.4409555,-98.4806909,Creative,30.0,false,true,,0.0,0
 Ezov,USA,Austin,2708 E. Cesar Chavez St.; Austin; 78702; USA,30.2532577,-97.7132955,Israeli,30.0,false,true,,0.0,0
 dipdipdip Tatsu-Ya,USA,Austin,7301 Burnet Rd.; Ste. 101; Austin; 78757; USA,30.3487771,-97.7346617,Japanese/ Shabu-shabu,30.0,false,true,,0.0,0
 Lutie's,USA,Austin,4100 Red River St.; Austin; 78751; USA,30.2989952,-97.7220364,American/ Regional Cuisine,30.0,false,true,,0.0,0
@@ -13104,7 +13104,7 @@ Menabò Vino e Cucina,Italy,Rome,via delle Palme 44 d/e; Rome; 00171; Italy,41.8
 Il Poggio,Italy,Poggiridenti,via Panoramica 4; Poggiridenti; 23020; Italy,46.1749169,9.9189094,Country cooking/ Italian Contemporary,40.0,false,true,,0.0,0
 Tenne Lodges,Italy,Colle,Località Colle 51; Colle; 39040; Italy,46.8648828,11.3068524,Alpine/ Contemporary,75.0,false,true,,0.0,0
 Osteria Il Cappello,Italy,Trento,piazzetta Bruno Lunelli 5; Trento; 38122; Italy,46.06961,11.12538,Classic Cuisine/ Italian,40.0,false,true,,0.0,0
-Bentōteca,Italy,Milan,via San Calocero 3; Milan; 20123; Italy,45.4582847,9.176373,Fusion/ Asian Contemporary,75.0,false,true,,0.0,0
+Bent�?teca,Italy,Milan,via San Calocero 3; Milan; 20123; Italy,45.4582847,9.176373,Fusion/ Asian Contemporary,75.0,false,true,,0.0,0
 Signore te ne ringrazi,Italy,Macerata,via Pescheria Vecchia 26; Macerata; 62100; Italy,43.3005511,13.454439,Cuisine from the Marches/ Creative,40.0,false,true,,0.0,0
 Burjè 1968,Italy,Corvara in Badia,str. Burje 11; Corvara in Badia; 39033; Italy,46.5478163,11.8724653,Contemporary,75.0,false,true,,0.0,0
 La Ciambella,Italy,Rome,via dell'Arco della Ciambella 20; Rome; 00186; Italy,41.8968476,12.4769553,Roman/ Italian,75.0,false,true,,0.0,0
@@ -13673,10 +13673,10 @@ Talat Market,USA,Atlanta,112 Ormond St. SE; Atlanta; 30315; USA,33.731689,-84.38
 B7,Latvia,Riga,Ausekla iela 7; Riga; 1010; Latvia,56.9610954,24.0999391,Modern Cuisine,40.0,false,true,,0.0,0
 Entresol,Latvia,Riga,Elizabetes iela 22; Riga; 1050; Latvia,56.9497103,24.1219738,Modern Cuisine,40.0,false,true,,0.0,0
 Chef's Corner Restaurant,Latvia,Riga,Jeruzalemes iela 5; Riga; 1010; Latvia,56.9578198,24.1139306,Modern Cuisine/ Meats and Grills,40.0,false,true,,0.0,0
-MO,Latvia,Liepaja,Friča Brīvzemnieka iela 7; Liepaja; 3401; Latvia,56.512259,21.007816,Traditional Cuisine,40.0,false,true,,0.0,0
+MO,Latvia,Liepaja,Fri�?a Brīvzemnieka iela 7; Liepaja; 3401; Latvia,56.512259,21.007816,Traditional Cuisine,40.0,false,true,,0.0,0
 TAURO,Latvia,Riga,Ranķa dambis 30; Riga; 1048; Latvia,56.9475227,24.0800099,Meats and Grills,120.0,false,true,,0.0,0
-Pavāru māja,Latvia,Līgatne,Pilsoņu iela 2; Līgatne; 4110; Latvia,57.2361393,25.0438397,Modern Cuisine/ Regional Cuisine,75.0,false,true,,0.0,0
-Akustika,Latvia,Valmiera,Diakonāta iela 6; Valmiera; 4201; Latvia,57.5365858,25.420595,Modern Cuisine/ Regional Cuisine,20.0,false,true,,0.0,0
+Pav�?ru m�?ja,Latvia,Līgatne,Pilsoņu iela 2; Līgatne; 4110; Latvia,57.2361393,25.0438397,Modern Cuisine/ Regional Cuisine,75.0,false,true,,0.0,0
+Akustika,Latvia,Valmiera,Diakon�?ta iela 6; Valmiera; 4201; Latvia,57.5365858,25.420595,Modern Cuisine/ Regional Cuisine,20.0,false,true,,0.0,0
 COD,Latvia,Riga,Tērbatas iela 45; Riga; 1011; Latvia,56.9560618,24.1259207,Japanese Contemporary,40.0,false,true,,0.0,0
 3 Chefs,Latvia,Riga,Torņa iela 4; Jekaba Arcade 2b; Riga; 1050; Latvia,56.9515972,24.106845,Modern Cuisine,40.0,false,true,,0.0,0
 LOWINE,Latvia,Riga,Dzirnavu iela 43; Riga; 1010; Latvia,56.9572805,24.1157425,Modern Cuisine,40.0,false,true,,0.0,0
@@ -13686,11 +13686,11 @@ Seasons,Latvia,Riga,Grand Palace Hotel; Pils iela 12; Riga; 1050; Latvia,56.9501
 Barents,Latvia,Riga,Smilšu iela 3; Riga; 1050; Latvia,56.950497,24.1076318,Modern Cuisine,120.0,false,true,,0.0,0
 Whitehouse,Latvia,Riga,Vermane Park; Terbatas iela 2; Riga; 1050; Latvia,56.9518905,24.1165378,Modern Cuisine,40.0,false,true,,0.0,0
 JOHN,Latvia,Riga,A22 Hotel; Ausekļa iela 22; Riga; 1010; Latvia,56.9624682,24.1005443,Modern Cuisine,75.0,false,true,,0.0,0
-Barents Cocktail & Seafood Bar,Latvia,Riga,Mazā smilšu iela 2/4; Riga; 1050; Latvia,56.950409,24.1082078,Seafood,40.0,false,true,,0.0,0
+Barents Cocktail & Seafood Bar,Latvia,Riga,Maz�? smilšu iela 2/4; Riga; 1050; Latvia,56.950409,24.1082078,Seafood,40.0,false,true,,0.0,0
 Neiburgs,Latvia,Riga,Neiburgs Hotel; Jauniela 25/27; Riga; 1050; Latvia,56.9485279,24.1055695,Traditional Cuisine/ Mediterranean Cuisine,40.0,false,true,,0.0,0
 Zoltners,Latvia,Tērvete,Kroņauce; Tērvete; 3730; Latvia,56.4978099,23.3058813,European,40.0,false,true,,0.0,0
 Tails,Latvia,Riga,Antonijas iela 6a; Riga; 1010; Latvia,56.9576885,24.1103179,Seafood,40.0,false,true,,0.0,0
-Stage22,Latvia,Riga,Aspazijas bulvāris 22; Riga; 1050; Latvia,56.9490427,24.1129867,Japanese,75.0,false,true,,0.0,0
+Stage22,Latvia,Riga,Aspazijas bulv�?ris 22; Riga; 1050; Latvia,56.9490427,24.1129867,Japanese,75.0,false,true,,0.0,0
 BABO,Latvia,Riga,Dzirnavu Iela 42; Riga; 1010; Latvia,56.9568252,24.1157803,Traditional Cuisine,40.0,false,true,,0.0,0
 H.E. Vanadziņš,Latvia,Cēsis,Rīgas iela 15; Cēsis; 4101; Latvia,57.3118585,25.2727931,Regional Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
 Riviera,Latvia,Riga,Dzirnavu iela 31; Riga; 1010; Latvia,56.9590185,24.1124539,Mediterranean Cuisine,40.0,false,true,,0.0,0
@@ -14215,7 +14215,7 @@ Bistrotel 't Amsterdammertje,Netherlands,Nieuwersluis,Rijksstraatweg 35; Nieuwer
 Reverie,Netherlands,Veldhoven,Dorpstraat 1; Veldhoven; 5504 HA; Netherlands,51.4022322,5.3972246,Modern Cuisine/ Indonesian,75.0,false,true,,0.0,0
 De Kromme Bistro,Netherlands,Hoofdplaat,Slijkplaat 6; Hoofdplaat; 4513 KK; Netherlands,51.3774129,3.6028704,Grills/ Meats and Seafood,75.0,false,true,,0.0,0
 Mearkas,Netherlands,Eastermar,Skûlenboargerwei 5; Eastermar; 9261 XA; Netherlands,53.1902945,6.0677196,Seasonal Cuisine/ Country cooking,75.0,false,true,,0.0,0
-NOÏS,Netherlands,Zwolle,Oude Vismarkt 10; Zwolle; 8011 TB; Netherlands,52.5120134,6.093239,Modern Cuisine,75.0,false,true,,0.0,0
+NO�?S,Netherlands,Zwolle,Oude Vismarkt 10; Zwolle; 8011 TB; Netherlands,52.5120134,6.093239,Modern Cuisine,75.0,false,true,,0.0,0
 De Mark,Netherlands,Amsterdam,Durgerdammerdijk 73; Amsterdam; 1026 CB; Netherlands,52.3775497,4.9886776,Creative French,40.0,false,true,,0.0,0
 Il Gattopardo,Netherlands,Rotterdam,Delistraat 2; Rotterdam; 3072 ZK; Netherlands,51.9014458,4.4865796,Italian,75.0,false,true,,0.0,0
 Rosie,Netherlands,Utrecht,Lucasbolwerk 21; Utrecht; 3512 EJ; Netherlands,52.0944196,5.1258574,Modern French/ International,40.0,false,true,,0.0,0
@@ -14454,9 +14454,9 @@ FLAVA,Hungary,Budapest,Október 6. utca. 26; Budapest; 1051; Hungary,47.5027272,
 Zincenco Kitchen,Hungary,Budapest,Bihari Janos utca 20; Budapest; 1055; Hungary,47.5104636,19.0539376,Modern Cuisine,120.0,false,true,,0.0,0
 talu,Hungary,Tarcal,Andrássy Kúria & Spa; Fő út 94.; Tarcal; 3915; Hungary,48.1279355,21.346801,Contemporary,40.0,false,true,,0.0,0
 Casa De Carli,Czechia,Prague,Vězeňská 5; Prague; 11 000; Czechia,50.0905287,14.4217856,Italian,75.0,false,true,,0.0,0
-Portfolio,Czechia,Prague,Lannův Palác; Havlíčkova 1030/1; Prague; 110 00; Czechia,50.0873709,14.4323733,International,20.0,false,true,,0.0,0
-Výčep,Czechia,Prague,Korunní 1304/92; Prague; 101 00; Czechia,50.0753145,14.4534435,Czech/ Contemporary,20.0,false,true,,0.0,0
-Café Imperial,Czechia,Prague,Na Poříčí 15; Prague; 110 00; Czechia,50.0897946,14.4327661,Traditional Cuisine/ French,40.0,false,true,,0.0,0
+Portfolio,Czechia,Prague,Lannův Palác; Havlí�?kova 1030/1; Prague; 110 00; Czechia,50.0873709,14.4323733,International,20.0,false,true,,0.0,0
+Vý�?ep,Czechia,Prague,Korunní 1304/92; Prague; 101 00; Czechia,50.0753145,14.4534435,Czech/ Contemporary,20.0,false,true,,0.0,0
+Café Imperial,Czechia,Prague,Na Poří�?í 15; Prague; 110 00; Czechia,50.0897946,14.4327661,Traditional Cuisine/ French,40.0,false,true,,0.0,0
 Benjamin,Czechia,Prague,Norská 14; Prague; 101 00; Czechia,50.0718681,14.45533,Modern Cuisine,75.0,false,true,,0.0,0
 QQ Asian Kitchen,Czechia,Prague,Odborů 278/4; Prague; 12000; Czechia,50.0776554,14.4181496,Asian,20.0,false,true,,0.0,0
 Salabka,Czechia,Prague,K Bohnicím 849/2a; Prague; 171 00; Czechia,50.1208919,14.4099143,Modern Cuisine,120.0,false,true,,0.0,0
@@ -14694,7 +14694,7 @@ Cap Aureo,Croatia,Rovinj,Smareglijeva ulica 1A; Rovinj; 52210; Croatia,45.075480
 Korak,Croatia,Jastrebarsko,Plešivica 34; Jastrebarsko; 10450; Croatia,45.7260304,15.6500062,Contemporary/ Croatian,120.0,false,true,,0.0,0
 Pelegrini,Croatia,Sibenik,Jurja Dalmatinca 1; Sibenik; 22000; Croatia,43.7360494,15.8890466,Modern Cuisine,120.0,false,true,,0.0,0
 Boškinac,Croatia,Novalja,Škopaljska Ulica 220; Novalja; 53291; Croatia,44.571006,14.8975384,Creative/ Seasonal Cuisine,120.0,false,true,,0.0,0
-Nebo by Deni Srdoč,Croatia,Rijeka,Opatijska ulica 9; Rijeka; 51000; Croatia,45.3470174,14.3507329,Modern Cuisine/ Creative,120.0,false,true,,0.0,0
+Nebo by Deni Srdo�?,Croatia,Rijeka,Opatijska ulica 9; Rijeka; 51000; Croatia,45.3470174,14.3507329,Modern Cuisine/ Creative,120.0,false,true,,0.0,0
 Noel,Croatia,Zagreb,Ulica Popa Dukljanina 1; Zagreb; 10000; Croatia,45.810998,15.9880697,Modern Cuisine,120.0,false,true,,0.0,0
 Granica,France,Cellettes,10 rue Nationale; Cellettes; 41120; France,47.5259939,1.3829059,Modern Cuisine,75.0,false,true,,0.0,0
 La Table de Tourrel,France,Saint-Rémy-de-Provence,5 rue Carnot; Saint-Rémy-de-Provence; 13210; France,43.7891048,4.8307716,Modern Cuisine,120.0,false,true,,0.0,0
@@ -14702,27 +14702,27 @@ Pourquoi Pas,France,Dinard,Hôtel Castelbrac; 17 avenue George-V; Dinard; 35800;
 Restaurant Hiramatsu Kodaiji,Japan,Kyoto,353 Masuyacho; Higashiyama-ku; Kyoto; 605-0826; Japan,34.998694,135.781565,French,30.0,false,true,,0.0,0
 Alla Beccaccia,Croatia,Valbandon,ul. Pineta 25; Valbandon; 52212; Croatia,44.91547,13.824558,Traditional Cuisine/ Classic Cuisine,40.0,false,true,,0.0,0
 Konoba Vinko,Croatia,Konjevrate,Uz Cestu 57; Konjevrate; 22221; Croatia,43.7830965,16.014193,Country cooking,40.0,false,true,,0.0,0
-Tač,Croatia,Zagreb,Vrhovec 140; Zagreb; 10000; Croatia,45.8268053,15.9476092,Traditional Cuisine,40.0,false,true,,0.0,0
+Ta�?,Croatia,Zagreb,Vrhovec 140; Zagreb; 10000; Croatia,45.8268053,15.9476092,Traditional Cuisine,40.0,false,true,,0.0,0
 Beštija,Croatia,Zagreb,Masarykova Ulica 11/1; Zagreb; 10000; Croatia,45.810785,15.9729381,Farm to table/ Contemporary,40.0,false,true,,0.0,0
-Konoba Pescaria,Croatia,Mošćenička Draga,Stari Grad 28; Mošćenička Draga; 51417; Croatia,45.2379118,14.2555054,Seafood/ Croatian,40.0,false,true,,0.0,0
+Konoba Pescaria,Croatia,Mošćeni�?ka Draga,Stari Grad 28; Mošćeni�?ka Draga; 51417; Croatia,45.2379118,14.2555054,Seafood/ Croatian,40.0,false,true,,0.0,0
 Fakin,Croatia,Legrad,Trg Svetog Trojstva 53; Legrad; 48317; Croatia,46.2983292,16.8555191,Modern Cuisine,40.0,false,true,,0.0,0
-Taj Mahal,Croatia,Dubrovnik,Nikole Gučetića 2; Dubrovnik; 20000; Croatia,42.6404963,18.1087558,Balkan/ Meats and Grills,40.0,false,true,,0.0,0
+Taj Mahal,Croatia,Dubrovnik,Nikole Gu�?etića 2; Dubrovnik; 20000; Croatia,42.6404963,18.1087558,Balkan/ Meats and Grills,40.0,false,true,,0.0,0
 Izakaya,Croatia,Zagreb,Selska cesta 90b; Zagreb; 10000; Croatia,45.8047118,15.942948,Japanese Contemporary/ Japanese,40.0,false,true,,0.0,0
 Konoba Malo Selo,Croatia,Buje,Fratrija 1; Buje; 52460; Croatia,45.4320136,13.6353543,Regional Cuisine/ Meats and Grills,40.0,false,true,,0.0,0
-Vuglec Breg,Croatia,Krapina,Škaričevo 151; Krapina; 49000; Croatia,46.149057,15.8396211,Regional Cuisine/ Classic Cuisine,40.0,false,true,,0.0,0
+Vuglec Breg,Croatia,Krapina,Škari�?evo 151; Krapina; 49000; Croatia,46.149057,15.8396211,Regional Cuisine/ Classic Cuisine,40.0,false,true,,0.0,0
 Konoba Mate,Croatia,Korcula,Pupnat 28; Korcula; 20260; Croatia,42.9508141,17.037417,Country cooking/ Regional Cuisine,40.0,false,true,,0.0,0
 Maison Vidal - Le Bistrot de Justin,France,Saint-Julien-Chapteuil,18 place du Marché; Saint-Julien-Chapteuil; 43260; France,45.0327554,4.0624497,Traditional Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
 Terra Restaurant by Maslina Resort,Croatia,Stari Grad,Uvala Maslinica 11; Stari Grad; 21460; Croatia,43.1797966,16.5711841,Mediterranean Cuisine/ Modern Cuisine,75.0,false,true,,0.0,0
 ZOI,Croatia,Split,Obala Hrvatskog Narodnog Preporoda 23; Split; 21000; Croatia,43.50736,16.439678,Mediterranean Cuisine,120.0,false,true,,0.0,0
-Zlatne Gorice,Croatia,Varaždin Breg,Ul. Banjščina 104; Varaždin Breg; 42204; Croatia,46.2363848,16.4022305,Regional Cuisine,40.0,false,true,,0.0,0
+Zlatne Gorice,Croatia,Varaždin Breg,Ul. Banjš�?ina 104; Varaždin Breg; 42204; Croatia,46.2363848,16.4022305,Regional Cuisine,40.0,false,true,,0.0,0
 Kaštel,Croatia,Zadar,Bedemi Zadarskih Pobuna 13; Zadar; 23000; Croatia,44.11785,15.224,Mediterranean Cuisine/ Contemporary,75.0,false,true,,0.0,0
 Pjerin,Croatia,Dubrovnik,Vlaha Bukovca 6; Dubrovnik; 20000; Croatia,42.6384188,18.1272478,Mediterranean Cuisine,120.0,false,true,,0.0,0
-Badi,Croatia,Lovrečica,Umaška Ulica 12; Lovrečica; 52470; Croatia,45.3849458,13.5377703,Mediterranean Cuisine,75.0,false,true,,0.0,0
-Konoba Buščina,Croatia,Umag,Buščina 18; Umag; 52470; Croatia,45.4469238,13.5998626,Traditional Cuisine/ Mediterranean Cuisine,75.0,false,true,,0.0,0
+Badi,Croatia,Lovre�?ica,Umaška Ulica 12; Lovre�?ica; 52470; Croatia,45.3849458,13.5377703,Mediterranean Cuisine,75.0,false,true,,0.0,0
+Konoba Buš�?ina,Croatia,Umag,Buš�?ina 18; Umag; 52470; Croatia,45.4469238,13.5998626,Traditional Cuisine/ Mediterranean Cuisine,75.0,false,true,,0.0,0
 Konoba Fetivi,Croatia,Split,Tomića Stine 4; Split; 21000; Croatia,43.5083839,16.4344042,Traditional Cuisine,40.0,false,true,,0.0,0
 Waldinger,Croatia,Osijek,Županijska ulica 8; Osijek; 31000; Croatia,45.5584962,18.675891,Regional Cuisine,40.0,false,true,,0.0,0
 Konoba TRS,Croatia,Trogir,Matije Gupca 14; Trogir; 21220; Croatia,43.5169071,16.2499863,Mediterranean Cuisine,75.0,false,true,,0.0,0
-Tekka,Croatia,Zagreb,Radnička cesta 37b; Zagreb; 10000; Croatia,45.80283,16.00258,Japanese/ Asian,40.0,false,true,,0.0,0
+Tekka,Croatia,Zagreb,Radni�?ka cesta 37b; Zagreb; 10000; Croatia,45.80283,16.00258,Japanese/ Asian,40.0,false,true,,0.0,0
 Konoba Tri Piruna,Croatia,Vodice,Ul. Roca Pave 5; Vodice; 22211; Croatia,43.759354,15.777178,Modern Cuisine/ Meats and Grills,40.0,false,true,,0.0,0
 Šug,Croatia,Split,Tolstojeva 1a; Split; 21000; Croatia,43.5094919,16.4432943,Regional Cuisine,75.0,false,true,,0.0,0
 Bistro Grad,Croatia,Rijeka,Riva Boduli 7B; Rijeka; 51000; Croatia,45.32447,14.4416,Contemporary/ Croatian,40.0,false,true,,0.0,0
@@ -14730,12 +14730,12 @@ Konoba Griblja,Croatia,Sukošan,Ruševac 4; Sukošan; 23206; Croatia,44.0453018,
 Restoran Vila Rova,Croatia,Malinska,Rova 28; Malinska; 51511; Croatia,45.11629,14.51329,Farm to table/ Croatian,75.0,false,true,,0.0,0
 Damir & Ornella,Croatia,Novigrad,Zidine 5; Novigrad; 52466; Croatia,45.316772,13.559227,Seafood/ Mediterranean Cuisine,75.0,false,true,,0.0,0
 Jeny,Croatia,Tucepi,D512; Tucepi; 21325; Croatia,43.277737,17.061975,Modern Cuisine,120.0,false,true,,0.0,0
-Konoba Zijavica,Croatia,Mošćenička Draga,Šetalište 25. travnja 2; Mošćenička Draga; 51417; Croatia,45.2366041,14.2544333,Seafood/ Seasonal Cuisine,75.0,false,true,,0.0,0
+Konoba Zijavica,Croatia,Mošćeni�?ka Draga,Šetalište 25. travnja 2; Mošćeni�?ka Draga; 51417; Croatia,45.2366041,14.2544333,Seafood/ Seasonal Cuisine,75.0,false,true,,0.0,0
 Filippi,Croatia,Korcula,Šetalište Petra Kanavelića; Korcula; 20260; Croatia,42.9615394,17.136996,Mediterranean Cuisine/ Regional Cuisine,75.0,false,true,,0.0,0
 Batelina,Croatia,Banjole,Čimulje 25; Banjole; 52100; Croatia,44.82483,13.866587,Seafood,40.0,false,true,,0.0,0
 Dubrovnik,Croatia,Dubrovnik,Marojice Kaboge 5; Dubrovnik; 20000; Croatia,42.640522,18.109539,Mediterranean Cuisine,75.0,false,true,,0.0,0
 Wine Vault Restaurant - Levante Edition,Croatia,Rovinj,Ul. Antonia Smareglie 3; Rovinj; 52210; Croatia,45.0726767,13.6368122,Regional Cuisine/ Contemporary,120.0,false,true,,0.0,0
-ManO2,Croatia,Zagreb,Radnička cesta 50; Zagreb; 10000; Croatia,45.8026606,16.0021755,Croatian/ Contemporary,75.0,false,true,,0.0,0
+ManO2,Croatia,Zagreb,Radni�?ka cesta 50; Zagreb; 10000; Croatia,45.8026606,16.0021755,Croatian/ Contemporary,75.0,false,true,,0.0,0
 Zrno Soli,Croatia,Split,Uvala Baluni 8; Split; 21000; Croatia,43.5011929,16.4298974,Seafood/ Mediterranean Cuisine,120.0,false,true,,0.0,0
 Kadena,Croatia,Split,Ivana pl. Zajca 4; Split; 21000; Croatia,43.5015874,16.4595869,International/ Seasonal Cuisine,75.0,false,true,,0.0,0
 Dunav,Croatia,Ilok,Julija Benešića; 62; Ilok; 32236; Croatia,45.2302782,19.3798675,Country cooking/ Regional Cuisine,40.0,false,true,,0.0,0
@@ -14744,9 +14744,9 @@ Bedem,Croatia,Varazdin,Vladirmira Nazora 9; Varazdin; 42000; Croatia,46.311234,1
 Maredo,Croatia,Zagreb,Florijana Andrašeca 14; Zagreb; 10000; Croatia,45.80114,15.9611,Grills/ Classic Cuisine,40.0,false,true,,0.0,0
 PiNKU fish & wine,Croatia,Split,Ul. Obrov 4; Split; 21000; Croatia,43.5092213,16.4376232,Seafood/ Modern Cuisine,75.0,false,true,,0.0,0
 Konoba Kala,Croatia,Supetar,Kala 7; Supetar; 21400; Croatia,43.3841,16.55529,Croatian,75.0,false,true,,0.0,0
-Restaurant Mare,Croatia,Trogir,Lučica 11; Trogir; 21220; Croatia,43.51388,16.25082,Modern Cuisine,40.0,false,true,,0.0,0
+Restaurant Mare,Croatia,Trogir,Lu�?ica 11; Trogir; 21220; Croatia,43.51388,16.25082,Modern Cuisine,40.0,false,true,,0.0,0
 Zinfandel Food & Wine bistro,Croatia,Split,Marulićeva ul. 2; Split; 21000; Croatia,43.5084024,16.4390742,Modern Cuisine,40.0,false,true,,0.0,0
-Torero,Croatia,Zagreb,Ivana Tkalčića 84; Zagreb; 10000; Croatia,45.8186374,15.9765136,Modern Cuisine,75.0,false,true,,0.0,0
+Torero,Croatia,Zagreb,Ivana Tkal�?ića 84; Zagreb; 10000; Croatia,45.8186374,15.9765136,Modern Cuisine,75.0,false,true,,0.0,0
 Spinnaker,Croatia,Porec,Obala Maršala Tita 15; Porec; 52440; Croatia,45.2272298,13.5924544,Mediterranean Cuisine/ Creative,75.0,false,true,,0.0,0
 Marina,Croatia,Novigrad,Ulica Sv. Antona 38; Novigrad; 52466; Croatia,45.319618,13.56541,Creative,75.0,false,true,,0.0,0
 Konoba Boba,Croatia,Murter,Ulica Butina 22; Murter; 22243; Croatia,43.82326,15.594688,Modern Cuisine,75.0,false,true,,0.0,0
@@ -14757,11 +14757,11 @@ Franka,Croatia,Trogir,Šubićeva ul. 30; Trogir; 21220; Croatia,43.517094,16.249
 Bekal,Croatia,Zagreb,Kostelska Ulica 11; Zagreb; 10000; Croatia,45.8013015,15.9493188,Croatian/ Contemporary,40.0,false,true,,0.0,0
 Matsunoki,Croatia,Mali Lošinj,Čikat 9; Mali Lošinj; 51550; Croatia,44.53217,14.45527,Japanese Contemporary/ Fusion,75.0,false,true,,0.0,0
 Theatrium by Filho,Croatia,Zagreb,Teslina 7; Zagreb; 10000; Croatia,45.8111548,15.9761396,Mediterranean Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
-Otok,Croatia,Supetar,Vlačica 3; Supetar; 21400; Croatia,43.3846158,16.553267,Croatian,40.0,false,true,,0.0,0
+Otok,Croatia,Supetar,Vla�?ica 3; Supetar; 21400; Croatia,43.3846158,16.553267,Croatian,40.0,false,true,,0.0,0
 Mediterraneo,Croatia,Hvar,Braće Bibić 13; Hvar; 21450; Croatia,43.17123,16.44177,Croatian,40.0,false,true,,0.0,0
 BÒME,Croatia,Split,Ul. Dinka Šimunovića 14a; Split; 21000; Croatia,43.5056955,16.4738468,Mediterranean Cuisine,40.0,false,true,,0.0,0
 Tekka by Lone,Croatia,Rovinj,Ul. Luje Adamovića 31; Rovinj; 52210; Croatia,45.0731609,13.6392588,Japanese/ International,75.0,false,true,,0.0,0
-Mala Hiza,Croatia,Mačkovec,Balogovec; 1; Mačkovec; 40000; Croatia,46.4229626,16.4279019,Regional Cuisine,40.0,false,true,,0.0,0
+Mala Hiza,Croatia,Ma�?kovec,Balogovec; 1; Ma�?kovec; 40000; Croatia,46.4229626,16.4279019,Regional Cuisine,40.0,false,true,,0.0,0
 Bistro Tavulin,Croatia,Dubrovnik,Cvijete Zuzorić 1; Dubrovnik; 20000; Croatia,42.640564,18.110249,Traditional Cuisine/ Classic Cuisine,40.0,false,true,,0.0,0
 Balon,Croatia,Zagreb,Prisavlje 2a; Zagreb; 10000; Croatia,45.7901058,15.9617033,Mediterranean Cuisine/ Croatian,75.0,false,true,,0.0,0
 Nicolo Polo,Croatia,Gradac,Obala 15; Gradac; 21330; Croatia,43.1042265,17.3441724,Mediterranean Cuisine,40.0,false,true,,0.0,0
@@ -14773,13 +14773,13 @@ Le Bistro Esplanade,Croatia,Zagreb,Mihanoviceva Ulica 1; Zagreb; 10000; Croatia,
 Takenoko,Croatia,Zagreb,Preradovićeva 22; Zagreb; 10000; Croatia,45.8099195,15.9743802,Japanese/ Fusion,40.0,false,true,,0.0,0
 Nav,Croatia,Zagreb,Masarykova Ulica 11a; Zagreb; 10000; Croatia,45.810604,15.9728635,Creative,120.0,false,true,,0.0,0
 Mon Ami,Croatia,Velika Gorica,Trg Kralja Tomislava; 26; Velika Gorica; 10410; Croatia,45.7112127,16.0801126,Mediterranean Cuisine,75.0,false,true,,0.0,0
-Bugenvila,Croatia,Cavtat,Put dr. Ante Starčevića 9; Cavtat; 20210; Croatia,42.5823895,18.2166585,Mediterranean Cuisine,75.0,false,true,,0.0,0
-Marco Polo,Croatia,Dubrovnik,Lučarica 6; Dubrovnik; 20000; Croatia,42.640703,18.1099112,Mediterranean Cuisine,40.0,false,true,,0.0,0
+Bugenvila,Croatia,Cavtat,Put dr. Ante Star�?evića 9; Cavtat; 20210; Croatia,42.5823895,18.2166585,Mediterranean Cuisine,75.0,false,true,,0.0,0
+Marco Polo,Croatia,Dubrovnik,Lu�?arica 6; Dubrovnik; 20000; Croatia,42.640703,18.1099112,Mediterranean Cuisine,40.0,false,true,,0.0,0
 Morgan,Croatia,Brtonigla,Bracanija 1; Brtonigla; 52474; Croatia,45.385498,13.642433,Traditional Cuisine/ Seasonal Cuisine,75.0,false,true,,0.0,0
 San Rocco,Croatia,Brtonigla,Srednja ulica 2; Brtonigla; 52474; Croatia,45.3776783,13.6242143,Contemporary/ Modern Cuisine,75.0,false,true,,0.0,0
 Vapor,Croatia,Dubrovnik,Hotel Bellevue; Pera Čingrije 7; Dubrovnik; 20000; Croatia,42.6468469,18.0922684,Modern Cuisine,120.0,false,true,,0.0,0
 Gallo,Croatia,Zagreb,Hebrangova 34; Zagreb; 10000; Croatia,45.8090898,15.97329,Seafood/ Mediterranean Cuisine,75.0,false,true,,0.0,0
-Johnson,Croatia,Mošćenička Draga,Majčevo 29b; Mošćenička Draga; 51417; Croatia,45.2389541,14.2488125,Seafood,40.0,false,true,,0.0,0
+Johnson,Croatia,Mošćeni�?ka Draga,Maj�?evo 29b; Mošćeni�?ka Draga; 51417; Croatia,45.2389541,14.2488125,Seafood,40.0,false,true,,0.0,0
 Zuzori,Croatia,Dubrovnik,Cvijete Zuzoric 2; Dubrovnik; 20000; Croatia,42.6407,18.1098,Mediterranean Cuisine,75.0,false,true,,0.0,0
 Proto Fish,Croatia,Dubrovnik,Široka ul 1; Dubrovnik; 20000; Croatia,42.641304,18.108404,Seafood,75.0,false,true,,0.0,0
 Il Ponte,Croatia,Trogir,Kardinala Alojza Stepinca 15a; Trogir; 21220; Croatia,43.5190802,16.2502609,Contemporary,75.0,false,true,,0.0,0
@@ -14823,7 +14823,7 @@ Ronan,USA,Los Angeles,7315 Melrose Ave.; Los Angeles; 90046; USA,34.08361,-118.3
 Barbareño,USA,Santa Barbara,205 W. Canon Perdido St.; Santa Barbara; 93101; USA,34.422848,-119.69819,Californian,30.0,false,true,,0.0,0
 Yoichi’s,USA,Santa Barbara,230 E. Victoria St.; Santa Barbara; 93101; USA,34.426804,-119.70299,Japanese,30.0,false,true,,0.0,0
 Chosun Galbee,USA,Los Angeles,3330 W. Olympic Blvd.; Los Angeles; 90019; USA,34.0526,-118.310326,Korean/ Barbecue,30.0,false,true,,0.0,0
-majordōmo,USA,Los Angeles,1725 Naud St.; Los Angeles; 90012; USA,34.0694388,-118.2256022,Asian/ Contemporary,30.0,false,true,,0.0,0
+majord�?mo,USA,Los Angeles,1725 Naud St.; Los Angeles; 90012; USA,34.0694388,-118.2256022,Asian/ Contemporary,30.0,false,true,,0.0,0
 Yong Su San,USA,Los Angeles,950 S. Vermont Ave.; Los Angeles; 90006; USA,34.053997,-118.29128,Korean/ Regional Cuisine,30.0,false,true,,0.0,0
 Montrio Bistro,USA,Monterey,414 Calle Principal; Monterey; 93940; USA,36.599761,-121.8953049,Contemporary,30.0,false,true,,0.0,0
 The Stonehouse,USA,Santa Barbara,900 San Ysidro Ln.; Santa Barbara; 93108; USA,34.446564,-119.623146,American,30.0,false,true,,0.0,0
@@ -15077,7 +15077,7 @@ Ken,USA,San Francisco,252 Divisadero St.; San Francisco; 94117; USA,37.7714702,-
 Saffy's,USA,Los Angeles,4845 Fountain Ave.; Los Angeles; 90029; USA,34.0954746,-118.2951512,Middle Eastern,30.0,false,true,,0.0,0
 Les Petites Canailles,USA,Paso Robles,1215 Spring St.; Paso Robles; 93446; USA,35.6269947,-120.6916397,French,30.0,false,true,,0.0,0
 Sorella,USA,San Francisco,1760 Polk St.; San Francisco; 94109; USA,37.7931112,-122.4210529,Italian/ Californian,30.0,false,true,,0.0,0
-kodō,USA,Los Angeles,710 S. Santa Fe Ave.; Los Angeles; 90021; USA,34.0343252,-118.2299181,Izakaya/ Sushi,30.0,false,true,,0.0,0
+kod�?,USA,Los Angeles,710 S. Santa Fe Ave.; Los Angeles; 90021; USA,34.0343252,-118.2299181,Izakaya/ Sushi,30.0,false,true,,0.0,0
 Gusto Handcrafted Pasta & Pizza,USA,Seaside,1901 Fremont Blvd.; Seaside; 93955; USA,36.6167466,-121.8418416,Italian-American,30.0,false,true,,0.0,0
 Itria,USA,San Francisco,3266 24th St.; San Francisco; 94110; USA,37.7524374,-122.417821,Italian/ Contemporary,30.0,false,true,,0.0,0
 Boozehounds,USA,Palm Springs,2080 N. Palm Canyon Dr.; Palm Springs; 92262; USA,33.8482,-116.5469,International,30.0,false,true,,0.0,0
@@ -15156,7 +15156,7 @@ Taian Table,China Mainland,Guangzhou,2F; LN Garden Hotel; 368 Huanshi East Road;
 Song,China Mainland,Guangzhou,Shop 417; 4F; G.T. Land Plaza Winter; 16 Zhujiang East Road; Zhujiang New Town; Tianhe; Guangzhou; China Mainland,23.12226,113.321903,Sichuan,30.0,false,true,,0.0,0
 Yu Garden,China Mainland,Guangzhou,6 Tianshun Road; Huangpu; Guangzhou; China Mainland,23.179545,113.4142336,Fujian,30.0,false,true,,0.0,0
 Wisca (Haizhu),China Mainland,Guangzhou,172 Binjiang West Road; Haizhu; Guangzhou; China Mainland,23.110752,113.254258,Cantonese,30.0,false,true,,0.0,0
-Chōwa,China Mainland,Guangzhou,Shop C04-1; South Gate; The Canton Place; 46 Haifeng Road; Zhujiang New Town; Tianhe; Guangzhou; China Mainland,23.1166386,113.3347349,Innovative,30.0,false,true,,0.0,0
+Ch�?wa,China Mainland,Guangzhou,Shop C04-1; South Gate; The Canton Place; 46 Haifeng Road; Zhujiang New Town; Tianhe; Guangzhou; China Mainland,23.1166386,113.3347349,Innovative,30.0,false,true,,0.0,0
 Yong,China Mainland,Guangzhou,Xi'an Garden; 18 Xuguyuan Road; Yuexiu; Guangzhou; 510000; China Mainland,23.1214657,113.2911037,Sichuan,30.0,false,true,,0.0,0
 Stiller,China Mainland,Guangzhou,2F; LN Garden Hotel; 368 Huanshi East Road; Yuexiu; Guangzhou; China Mainland,23.138026,113.280695,European,30.0,false,true,,0.0,0
 Lingnan House,China Mainland,Guangzhou,5F; Rosewood Hotel; 6 Zhujiang East Road; Tianhe; Guangzhou; China Mainland,23.119891,113.320629,Cantonese,30.0,false,true,,0.0,0
@@ -15360,7 +15360,7 @@ Venta Moncalvillo,Spain,Daroca de Rioja,Carretera Medrano 6; Daroca de Rioja; 26
 Cabaña Buenavista,Spain,El Palmar,Calle Buenavista s/n - Urbanización Buenavista; El Palmar; 30120; Spain,37.92464,-1.163767,Creative,120.0,false,true,,0.0,0
 Les Cols,Spain,Olot,Carretera de la Canya; Olot; 17800; Spain,42.1946503,2.5009,Creative,120.0,false,true,,0.0,0
 Mugaritz,Spain,Errenteria,Aldura Aldea 20 - Otzazulueta Baserria; Errenteria; 20100; Spain,43.2722067,-1.9171152,Innovative,120.0,false,true,,0.0,0
-Iván Cerdeño,Spain,Toledo,Cigarral del Ángel; Toledo; 45004; Spain,39.8619154,-4.0462052,Modern Cuisine,120.0,false,true,,0.0,0
+Iván Cerdeño,Spain,Toledo,Cigarral del �?ngel; Toledo; 45004; Spain,39.8619154,-4.0462052,Modern Cuisine,120.0,false,true,,0.0,0
 Culler de Pau,Spain,O Grove,Reboredo 73; O Grove; 36980; Spain,42.4752854,-8.8957637,Creative,120.0,false,true,,0.0,0
 M.B,Spain,Guía de Isora,Maria Zambrano 2; Carretera TF 47; Guía de Isora; 38687; Spain,28.171041,-16.799017,Contemporary,120.0,false,true,,0.0,0
 LÚ Cocina y Alma,Spain,Jerez de la Frontera,Zaragoza 2; Jerez de la Frontera; 11402; Spain,36.6876345,-6.1357554,Modern Cuisine,120.0,false,true,,0.0,0
@@ -15417,8 +15417,8 @@ Jingji,China Mainland,Beijing,2F; The Ritz-Carlton Hotel; 83A Jianguo Road; Chao
 Shanghai Cuisine,China Mainland,Beijing,South side of Pacific Century Place; 2A Gongrentiyuchang North Road; Chaoyang; Beijing; 100027; China Mainland,39.930881,116.453254,Shanghainese,30.0,false,true,,0.0,0
 Lu Shang Lu,China Mainland,Beijing,2A01-2A03 / 2A05-2A13; 2F; Sunshine Financial Center; No.1 Tower; 33 Jinghui Street; Chaoyang; Beijing; China Mainland,39.9106329,116.4570814,Shandong,30.0,false,true,,0.0,0
 VYN,Sweden,Simrishamn,Höga vägen 72; Simrishamn; 272 92; Sweden,55.49664,14.31283,Creative,120.0,false,true,,0.0,0
-Fleur de Sel,Serbia,Novi Slankamen,Počenta bb; Novi Slankamen; 22323; Serbia,45.16454,20.19224,Modern Cuisine/ Contemporary,120.0,false,true,,0.0,0
-Langouste,Serbia,Belgrade,Kosančićev Venac 29; Belgrade; 11000; Serbia,44.8176948,20.450754,Modern Cuisine/ Contemporary,75.0,false,true,,0.0,0
+Fleur de Sel,Serbia,Novi Slankamen,Po�?enta bb; Novi Slankamen; 22323; Serbia,45.16454,20.19224,Modern Cuisine/ Contemporary,120.0,false,true,,0.0,0
+Langouste,Serbia,Belgrade,Kosan�?ićev Venac 29; Belgrade; 11000; Serbia,44.8176948,20.450754,Modern Cuisine/ Contemporary,75.0,false,true,,0.0,0
 IDAM by Alain Ducasse,Qatar,Doha,5th Floor; Museum of Islamic Art; Corniche Promenade; Doha; Qatar,25.2957162,51.5393359,French Contemporary,30.0,false,true,,0.0,0
 Jamavar,Qatar,Doha,Al Corniche Street; West Bay; Doha; Qatar,25.3185882,51.5363128,Indian,30.0,false,true,,0.0,0
 Narımor,Türkiye,Izmir,Sıra Mahallesi; Eren Sokak; Urla; Izmir; 35320; Türkiye,38.3193131,26.7672542,Turkish/ Modern Cuisine,30.0,false,true,,0.0,0
@@ -15557,7 +15557,7 @@ Alejandro Serrano,Spain,Miranda de Ebro,Alfonso VI 49; Miranda de Ebro; 09200; S
 La Finca,Spain,Elche,Partida de Perleta 1-7; Elche; 03295; Spain,38.2558416,-0.6492128,Creative,120.0,false,true,,0.0,0
 La Bicicleta,Spain,Hoznayo,La Plaza 12; Hoznayo; 39716; Spain,43.390118,-3.701983,Modern Cuisine,120.0,false,true,,0.0,0
 Chispa Bistró,Spain,Madrid,Barquillo 8; Madrid; 28004; Spain,40.4202857,-3.6956288,Modern Cuisine,75.0,false,true,,0.0,0
-Árbore da Veira,Spain,A Coruña,Parque Monte San Pedro; A Coruña; 15011; Spain,43.377457,-8.433224,Creative,75.0,false,true,,0.0,0
+�?rbore da Veira,Spain,A Coruña,Parque Monte San Pedro; A Coruña; 15011; Spain,43.377457,-8.433224,Creative,75.0,false,true,,0.0,0
 Ricardo Sanz Wellington,Spain,Madrid,Velázquez 6; Madrid; 28001; Spain,40.4219171,-3.6843864,Japanese Contemporary,120.0,false,true,,0.0,0
 Choco,Spain,Córdoba,Compositor Serrano Lucena 14; Córdoba; 14010; Spain,37.8850096,-4.7623009,Creative/ Andalusian,120.0,false,true,,0.0,0
 Ikaro,Spain,Logrono,Avenida de Portugal 3; Logrono; 26001; Spain,42.4643127,-2.4482165,Creative,75.0,false,true,,0.0,0
@@ -15598,7 +15598,7 @@ Santerra,Spain,Madrid,General Pardiñas 56; Madrid; 28001; Spain,40.4289405,-3.6
 Atempo,Spain,Barcelona,Còrsega 200; Barcelona; 08036; Spain,41.3910001,2.1522177,Modern Cuisine,120.0,false,true,,0.0,0
 Tula,Spain,Xàbia,Avenida de la Llibertat 36; Xàbia; 03730; Spain,38.7707289,0.1925837,Mediterranean Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
 Messina,Spain,Marbella,Avenida Severo Ochoa 12; Marbella; 29603; Spain,36.5084597,-4.8806499,Creative,120.0,false,true,,0.0,0
-Barro,Spain,Ávila,Carretera de Salamanca 4; Ávila; 05002; Spain,40.6577005,-4.709749,Creative,120.0,false,true,,0.0,0
+Barro,Spain,�?vila,Carretera de Salamanca 4; �?vila; 05002; Spain,40.6577005,-4.709749,Creative,120.0,false,true,,0.0,0
 La Costa,Spain,El Ejido,Bulevar 48; El Ejido; 04700; Spain,36.7709659,-2.8276459,Contemporary/ Mediterranean Cuisine,120.0,false,true,,0.0,0
 Cancook,Spain,Saragossa,de León XIII 2-4; Saragossa; 50008; Spain,41.6471441,-0.8804518,Creative,120.0,false,true,,0.0,0
 Il Bocconcino by Royal Hideaway,Spain,Adeje,Avenida Virgen de Guadalupe 21; La Caleta; Adeje; 38679; Spain,28.1020231,-16.7539875,Italian Contemporary,75.0,false,true,,0.0,0
@@ -16486,7 +16486,7 @@ Azafrán,Spain,Villarrobledo,Avenida Reyes Católicos 71; Villarrobledo; 02600; 
 Frisone,Spain,Elche,Borreguet 4; Elche; 03203; Spain,38.26194,-0.69566,Traditional Cuisine/ Contemporary,40.0,false,true,,0.0,0
 Kimtxu,Spain,Bilbao,Henao 17; Bilbao; 48009; Spain,43.2648138,-2.9329932,Fusion,40.0,false,true,,0.0,0
 Prada a Tope,Spain,Treceño,El Ansar 1; Treceño; 39592; Spain,43.31639,-4.29995,Traditional Cuisine,40.0,false,true,,0.0,0
-La Cocina de Manuel,Spain,Valladolid,Álvarez Taladriz 4; Valladolid; 47007; Spain,41.6379148,-4.7377547,Traditional Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
+La Cocina de Manuel,Spain,Valladolid,�?lvarez Taladriz 4; Valladolid; 47007; Spain,41.6379148,-4.7377547,Traditional Cuisine/ Modern Cuisine,40.0,false,true,,0.0,0
 Komfort,Spain,Calp,Urbanización Marisol Park 1A; Calp; 03710; Spain,38.6474418,0.0611085,Contemporary,40.0,false,true,,0.0,0
 Del Oso,Spain,Cosgaya,Barrio Areños 2; Cosgaya; 39582; Spain,43.1150441,-4.7297281,Home Cooking,40.0,false,true,,0.0,0
 Silbo Gomero,Spain,San Cristóbal de la Laguna,Volcán Elena 9; San Cristóbal de la Laguna; 38108; Spain,28.4590906,-16.3020968,Contemporary,40.0,false,true,,0.0,0
@@ -16516,7 +16516,7 @@ La Gruta,Spain,L'Escala,Pintor Enric Serra 44; L'Escala; 17130; Spain,42.1242245
 A Taberna do Trasno,Spain,Cambados,Príncipe 12; Cambados; 36630; Spain,42.5178743,-8.8140217,Traditional Cuisine/ Fusion,40.0,false,true,,0.0,0
 Trasiego,Spain,Barbastro,Avenida de La Merced 64; Barbastro; 22300; Spain,42.0339451,0.1201515,Traditional Cuisine,40.0,false,true,,0.0,0
 Antoni Rubies,Spain,Artesa de Lleida,Lleida 6; Artesa de Lleida; 25150; Spain,41.553394,0.7052084,Rice Dishes,20.0,false,true,,0.0,0
-La Posada de Águeda,Spain,Requena,Carretera N-III; Requena; 46340; Spain,39.4832524,-1.0979317,Traditional Cuisine,40.0,false,true,,0.0,0
+La Posada de �?gueda,Spain,Requena,Carretera N-III; Requena; 46340; Spain,39.4832524,-1.0979317,Traditional Cuisine,40.0,false,true,,0.0,0
 Es Terral,Spain,Santa Eulalia del Río,Sant Vicent 47; Santa Eulalia del Río; 07840; Spain,38.9856038,1.5347006,French,40.0,false,true,,0.0,0
 El Espejo - Sanlúcar,Spain,Sanlúcar de Barrameda,Caballeros 11; Sanlúcar de Barrameda; 11540; Spain,36.7756305,-6.3542926,Modern Cuisine,40.0,false,true,,0.0,0
 Llantén,Spain,Valladolid,Encina 11; Valladolid; 47153; Spain,41.5892014,-4.7504631,Traditional Cuisine,40.0,false,true,,0.0,0
@@ -16938,7 +16938,7 @@ ryba,Unknown,Abu Dhabi,31 Al Marabi‘ Street; Zayed Port; Al Mina; Abu Dhabi,24
 Almayass,Unknown,Abu Dhabi,The Galleria Mall Al Maryah Island; Level 1; Abu Dhabi,24.501757,54.3881576,Lebanese/ Armenian,30.0,false,true,,0.0,0
 Otoro,Unknown,Abu Dhabi,Al Qana Marina South; Al Maqta' Street; Abu Dhabi,24.4027124,54.4933832,Japanese Contemporary,30.0,false,true,,0.0,0
 Snatch,Latvia,Riga,Elizabetes iela 39; Riga; 1010; Latvia,56.9573304,24.1122734,Italian,40.0,false,true,,0.0,0
-Shōyu,Latvia,Riga,Ausekļa iela 20; Riga; 1010; Latvia,56.9623049,24.1004265,Japanese/ Ramen,40.0,false,true,,0.0,0
+Sh�?yu,Latvia,Riga,Ausekļa iela 20; Riga; 1010; Latvia,56.9623049,24.1004265,Japanese/ Ramen,40.0,false,true,,0.0,0
 Milda,Latvia,Riga,Kungu iela 8; Riga; 1050; Latvia,56.9460552,24.109604,Traditional Cuisine,40.0,false,true,,0.0,0
 Fry-ya,Japan,Tokyo,B1F; 1-32-11 Takadanobaba; Shinjuku-ku; Tokyo; 169-0075; Japan,35.71082,139.70387,Tonkatsu/ Yoshoku,30.0,false,true,,0.0,0
 Pot-Bouille,Japan,Tokyo,5-22-1 Hiro; Shibuya-ku; Tokyo; 150-0012; Japan,35.648619,139.717783,French,30.0,false,true,,0.0,0
@@ -17974,7 +17974,7 @@ Kreinbacher Birtok,Hungary,Somlóvásárhely,Somlóhegy; hrsz. 022/14; PF. 3.; S
 Blanca,USA,Brooklyn,261 Moore St.; Brooklyn; 11206; USA,40.7049906,-73.9336873,Contemporary,30.0,false,true,,0.0,0
 Vinum,United States,Staten Island,704 Bay St.; Staten Island; 10304; United States,40.624893,-74.074715,Italian,30.0,false,true,,0.0,0
 The Red Balloon Yalıkavak,Türkiye,Bodrum,Yalıkavak; Mevkii; Kudur; Şehit Engin Büyüksöylemez Caddesi No:9; Bodrum; 48890; Türkiye,37.1212391,27.2802106,Modern Cuisine/ Turkish,30.0,false,true,,0.0,0
-Asiakō,Spain,Madrid,Marqués de Riscal 5; Madrid; 28010; Spain,40.4306194,-3.6916946,Fusion,75.0,false,true,,0.0,0
+Asiak�?,Spain,Madrid,Marqués de Riscal 5; Madrid; 28010; Spain,40.4306194,-3.6916946,Fusion,75.0,false,true,,0.0,0
 Bruixes de Burriac,Spain,Altafulla,Cup 2; Altafulla; 43893; Spain,41.1421746,1.3754855,Traditional Cuisine,40.0,false,true,,0.0,0
 Comparte Bistró,Spain,Madrid,Belén 6; Madrid; 28004; Spain,40.4241805,-3.6966896,Market Cuisine,40.0,false,true,,0.0,0
 Kairiku,Spain,Campos,Nou 10; Campos; 07630; Spain,39.4334844,3.0185936,Japanese,30.0,false,true,,0.0,0
@@ -18030,7 +18030,7 @@ Ferrier 30,Belgium,Antwerpen,Leopold de Waelplaats 30; Antwerpen; 2000; Belgium,
 Basa,Argentina,Buenos Aires,Basavilbaso 1328; Buenos Aires; C1006AAD; Argentina,-34.5924602,-58.377135,Mediterranean Cuisine,30.0,false,true,,0.0,0
 Piedra Infinita Cocina,Argentina,Mendoza,Costa Canal Uco Paraje Altamira; Mendoza; M5569; Argentina,-33.781445,-69.1702416,Contemporary,30.0,false,true,,0.0,0
 La Carniceria,Argentina,Buenos Aires,Thames 2317; Buenos Aires; C1425FIG; Argentina,-34.5827037,-58.423512,Meats and Grills,30.0,false,true,,0.0,0
-Águila Pabellón,Argentina,Buenos Aires,Avenida Sarmiento 2725; Buenos Aires; C1425FGC; Argentina,-34.5792565,-58.4188001,Contemporary,30.0,false,true,,0.0,0
+�?guila Pabellón,Argentina,Buenos Aires,Avenida Sarmiento 2725; Buenos Aires; C1425FGC; Argentina,-34.5792565,-58.4188001,Contemporary,30.0,false,true,,0.0,0
 Cauce,Argentina,Buenos Aires,Avenida Alicia Moreau De Justo 440; Buenos Aires; C1107AAJ; Argentina,-34.6031969,-58.3673318,Meats and Grills/ Argentinian,30.0,false,true,,0.0,0
 Kitchen Table at Bubbledogs,United Kingdom,London,70 Charlotte Street; London; W1T 4QG; United Kingdom,51.5203616,-0.13647,Modern Cuisine,30.0,false,true,,0.0,0
 EssZimmer,Germany,Munich,Am Olympiapark 1; Munich; 80807; Germany,48.1767085,11.5573753,Modern French/ Creative,120.0,false,true,,0.0,0
@@ -18281,7 +18281,7 @@ Joyful Dessert House,Hong Kong SAR China,Hong Kong,74 Hak Po Street; Hong Kong,2
 Cornerstone,Hong Kong SAR China,Hong Kong,49 Hollywood Road; Central; Hong Kong,22.2826725,114.1530743,European Contemporary,30.0,false,true,,0.0,0
 La Brasserie,Hong Kong SAR China,Hong Kong,GF; Lyndhurst Building; 23-29 Lyndhurst Terrace; Central; Hong Kong,22.28271,114.15365,French,30.0,false,true,,0.0,0
 Jing Alley,Hong Kong SAR China,Hong Kong,145 Connaught Road Central; Hong Kong,22.2872129,114.1512607,Sichuan,30.0,false,true,,0.0,0
-Romando,Portugal,Árvore,Rua da Fonte 221; Árvore; 4480-068; Portugal,41.33316,-8.722646,Traditional Cuisine,40.0,false,true,,0.0,0
+Romando,Portugal,�?rvore,Rua da Fonte 221; �?rvore; 4480-068; Portugal,41.33316,-8.722646,Traditional Cuisine,40.0,false,true,,0.0,0
 Alambique,Portugal,Almancil,Estrada de Vale do Lobo a Quinta do Lago; Almancil; 8135-160; Portugal,37.0619977,-8.046278,Traditional Cuisine,30.0,false,true,,0.0,0
 Terra,Portugal,Porto,Rua do Padrão 103; Porto; 4150-559; Portugal,41.1567373,-8.6796962,Asian Influences,30.0,false,true,,0.0,0
 Dona Júlia,Portugal,Braga,Falperra; Braga; 4715-390; Portugal,41.5209801,-8.3892235,Regional Cuisine,40.0,false,true,,0.0,0
@@ -18704,7 +18704,7 @@ Can Domo,Spain,Santa Eulalia del Río,Carretera Jesús-Cala Llonga; Santa Eulali
 Asador Zubiondo,Spain,Huarte,Avenida Roncesvalles 1; Huarte; 31620; Spain,42.8325988,-1.5860352,Traditional Cuisine,30.0,false,true,,0.0,0
 El Drac,Spain,Calella,Turisme 72; Calella; 08370; Spain,41.6112653,2.650109,Creative,30.0,false,true,,0.0,0
 Rocacho,Spain,Madrid,Padre Damián 38; Madrid; 28036; Spain,40.4579606,-3.6856332,Traditional Cuisine,75.0,false,true,,0.0,0
-Hōchō,Spain,Valencia,Passeig de l'Albereda 32; Valencia; 46023; Spain,39.4674302,-0.360007,Japanese,40.0,false,true,,0.0,0
+H�?ch�?,Spain,Valencia,Passeig de l'Albereda 32; Valencia; 46023; Spain,39.4674302,-0.360007,Japanese,40.0,false,true,,0.0,0
 Ispal,Spain,Seville,Plaza de San Sebastián 1; Seville; 41004; Spain,37.3812825,-5.986592,Modern Cuisine,75.0,false,true,,0.0,0
 Jardín del Alma,Spain,Barcelona,Mallorca 271; Barcelona; 08008; Spain,41.3945161,2.1633755,Traditional Cuisine,75.0,false,true,,0.0,0
 Cal Xirricló,Spain,Balaguer,Doctor Fleming 53; Balaguer; 25600; Spain,41.7884063,0.8098389,Creative/ Traditional Cuisine,30.0,false,true,,0.0,0
@@ -18993,7 +18993,7 @@ Popina,United States,New York,127 Columbia St.; New York; 11231; United States,4
 Inga's Bar,USA,New York,66 Hicks St.; New York; 11201; USA,40.699959,-73.9937257,American,30.0,false,true,,0.0,0
 Laser Wolf,USA,New York,97 Wythe Ave.; New York; 11249; USA,40.7208186,-73.9587178,Middle Eastern/ Regional Cuisine,30.0,false,true,,0.0,0
 Risbo,USA,New York,701 Flatbush Ave.; New York; 11225; USA,40.656084,-73.9602312,American/ Grills,30.0,false,true,,0.0,0
-Đi Ăn Đi,USA,New York,68 Greenpoint Ave.; New York; 11222; USA,40.7297087,-73.9581758,Vietnamese/ Contemporary,30.0,false,true,,0.0,0
+�?i Ăn �?i,USA,New York,68 Greenpoint Ave.; New York; 11222; USA,40.7297087,-73.9581758,Vietnamese/ Contemporary,30.0,false,true,,0.0,0
 LittleMäd,USA,New York,110 Madison Ave.; New York; 10016; USA,40.7450973,-73.9849484,Korean Contemporary/ Asian,30.0,false,true,,0.0,0
 Patricia’s,United States,New York,1082 Morris Park Ave.; New York; 10461; United States,40.8493908,-73.8536198,Italian/ Italian-American,30.0,false,true,,0.0,0
 Liebman's,United States,New York,552 W. 235th St.; New York; 10463; United States,40.8855188,-73.909595,Deli/ American,30.0,false,true,,0.0,0
@@ -19042,7 +19042,7 @@ Qi,China Mainland,1 Jinchengfang East Street,1 Jinchengfang East Street; Beijing
 Huang Ting,China Mainland,8 Jinyu Hutong,B2 Level; The Peninsula Hotel; 8 Jinyu Hutong; Beijing; China Mainland,39.9135481,116.410166,Cantonese,30.0,false,true,,0.0,0
 Sue Cuisine (Jiangtai Road),China Mainland,6 Jiangtai Road,6 Jiangtai Road; Beijing; China Mainland,39.976326,116.471506,Huaiyang,30.0,false,true,,0.0,0
 Le Vif,China Mainland,Chaoyang,A11-1; No.92 Courtyard; 92 Dongsihuan Middle Road; Chaoyang; Beijing; China Mainland,39.889503,116.4844497,French Contemporary,30.0,false,true,,0.0,0
-Hānai,Canada,Vancouver,1590 Commercial Dr.; Vancouver; V5L 3Y2; Canada,49.2706273,-123.0692744,Hawaiian/ Contemporary,30.0,false,true,,0.0,0
+H�?nai,Canada,Vancouver,1590 Commercial Dr.; Vancouver; V5L 3Y2; Canada,49.2706273,-123.0692744,Hawaiian/ Contemporary,30.0,false,true,,0.0,0
 Gasthof Kreuz,Switzerland,Mühledorf,Hauptstrasse 5; Mühledorf; 4583; Switzerland,47.133683,7.475012,Traditional Cuisine/ Classic Cuisine,40.0,false,true,,0.0,0
 Waldheim,Switzerland,Berne,Waldheimstrasse 40; Berne; 3012; Switzerland,46.9541235,7.4265873,Seasonal Cuisine,40.0,false,true,,0.0,0
 Taverna Romana im Sternen,Switzerland,Hessigkofen,Hauptstrasse 24; Hessigkofen; 4576; Switzerland,47.1418233,7.4672684,Italian,75.0,false,true,,0.0,0
@@ -19525,7 +19525,7 @@ Bistrô Charlô,Brazil,São Paulo,Rua Barão de Capanema 454; São Paulo; 01411-
 Giulietta Fogo e Vino,Brazil,São Paulo,Rua Jerônimo Da Veiga 36; São Paulo; 01406-200; Brazil,-23.5809563,-46.6792978,Italian/ Creative,30.0,false,true,,0.0,0
 Dalva e Dito,Brazil,São Paulo,Rua Padre João Manuel 1115; São Paulo; 01411-001; Brazil,-23.5663904,-46.6668512,Brazilian,30.0,false,true,,0.0,0
 Fogo de Chão - Vila Olimpia,Brazil,São Paulo,Avenida dos Bandeirantes 538; São Paulo; 04553-000; Brazil,-23.59864,-46.68777,Meats and Grills,30.0,false,true,,0.0,0
-Aguzzo,Brazil,São Paulo,Rua Simão Álvares 325; São Paulo; 05417-030; Brazil,-23.5646993,-46.6882006,Italian,30.0,false,true,,0.0,0
+Aguzzo,Brazil,São Paulo,Rua Simão �?lvares 325; São Paulo; 05417-030; Brazil,-23.5646993,-46.6882006,Italian,30.0,false,true,,0.0,0
 Naga,Brazil,Rio de Janeiro,Avenida das Américas 3900; Rio de Janeiro; 22640-102; Brazil,-22.9973265,-43.3510999,Japanese,30.0,false,true,,0.0,0
 NB Steak - Itaim Bibi,Brazil,São Paulo,Avenida Presidente Juscelino Kubitscheck 816; São Paulo; 04543-000; Brazil,-23.5890626,-46.6773034,Meats and Grills,30.0,false,true,,0.0,0
 Bistrot Parigi,Brazil,São Paulo,Avenida Magalhães de Castro 12000; São Paulo; 05502-001; Brazil,-23.59902,-46.69732,French,30.0,false,true,,0.0,0
@@ -19927,7 +19927,7 @@ Epoca by Tristan Brandt,Switzerland,Flims,Via Dil Parc 3; Flims; 7018; Switzerla
 tobias buholzer,Switzerland,Rüschlikon,Dorfstrasse 42; Rüschlikon; 8803; Switzerland,47.3089286,8.5553697,Vegetarian/ Modern Cuisine,120.0,false,true,,0.0,0
 Aqua,Switzerland,Thalwil,Seestrasse 182; Thalwil; 8136; Switzerland,47.3012345,8.562272,Modern Cuisine,120.0,false,true,,0.0,0
 Sushi Ginza Onodera,USA,New York,461 Fifth Ave.; New York; 10017; USA,40.752396,-73.981575,Japanese/ Sushi,30.0,false,true,,0.0,0
-MOLÁM,Poland,Cracow,ul. Rajska 3/4; Cracow; 31 124; Poland,50.0648387,19.9276183,Thai,40.0,false,true,,0.0,0
+MOL�?M,Poland,Cracow,ul. Rajska 3/4; Cracow; 31 124; Poland,50.0648387,19.9276183,Thai,40.0,false,true,,0.0,0
 Somm,Sweden,Gothenburg,Lorensbergsgatan 8; Gothenburg; 411 36; Sweden,57.7003308,11.9766076,Modern Cuisine,20.0,false,true,,0.0,0
 Karlbacher,Germany,Großkarlbach,Hauptstraße 57; Großkarlbach; 67229; Germany,49.5384991,8.2234403,Classic Cuisine/ Mediterranean Cuisine,40.0,false,true,,0.0,0
 Dune,France,Paris,35 rue des Jeûneurs; Paris; 75002; France,48.8696597,2.3438176,Tunisian/ Mediterranean Cuisine,40.0,false,true,,0.0,0
@@ -20318,7 +20318,7 @@ Amistà,Italy,San Pietro in Cariano,via Cedrare 78; San Pietro in Cariano; 37029
 Enomoto,Japan,Osaka,1-7-1 Ebisuhommachi; Naniwa-ku; Osaka; 556-0013; Japan,34.654623,135.499245,Japanese,30.0,false,true,,0.0,0
 Rasa,United States,Burlingame,209 Park Rd.; Burlingame; 94010; United States,37.5775393,-122.3459541,Indian/ Contemporary,30.0,false,true,,0.0,0
 Al's Place,United States,San Francisco,1499 Valencia St.; San Francisco; 94110; United States,37.748924,-122.42013,Californian/ American Contemporary,30.0,false,true,,0.0,0
-Gostišče Grič,Slovenia,Horjul,Šentjošt nad Horjulom 24d; Horjul; 1354; Slovenia,46.0283624,14.2216299,Market Cuisine,30.0,false,true,,0.0,0
+Gostiš�?e Gri�?,Slovenia,Horjul,Šentjošt nad Horjulom 24d; Horjul; 1354; Slovenia,46.0283624,14.2216299,Market Cuisine,30.0,false,true,,0.0,0
 Kajitsu,United States,New York,125 E. 39th St.; New York; 10016; United States,40.7499602,-73.9781131,Japanese/ Vegan,30.0,false,true,,0.0,0
 1904 Designed by Lagonda,Switzerland,Zürich,Löwenstrasse 42; Zürich; 8001; Switzerland,47.3754184,8.5368718,Modern Cuisine,30.0,false,true,,0.0,0
 't Parkje,Netherlands,Bergen,Oude Prinsweg 29; Bergen; 1861 CS; Netherlands,52.66963,4.70078,Contemporary,30.0,false,true,,0.0,0
@@ -20446,7 +20446,7 @@ Koshikiryori Koki,Japan,Tokyo,2-13-6 Nishishimbashi; Minato-ku; Tokyo; 105-0003;
 TROIS VISAGES,Japan,Tokyo,7-16-21 Ginza; Chuo-ku; Tokyo; 104-0061; Japan,35.667149,139.765611,French/ Contemporary,30.0,false,true,,0.0,0
 nôl,Japan,Tokyo,1F; DDD HOTEL; 2-2-1 Nihombashibakurocho; Chuo-ku; Tokyo; 103-0002; Japan,35.695272,139.78362,Contemporary,30.0,false,true,,0.0,0
 Sushi Ichijo,Japan,Tokyo,3-1-3 Higashinihombashi; Chuo-ku; Tokyo; 103-0004; Japan,35.690334,139.782711,Sushi,30.0,false,true,,0.0,0
-l'élan,Japan,Tokyo,4F; GYRE; 5-10-1 Jingumae; Shibuya-ku; Tokyo; 150-0001; Japan,35.667538,139.70695,French,30.0,false,true,,0.0,0
+l'e�?lan,Japan,Tokyo,4F; GYRE; 5-10-1 Jingumae; Shibuya-ku; Tokyo; 150-0001; Japan,35.667538,139.70695,French,30.0,false,true,,0.0,0
 Edomae Sushi Hanabusa,Japan,Tokyo,9-1-7 Akasaka; Minato-ku; Tokyo; 107-0052; Japan,35.668434,139.732693,Sushi,30.0,false,true,,0.0,0
 Guchokuni,Japan,Tokyo,4F; 4-3 Kagurazaka; Shinjuku-ku; Tokyo; 162-0825; Japan,35.701579,139.740034,Japanese,30.0,false,true,,0.0,0
 Ten Yokota,Japan,Tokyo,2F; 3-10-5 Motoazabu; Minato-ku; Tokyo; 106-0046; Japan,35.65684,139.732286,Tempura,30.0,false,true,,0.0,0
@@ -20482,7 +20482,7 @@ Edomae Shinsaku,Japan,Tokyo,6F; 2-10-11 Nihombashiningyocho; Chuo-ku; Tokyo; 103
 Héritage by Kei Kobayashi,Japan,Tokyo,45F; The Ritz-Carlton; Tokyo; 9-7-1 Akasaka; Minato-ku; Tokyo; 107-6245; Japan,35.665937,139.731182,French/ French Contemporary,30.0,false,true,,0.0,0
 Oniku Karyu,Japan,Tokyo,7F; 1-14-6 Ginza; Chuo-ku; Tokyo; 104-0061; Japan,35.672997,139.769792,Beef,30.0,false,true,,0.0,0
 Ippei Hanten,Japan,Tokyo,3-12-41 Motoazabu; Minato-ku; Tokyo; 106-0046; Japan,35.656391,139.731784,Chinese,30.0,false,true,,0.0,0
-NéMo,Japan,Tokyo,B1F; 6-15-4 Minamiaoyama; Minato-ku; Tokyo; 107-0062; Japan,35.659492,139.714261,French,30.0,false,true,,0.0,0
+Ne�?Mo,Japan,Tokyo,B1F; 6-15-4 Minamiaoyama; Minato-ku; Tokyo; 107-0062; Japan,35.659492,139.714261,French,30.0,false,true,,0.0,0
 Sincère,Japan,Tokyo,B1F; 3-7-13 Sendagaya; Shibuya-ku; Tokyo; 151-0051; Japan,35.676969,139.704359,French,30.0,false,true,,0.0,0
 CRAFTALE,Japan,Tokyo,2F; 1-16-11 Aobadai; Meguro-ku; Tokyo; 153-0042; Japan,35.647362,139.696486,French,30.0,false,true,,0.0,0
 abysse,Japan,Tokyo,1-30-12 Ebisunishi; Shibuya-ku; Tokyo; 150-0021; Japan,35.648478,139.705688,French/ Contemporary,30.0,false,true,,0.0,0
@@ -20672,7 +20672,7 @@ HOPPERS,Japan,Tokyo,7-1 Nihombashikabutocho; Chuo-ku; Tokyo; 103-0026; Japan,35.
 AlCeppo,Japan,Tokyo,2F; 1-25-32 Shirokane; Minato-ku; Tokyo; 108-0072; Japan,35.644588,139.731574,Italian,30.0,false,true,,0.0,0
 Mono-bis,Japan,Tokyo,2-8-12 Shibuya; Shibuya-ku; Tokyo; 150-0002; Japan,35.660754,139.707745,French,30.0,false,true,,0.0,0
 DIALOGUE,Japan,Tokyo,3-23-21 Kitazawa; Setagaya-ku; Tokyo; 155-0031; Japan,35.664959,139.669812,French,30.0,false,true,,0.0,0
-ARROCERÍA La Panza,Japan,Tokyo,1-15-8 Ginza; Chuo-ku; Tokyo; 104-0061; Japan,35.673366,139.770106,Spanish,30.0,false,true,,0.0,0
+ARROCER�?A La Panza,Japan,Tokyo,1-15-8 Ginza; Chuo-ku; Tokyo; 104-0061; Japan,35.673366,139.770106,Spanish,30.0,false,true,,0.0,0
 Osteria da K. [káppa],Japan,Tokyo,5F; 8-7-2 Ginza; Chuo-ku; Tokyo; 104-0061; Japan,35.668851,139.761527,Italian,30.0,false,true,,0.0,0
 Arrocería Sal y Amor,Japan,Tokyo,B1F; 12-19 Daikanyamacho; Shibuya-ku; Tokyo; 150-0034; Japan,35.65085,139.703514,Spanish,30.0,false,true,,0.0,0
 SANTOSHAM,Japan,Tokyo,2F; 3-2 Kandaogawamachi; Chiyoda-ku; Tokyo; 101-0052; Japan,35.694763,139.762667,Indian,30.0,false,true,,0.0,0
@@ -20922,7 +20922,7 @@ Le Bouton,Japan,Tokyo,2-15-1 Nishiazabu; Minato-ku; Tokyo; 106-0031; Japan,35.66
 SIGNATURE,Japan,Tokyo,37F; Mandarin Oriental Tokyo; 2-1-1 Nihombashimuromachi; Chuo-ku; Tokyo; 103-8328; Japan,35.687,139.773157,French,30.0,false,true,,0.0,0
 La Lune,Japan,Tokyo,2-26-16 Higashiazabu; Minato-ku; Tokyo; 106-0044; Japan,35.656414,139.739919,French,30.0,false,true,,0.0,0
 ALTER EGO,Japan,Tokyo,2-2-32 Kandajimbocho; Chiyoda-ku; Tokyo; 101-0051; Japan,35.696305,139.757121,Italian,30.0,false,true,,0.0,0
-Ăn Ði,Japan,Tokyo,3-42-12 Jingumae; Shibuya-ku; Tokyo; 150-0001; Japan,35.671901,139.713897,Vietnamese,30.0,false,true,,0.0,0
+Ăn �?i,Japan,Tokyo,3-42-12 Jingumae; Shibuya-ku; Tokyo; 150-0001; Japan,35.671901,139.713897,Vietnamese,30.0,false,true,,0.0,0
 Watanabe Ryouri-mise,Japan,Tokyo,1-2-9 Tomioka; Koto-ku; Tokyo; 135-0047; Japan,35.671116,139.796208,French,30.0,false,true,,0.0,0
 Sushi Miyuki,Japan,Tokyo,1-15-11 Shintomi; Chuo-ku; Tokyo; 104-0041; Japan,35.672295,139.775016,Sushi,30.0,false,true,,0.0,0
 SAKAKI,Japan,Tokyo,2-12-12 Kyobashi; Chuo-ku; Tokyo; 104-0031; Japan,35.676031,139.771452,French,30.0,false,true,,0.0,0
@@ -21223,7 +21223,7 @@ Memoria Gustativa,Spain,Valencia,Conde de Altea 43; Valencia; 46005; Spain,39.46
 La Barra de la Tasquería,Spain,Madrid,Duque de Sesto 48; Madrid; 28009; Spain,40.4223319,-3.6738391,Traditional Cuisine,40.0,false,true,,0.0,0
 Flama,Spain,Valencia,Gran Vía del Marqués del Turia 63; Valencia; 46005; Spain,39.4679749,-0.3671157,Grills,75.0,false,true,,0.0,0
 Contrastes by Diego Ferreira,Spain,Madrid,Jorge Juan 56; Madrid; 28001; Spain,40.4235434,-3.6796636,Creative,40.0,false,true,,0.0,0
-Caleña,Spain,Ávila,Los Telares 1; Ávila; 05001; Spain,40.655331,-4.703507,Contemporary/ Regional Cuisine,75.0,false,true,,0.0,0
+Caleña,Spain,�?vila,Los Telares 1; �?vila; 05001; Spain,40.655331,-4.703507,Contemporary/ Regional Cuisine,75.0,false,true,,0.0,0
 El Lajar de Bello,Spain,Playa de las Américas,Landa Golf 1; Playa de las Américas; 38650; Spain,28.0633975,-16.7203909,Contemporary,40.0,false,true,,0.0,0
 Artean Barra Abierta,Spain,Donostia / San Sebastián,Paseo de Colón 11; Donostia / San Sebastián; 20002; Spain,43.3229959,-1.9771199,Fusion,40.0,false,true,,0.0,0
 Alex Cool Club,Spain,Miranda de Ebro,Juan Ramón Jiménez 46; Miranda de Ebro; 09200; Spain,42.6867848,-2.9417375,Contemporary,40.0,false,true,,0.0,0
