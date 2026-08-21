@@ -2,17 +2,23 @@ package util;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Properties;
+
 
 /**
  * Classe di utilità per importare dati dal file Michelin Guide CSV
- * e convertirli nel formato TheKnife.
+ * direttamente nel database PostgreSQL di TheKnife.
  * 
  * @author [Nome Cognome - Matricola - Sede]
  */
 public class ImportaMichelin {
     
     private static final String FILE_INPUT = "data/michelin_my_maps.csv";
-    private static final String FILE_OUTPUT = "data/ristoranti.dati";
+    private static final String DB_PROPS_PATH = "db.properties.env"; //Percorso del file con credenziali db
     
     /**
      * Converte il simbolo del prezzo Michelin in un valore numerico
@@ -127,37 +133,48 @@ public class ImportaMichelin {
     }
     
     /**
-     * Importa i dati dal file Michelin e li converte nel formato TheKnife
+     * Importa i dati dal file Michelin e li inserisce nel database PostgreSQL di TheKnife
      */
     public static void importaDati() {
-        File inputFile = new File(FILE_INPUT);
+        File inputFile = new File(FILE_INPUT); //Crea oggetto file per il csv
         if (!inputFile.exists()) {
             System.err.println("ERRORE: File " + FILE_INPUT + " non trovato!");
             System.err.println("Assicurati che il file michelin_my_maps.csv sia nella directory del progetto.");
             return;
         }
         
-        // Crea directory data se non esiste
-        new File("data").mkdirs();
-        
-        int ristoratiImportati = 0;
-        int righeIgnorate = 0;
-        
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(inputFile), StandardCharsets.UTF_8));
-             BufferedWriter bw = new BufferedWriter(
-                new OutputStreamWriter(new FileOutputStream(FILE_OUTPUT), StandardCharsets.UTF_8))) {
-            
-            // Scrivi header
-            bw.write("Nome,Nazione,Citta,Indirizzo,Latitudine,Longitudine,TipoCucina,PrezzoMedio,Delivery,Prenotazione,IdRistoratore,MediaStelle,NumeroRecensioni");
-            bw.newLine();
+        // Caricamento credenziali DB
+        Properties props = new Properties();
+        try (FileReader fr = new FileReader(DB_PROPS_PATH)) { //Apre file db.properties.env
+            props.load(fr); //Carica credenziali
+        } catch (IOException e) {
+            System.err.println("ERRORE: Impossibile caricare le credenziali del database."); 
+            e.printStackTrace();
+            return;
+        }
+
+         // Costruzione URL JDBC (es. jdbc:postgresql://localhost:5432/theknifedb)
+        String jdbcUrl = "jdbc:postgresql://" + props.getProperty("db.host") + ":" + props.getProperty("db.port") + "/" + props.getProperty("db.name"); // Crea l'URL
+        String user = props.getProperty("db.user"); // Prende l'utente
+        String password = props.getProperty("db.password"); // Prende la password
+
+        // Query SQL di inserimento con PreparedStatement
+       String insertSQL = "INSERT INTO ristoranti (nome, nazione, citta, indirizzo, latitudine, longitudine, fascia_prezzo, tipo_cucina, delivery, prenotazione_online) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT (nome, indirizzo) DO NOTHING;";
+        int righeIgnorate = 0; //Righe saltate
+        int ristorantiImportati = 0; //Ristoranti importati
+
+        //Chiudere automaticamente Connection ,PreparedStatement e BufferReader
+        try (Connection conn= DriverManager.getConnection(jdbcUrl,user,password);
+            PreparedStatement pstmt = conn.prepareStatement(insertSQL); //Prepara query
+            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile), StandardCharsets.UTF_8))){ //Apre il CSV
+                
             
             // Salta l'header del file Michelin
             String headerLine = br.readLine();
-            System.out.println("Header Michelin: " + (headerLine != null ? "OK" : "Errore"));
+            System.out.println("Header Michelin saltato: " + (headerLine != null ? "OK" : "Errore"));
             
             String line;
-            int numeroRiga = 1;
+            int numeroRiga = 1; //Contatore righe per debug
             
             while ((line = br.readLine()) != null) {
                 numeroRiga++;
@@ -211,28 +228,25 @@ public class ImportaMichelin {
                         System.out.println("Riga " + numeroRiga + ": coordinate non valide, uso 0.0");
                     }
                     
-                    // Scrivi nel file output (usa Locale.US per punto decimale)
-                    bw.write(String.format(java.util.Locale.US, "%s,%s,%s,%s,%.7f,%.7f,%s,%.1f,%s,%s,,%s,%s",
-                        nome.replace(",", ";"),  // Sostituisci virgole per evitare problemi CSV
-                        nazione.replace(",", ";"),
-                        citta.replace(",", ";"),
-                        indirizzo.replace(",", ";"),
-                        latitudine,
-                        longitudine,
-                        cucina.replace(",", "/"),  // Sostituisci virgole con /
-                        prezzoMedio,
-                        "false",  // delivery (non specificato da Michelin)
-                        "true",   // prenotazione (presunto per ristoranti stellati)
-                        "0.0",    // media stelle
-                        "0"       // numero recensioni
-                    ));
-                    bw.newLine();
-                    
-                    ristoratiImportati++;
+                //Imposta i parametri della query SQL
+                pstmt.setString(1,nome);
+                pstmt.setString(2,nazione);
+                pstmt.setString(3,citta);
+                pstmt.setString(4,indirizzo);
+                pstmt.setDouble(5,latitudine);
+                pstmt.setDouble(6,longitudine);
+                pstmt.setDouble(7,prezzoMedio);
+                pstmt.setString(8,cucina);
+                pstmt.setBoolean(9,false);// Sostituisce il 9° ? con delivery (false di default)
+                pstmt.setBoolean(10,true);// Sostituisce il 10° ? con prenotazione (true di default)
+
+                pstmt.executeUpdate(); //Esegue l'INSERT nel db
+
+                    ristorantiImportati++;
                     
                     // Progresso ogni 100 ristoranti
-                    if (ristoratiImportati % 100 == 0) {
-                        System.out.println("Importati: " + ristoratiImportati + " ristoranti...");
+                    if (ristorantiImportati % 100 == 0) {
+                        System.out.println("Importati nel DB: " + ristorantiImportati + " ristoranti...");
                     }
                     
                 } catch (Exception e) {
@@ -242,15 +256,17 @@ public class ImportaMichelin {
             }
             
             System.out.println("\n═══════════════════════════════════════════════════════");
-            System.out.println("         IMPORTAZIONE COMPLETATA!");
+            System.out.println("         IMPORTAZIONE DATABASE COMPLETATA!");
             System.out.println("═══════════════════════════════════════════════════════");
-            System.out.println("Ristoranti importati: " + ristoratiImportati);
+            System.out.println("Ristoranti inseriti nel DB: " + ristorantiImportati);
             System.out.println("Righe ignorate:       " + righeIgnorate);
-            System.out.println("File di output:       " + FILE_OUTPUT);
             System.out.println("═══════════════════════════════════════════════════════");
             
-        } catch (IOException e) {
-            System.err.println("Errore durante l'importazione: " + e.getMessage());
+        } catch (SQLException e) { //Errori connessione db
+            System.err.println("Errore fatale di connessione al database: " + e.getMessage());
+            e.printStackTrace();
+        } catch (IOException e){
+            System.err.println("Errore durante la lettura del file CSV: " + e.getMessage());
             e.printStackTrace();
         }
     }
@@ -260,12 +276,11 @@ public class ImportaMichelin {
      */
     public static void main(String[] args) {
         System.out.println("═══════════════════════════════════════════════════════");
-        System.out.println("    IMPORTATORE MICHELIN GUIDE -> THEKNIFE");
+        System.out.println("    IMPORTATORE MICHELIN GUIDE -> POSTGRESQL");
         System.out.println("═══════════════════════════════════════════════════════\n");
         
         System.out.println("File input:  " + FILE_INPUT);
-        System.out.println("File output: " + FILE_OUTPUT);
-        System.out.println("\nInizio importazione...\n");
+        System.out.println("\nInizio importazione nel database...\n");
         
         importaDati();
         
