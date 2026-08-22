@@ -1,8 +1,7 @@
 package theknife.model;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.Serializable;
 
 /**
  * Classe che rappresenta un utente della piattaforma TheKnife.
@@ -10,45 +9,55 @@ import java.util.List;
  * 
  * @author [Nome Cognome - Matricola - Sede]
  */
-public class Utente {
+public class Utente implements Serializable{
+
+    private static final long serialVersionUID = 1L;
     
+    private int id; // ID univoco dell'utente (SERIAL)
     private String nome;
     private String cognome;
-    private String username;
-    private String password; // cifrata
+    private String username; //usato per login
+    private String passwordHash; // cifrata
     private String ruolo; // "cliente" o "ristoratore"
     private LocalDate dataNascita; // facoltativa
-    private String luogoDomicilio;
-    private List<String> ristoratiPreferiti; // lista ID ristoranti preferiti (solo per clienti)
+    private String cittaDomicilio;
     private String domandaSicurezza; // domanda per recupero password
     private String rispostaSicurezza; // risposta cifrata per recupero password
 
     /**
-     * Costruttore completo della classe Utente
+     * Costruttore completo della classe Utente (usato per caricare DB)
      */
-    public Utente(String nome, String cognome, String username, String password, 
-                  String ruolo, LocalDate dataNascita, String luogoDomicilio,
+    public Utente(int id,String nome, String cognome, String username, String passwordHash, 
+                  String ruolo, LocalDate dataNascita, String cittaDomicilio,
                   String domandaSicurezza, String rispostaSicurezza) {
+        this.id = id;
         this.nome = nome;
         this.cognome = cognome;
         this.username = username;
-        this.password = password;
+        this.passwordHash = passwordHash;
         this.ruolo = ruolo;
         this.dataNascita = dataNascita;
-        this.luogoDomicilio = luogoDomicilio;
-        this.ristoratiPreferiti = new ArrayList<>();
+        this.cittaDomicilio = cittaDomicilio;
         this.domandaSicurezza = domandaSicurezza;
         this.rispostaSicurezza = rispostaSicurezza;
     }
     
     /**
      * Costruttore semplificato per compatibilità
+     * Se il ruolo non viene specificato correttamente si assume "cliente" come default.
      */
-    public Utente(String nome, String cognome, String username, String password) {
-        this(nome, cognome, username, password, "cliente", null, "", "", "");
+    public Utente(String nome, String cognome, String username, String passwordHash,String ruolo, LocalDate dataNascita, String cittaDomicilio,
+                  String domandaSicurezza, String rispostaSicurezza) {
+        this(-1, nome, cognome, username, passwordHash,(ruolo==null || ruolo.trim().isEmpty()) ? "cliente" : ruolo,dataNascita, cittaDomicilio, domandaSicurezza, rispostaSicurezza);
     }
 
     // Getter e Setter
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
     public String getNome() {
         return nome;
     }
@@ -73,12 +82,12 @@ public class Utente {
         this.username = username;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPasswordHash() {
+        return passwordHash ;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPasswordHash(String passwordHash) {
+        this.passwordHash = passwordHash;
     }
 
     public String getRuolo() {
@@ -97,47 +106,13 @@ public class Utente {
         this.dataNascita = dataNascita;
     }
     
-    public String getLuogoDomicilio() {
-        return luogoDomicilio;
+    public String getCittaDomicilio() {
+        return cittaDomicilio;
     }
     
-    public void setLuogoDomicilio(String luogoDomicilio) {
-        this.luogoDomicilio = luogoDomicilio;
+    public void setCittaDomicilio(String cittaDomicilio) {
+        this.cittaDomicilio = cittaDomicilio;           
     }
-    
-    public List<String> getRistoratiPreferiti() {
-        return ristoratiPreferiti;
-    }
-    
-    public void setRistoratiPreferiti(List<String> ristoratiPreferiti) {
-        this.ristoratiPreferiti = ristoratiPreferiti;
-    }
-    
-    /**
-     * Aggiunge un ristorante alla lista dei preferiti
-     */
-    public boolean aggiungiPreferito(String idRistorante) {
-        if (!ristoratiPreferiti.contains(idRistorante)) {
-            ristoratiPreferiti.add(idRistorante);
-            return true;
-        }
-        return false;
-    }
-    
-    /**
-     * Rimuove un ristorante dalla lista dei preferiti
-     */
-    public boolean rimuoviPreferito(String idRistorante) {
-        return ristoratiPreferiti.remove(idRistorante);
-    }
-    
-    /**
-     * Verifica se un ristorante è tra i preferiti
-     */
-    public boolean isPreferito(String idRistorante) {
-        return ristoratiPreferiti.contains(idRistorante);
-    }
-    
     public String getDomandaSicurezza() {
         return domandaSicurezza;
     }
@@ -156,11 +131,8 @@ public class Utente {
 
     @Override
     public String toString() {
-        return String.join(",", nome, cognome, username, password, ruolo, 
-            dataNascita != null ? dataNascita.toString() : "", 
-            luogoDomicilio,
-            domandaSicurezza != null ? domandaSicurezza : "",
-            rispostaSicurezza != null ? rispostaSicurezza : "");
+           return "Utente [id=" + id + ", nome=" + nome + ", cognome=" + cognome + ", username=" + username + 
+               ", ruolo=" + ruolo + ", domicilio=" + cittaDomicilio + "]";
     }
     
     /**
@@ -174,10 +146,7 @@ public class Utente {
         if (dataNascita != null) {
             sb.append(String.format("Data di nascita: %s\n", dataNascita));
         }
-        sb.append(String.format("Domicilio: %s\n", luogoDomicilio));
-        if (ruolo.equals("cliente") && !ristoratiPreferiti.isEmpty()) {
-            sb.append(String.format("Ristoranti preferiti: %d\n", ristoratiPreferiti.size()));
-        }
+        sb.append(String.format("Domicilio: %s\n", cittaDomicilio));
         return sb.toString();
     }
 }
