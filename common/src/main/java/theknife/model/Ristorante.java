@@ -1,4 +1,5 @@
 package theknife.model;
+import java.io.Serializable;
 
 
 /**
@@ -7,8 +8,11 @@ package theknife.model;
  * 
  * @author [Nome Cognome - Matricola - Sede]
  */
-public class Ristorante {
+public class Ristorante implements Serializable{
     
+    private static final long serialVersionUID = 1L;
+
+    private int id; //ID univoco del ristorante (SERIAL)
     private String nome;
     private String nazione;
     private String citta;
@@ -21,7 +25,7 @@ public class Ristorante {
     private boolean prenotazione;
     private double mediaStelle;
     private int numeroRecensioni;
-    private String idRistoratore; // username del ristoratore proprietario
+    private Integer idRistoratore; // ID del ristoratore proprietario
 
     /**
      * Costruttore completo della classe Ristorante
@@ -37,10 +41,12 @@ public class Ristorante {
      * @param prenotazione Se il ristorante offre prenotazione
      * @param idRistoratore ID del ristoratore proprietario
      */
-    public Ristorante(String nome, String nazione, String citta, String indirizzo, 
+    public Ristorante(int id,String nome, String nazione, String citta, String indirizzo, 
                       double latitudine, double longitudine, String tipoCucina, 
                       double prezzoMedio, boolean delivery, boolean prenotazione, 
-                      String idRistoratore) {
+                      Integer idRistoratore) {
+
+        this.id = id;
         this.nome = nome;
         this.nazione = nazione;
         this.citta = citta;
@@ -67,14 +73,23 @@ public class Ristorante {
      * @param delivery Se il ristorante offre delivery
      * @param prenotazione Se il ristorante offre prenotazione
      * @param idRistoratore ID del ristoratore proprietario
+     * @param id ID univoco del ristorante (SERIAL)
      */
-    public Ristorante(String nome, String nazione, String citta, String indirizzo, 
+    public Ristorante(int id,String nome, String nazione, String citta, String indirizzo, 
                       String tipoCucina, double prezzoMedio, boolean delivery, boolean prenotazione) {
-        this(nome, nazione, citta, indirizzo, 0.0, 0.0, tipoCucina, 
+        this(id, nome, nazione, citta, indirizzo, 0.0, 0.0, tipoCucina, 
              prezzoMedio, delivery, prenotazione, null);
     }
 
     // Getter e Setter
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -171,21 +186,14 @@ public class Ristorante {
         this.numeroRecensioni = numeroRecensioni;
     }
     
-    public String getIdRistoratore() {
+    public Integer getIdRistoratore() {
         return idRistoratore;
     }
     
-    public void setIdRistoratore(String idRistoratore) {
+    public void setIdRistoratore(Integer idRistoratore) {
         this.idRistoratore = idRistoratore;
     }
     
-    /**
-     * Genera un ID univoco per il ristorante basato su nome e città
-     * @return ID univoco per il ristorante
-     */
-    public String getId() {
-        return nome.replaceAll("\\s+", "_") + "_" + citta.replaceAll("\\s+", "_");
-    }
     
     /**
      * Restituisce la locazione completa del ristorante
@@ -200,8 +208,8 @@ public class Ristorante {
      * @return Stringa rappresentazione della ristorante
      */
     public String toString() {
-        return String.format("%s (%s) - %s - Prezzo medio: %.2f€ - ★ %.1f (%d recensioni)%s%s",
-            nome, citta, tipoCucina, prezzoMedio, mediaStelle, numeroRecensioni,
+        return String.format("ID: %d | %s (%s) - %s - Prezzo medio: %.2f€ - ★ %.1f (%d recensioni)%s%s",
+            id, nome, citta, tipoCucina, prezzoMedio, mediaStelle, numeroRecensioni,
             delivery ? " [Delivery]" : "",
             prenotazione ? " [Prenotazione]" : "");
     }

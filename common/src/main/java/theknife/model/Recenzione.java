@@ -2,6 +2,7 @@ package theknife.model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.io.Serializable;
 
 /**
  * Classe che rappresenta una recensione di un ristorante.
@@ -10,11 +11,13 @@ import java.time.format.DateTimeFormatter;
  * 
  * @author [Nome Cognome - Matricola - Sede]
  */
-public class Recenzione {
+public class Recenzione implements Serializable{
+
+    private static final long serialVersionUID = 1L;
     
-    private String idRecensione;
-    private String usernameCliente;
-    private String idRistorante;
+    private int id; // ID univoco della recensione (SERIAL)
+    private int idUtente; // ID dell'utente che lascia la recensione
+    private int idRistorante;
     private int stelle; // da 1 a 5
     private String testo;
     private LocalDateTime dataOra;
@@ -22,70 +25,54 @@ public class Recenzione {
     private LocalDateTime dataOraRisposta;
     
     /**
-     * Costruttore della classe Recensione
-     * @param usernameCliente Username del cliente che lascia la recensione
+     * Costruttore della classe Recensione (usato per caricare da db)
+     * @param id ID univoco della recensione (SERIAL)
+     * @param idUtente ID dell'utente che lascia la recensione
      * @param idRistorante ID del ristorante recensito
      * @param stelle Numero di stelle (1-5)
      * @param testo Testo della recensione
+     * @param dataOra Data e ora della recensione
+     * @param rispostaRistoratore Risposta del ristoratore
+     * @param dataOraRisposta Data e ora della risposta del ristoratore
      */
-    public Recenzione(String usernameCliente, String idRistorante, int stelle, String testo) {
-        this.usernameCliente = usernameCliente;
-        this.idRistorante = idRistorante;
-        setStelle(stelle); // validazione
-        this.testo = testo;
-        this.dataOra = LocalDateTime.now();
-        this.rispostaRistoratore = null;
-        this.dataOraRisposta = null;
-        this.idRecensione = generaId();
-    }
-
-    /**
-     * Costruttore per caricamento da file
-     */
-    public Recenzione(String idRecensione, String usernameCliente, String idRistorante, int stelle,
-                      String testo, LocalDateTime dataOra, String rispostaRistoratore,
-                      LocalDateTime dataOraRisposta) {
-        this.idRecensione = idRecensione;
-        this.usernameCliente = usernameCliente;
+    public Recenzione(int id,int idUtente, int idRistorante, int stelle, String testo, LocalDateTime dataOra,String rispostaRistoratore, LocalDateTime dataOraRisposta) {
+        this.id = id;
+        this.idUtente = idUtente;
         this.idRistorante = idRistorante;
         setStelle(stelle); // validazione
         this.testo = testo;
         this.dataOra = (dataOra != null) ? dataOra : LocalDateTime.now();
         this.rispostaRistoratore = rispostaRistoratore;
         this.dataOraRisposta = dataOraRisposta;
+      
+    } 
 
-        if (this.idRecensione == null || this.idRecensione.trim().isEmpty()) {
-            this.idRecensione = generaId();
-        }
-    }
-    
-    /**
-     * Genera un ID univoco per la recensione
-     * @return ID univoco per la recensione
+   
+       /**
+     * Costruttore semplificato (usato per creare una nuova recensione da codice)
      */
-    private String generaId() {
-        return usernameCliente + "_" + idRistorante + "_" + 
-               dataOra.format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
+    public Recenzione(int idUtente, int idRistorante, int stelle, String testo) {
+        this(-1, idUtente, idRistorante, stelle, testo, LocalDateTime.now(), null, null);
     }
-    
     // Getter e Setter
-    public String getIdRecensione() {
-        return idRecensione;
+    public int getId() {
+        return id;
     }
-    
-    public String getUsernameCliente() {
-        return usernameCliente;
+    public void setId(int id) {
+        this.id = id;
     }
-    
-    public void setUsernameCliente(String usernameCliente) {
-        this.usernameCliente = usernameCliente;
+
+    public int getIdUtente() {
+        return idUtente;
     }
-    
-    public String getIdRistorante() {
+    public void setIdUtente(int idUtente) {
+        this.idUtente = idUtente;
+    }
+   
+    public int getIdRistorante() {
         return idRistorante;
     }
-    
-    public void setIdRistorante(String idRistorante) {
+    public void setIdRistorante(int idRistorante) {
         this.idRistorante = idRistorante;
     }
     
@@ -164,7 +151,7 @@ public class Recenzione {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
         StringBuilder sb = new StringBuilder();
         sb.append("───────────────────────────────────────────────────────\n");
-        sb.append(String.format("%s - %s\n", getStelleSimbolo(), usernameCliente));
+        sb.append(String.format("%s - %s\n", getStelleSimbolo(), idUtente));
         sb.append(String.format("Data: %s\n", dataOra.format(formatter)));
         sb.append("───────────────────────────────────────────────────────\n");
         sb.append(testo).append("\n");
@@ -185,7 +172,7 @@ public class Recenzione {
      * @return Stringa rappresentazione compatta della recensione
      */
     public String toStringCompatto() {
-        return String.format("%s - %s: %s", getStelleSimbolo(), usernameCliente, 
+        return String.format("%s - %s: %s", getStelleSimbolo(), idUtente, 
             testo.length() > 50 ? testo.substring(0, 47) + "..." : testo);
     }
 }

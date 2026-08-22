@@ -19,11 +19,13 @@ CREATE TABLE utenti (
     id              SERIAL PRIMARY KEY,
     nome            VARCHAR(100)    NOT NULL,
     cognome         VARCHAR(100)    NOT NULL,
-    email           VARCHAR(150)    NOT NULL UNIQUE,
+    username           VARCHAR(150)    NOT NULL UNIQUE,
     password_hash   VARCHAR(255)    NOT NULL,
     data_nascita    DATE,
     citta_domicilio VARCHAR(100)    NOT NULL,
     ruolo           VARCHAR(15)     NOT NULL CHECK (ruolo IN ('cliente', 'ristoratore'))
+    domanda_sicurezza VARCHAR(255),
+    risposta_sicurezza VARCHAR(255)
 );
 
 CREATE TABLE ristoranti (

@@ -1,1 +1,4 @@
-target/git br
+target/
+bin/
+*.class/
+.vscode/
