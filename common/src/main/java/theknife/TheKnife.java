@@ -7,6 +7,7 @@ import theknife.model.Ristorante;
 import theknife.model.Utente;
 import theknife.model.Recenzione;
 
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
@@ -564,7 +565,10 @@ public class TheKnife {
      * Visualizza ristoranti preferiti
      */
     private static void visualizzaPreferiti() {
-    
+         // TODO: Gestione preferiti tramite DAO
+        System.out.println("\nFunzionalità preferiti in fase di migrazione su Database.");
+    }
+
     /**
      * Menu gestione recensioni cliente
      */
@@ -664,12 +668,7 @@ public class TheKnife {
      */
     private static void modificaRecensione() {
         Utente utente = gestoreUtenti.getUtenteCorrente();
-        
-        System.out.print("Nome del ristorante: ");
-        String nome = scanner.nextLine();
-        System.out.print("Città: ");
-        String citta = scanner.nextLine();
-        String idRistorante = nome.replaceAll("\\s+", "_") + "_" + citta.replaceAll("\\s+", "_");
+        int idRistorante = leggiIntero("Inserisci ID del ristorante: ");
         
         if (!gestoreRecensioni.hasRecensione(utente.getId(), idRistorante)) {
             System.out.println("\nNon hai recensito questo ristorante.");
@@ -698,11 +697,7 @@ public class TheKnife {
     private static void eliminaRecensione() {
         Utente utente = gestoreUtenti.getUtenteCorrente();
         
-        System.out.print("Nome del ristorante: ");
-        String nome = scanner.nextLine();
-        System.out.print("Città: ");
-        String citta = scanner.nextLine();
-        String idRistorante = nome.replaceAll("\\s+", "_") + "_" + citta.replaceAll("\\s+", "_");
+        int idRistorante = leggiIntero("Inserisci ID del ristorante: ");
         
         if (!gestoreRecensioni.hasRecensione(utente.getId(), idRistorante)) {
             System.out.println("\nNon hai recensito questo ristorante.");
@@ -764,7 +759,7 @@ public class TheKnife {
         
         Ristorante ristorante = new Ristorante(nome, nazione, citta, indirizzo, latitudine, 
                                               longitudine, tipoCucina, prezzoMedio, delivery, 
-                                              prenotazione, utente.getUsername());
+                                              prenotazione, utente.getId());
         
         gestoreRistoranti.aggiungiRistorante(ristorante);
         System.out.println("\n✓ Ristorante aggiunto con successo!");
@@ -775,7 +770,7 @@ public class TheKnife {
      */
     private static void visualizzaMieiRistoranti() {
         Utente utente = gestoreUtenti.getUtenteCorrente();
-        List<Ristorante> ristoranti = gestoreRistoranti.getRistorantiPerRistoratore(utente.getUsername());
+        List<Ristorante> ristoranti = gestoreRistoranti.getRistorantiPerRistoratore(utente.getId());
         
         if (ristoranti.isEmpty()) {
             System.out.println("\nNon hai ancora aggiunto ristoranti.");
@@ -796,7 +791,7 @@ public class TheKnife {
      */
     private static void visualizzaRiepilogoRecensioni() {
         Utente utente = gestoreUtenti.getUtenteCorrente();
-        gestoreRecensioni.visualizzaRiepilogo(utente.getUsername(), gestoreRistoranti);
+        gestoreRecensioni.visualizzaRiepilogo(utente.getId(), gestoreRistoranti);
     }
     
     /**
@@ -804,7 +799,7 @@ public class TheKnife {
      */
     private static void visualizzaERispondiRecensioni() {
         Utente utente = gestoreUtenti.getUtenteCorrente();
-        List<Ristorante> ristoranti = gestoreRistoranti.getRistorantiPerRistoratore(utente.getUsername());
+        List<Ristorante> ristoranti = gestoreRistoranti.getRistorantiPerRistoratore(utente.getId());
         
         if (ristoranti.isEmpty()) {
             System.out.println("\nNon hai ancora aggiunto ristoranti.");
@@ -860,7 +855,7 @@ public class TheKnife {
             System.out.print("La tua risposta: ");
             String risposta = scanner.nextLine();
             
-            if (gestoreRecensioni.rispondiRecensione(recensione.getIdRecensione(), risposta)) {
+            if (gestoreRecensioni.rispondiRecensione(recensione.getId(), risposta)) {
                 System.out.println("\n✓ Risposta aggiunta con successo!");
             } else {
                 System.out.println("\n✗ Errore nell'aggiunta della risposta.");

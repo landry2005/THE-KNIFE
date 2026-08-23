@@ -73,14 +73,16 @@ public class Ristorante implements Serializable{
      * @param delivery Se il ristorante offre delivery
      * @param prenotazione Se il ristorante offre prenotazione
      * @param idRistoratore ID del ristoratore proprietario
-     * @param id ID univoco del ristorante (SERIAL)
      */
-    public Ristorante(int id,String nome, String nazione, String citta, String indirizzo, 
-                      String tipoCucina, double prezzoMedio, boolean delivery, boolean prenotazione) {
-        this(id, nome, nazione, citta, indirizzo, 0.0, 0.0, tipoCucina, 
-             prezzoMedio, delivery, prenotazione, null);
+     /**
+     * Costruttore semplificato (usato quando si crea un nuovo ristorante da codice)
+     */
+    public Ristorante(String nome, String nazione, String citta, String indirizzo,
+                    double latitudine, double longitudine, String tipoCucina, 
+                    double prezzoMedio, boolean delivery, boolean prenotazione, Integer idRistoratore) {
+        this(-1, nome, nazione, citta, indirizzo, latitudine, longitudine, tipoCucina, 
+             prezzoMedio, delivery, prenotazione, idRistoratore);
     }
-
     // Getter e Setter
     public int getId() {
         return id;
@@ -186,7 +188,7 @@ public class Ristorante implements Serializable{
         this.numeroRecensioni = numeroRecensioni;
     }
     
-    public Integer getIdRistoratore() {
+            public Integer getIdRistoratore() {
         return idRistoratore;
     }
     
