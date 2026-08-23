@@ -2,9 +2,9 @@ package theknife.gestione;
 
 import theknife.model.Utente;
 import theknife.util.PasswordUtil;
+import theknife.dao.UtenteDAO;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,14 +15,13 @@ import java.util.List;
  */
 public class GestoreUtenti {
    
-    private List<Utente> utenti;
     private Utente utenteCorrente;
+    private UtenteDAO utenteDAO = new UtenteDAO();
     
     /**
      * Costruttore del gestore utenti
      */
     public GestoreUtenti() {
-        this.utenti = new ArrayList<>();
         this.utenteCorrente = null;
     }
     
@@ -42,8 +41,8 @@ public class GestoreUtenti {
     public boolean registrazione(String nome, String cognome, String username, String password, 
                                  String ruolo, LocalDate dataNascita, String luogoDomicilio,
                                  String domandaSicurezza, String rispostaSicurezza) {
-        // Verifica se username già esiste
-        if (cercaUtente(username) != null) {
+        // Verifica se username già esiste nel DB
+        if (utenteDAO.trovaPerUsername(username) != null) {
             return false;
         }
         
@@ -54,10 +53,7 @@ public class GestoreUtenti {
         // Crea nuovo utente
         Utente nuovoUtente = new Utente(nome, cognome, username, passwordHash, ruolo, dataNascita, 
                                        luogoDomicilio, domandaSicurezza, rispostaHash);
-        utenti.add(nuovoUtente);
-        
-        
-        return true;
+        return utenteDAO.salvaUtente(nuovoUtente);
     }
     
     /**
@@ -85,8 +81,8 @@ public class GestoreUtenti {
         Utente utente = cercaUtente(username);
         if (utente != null) {
             String passwordHash = PasswordUtil.cifraPassword(nuovaPassword);
-            utente.setPasswordHash(passwordHash);
-            return true;
+            //Aggiorna nel db
+            return utenteDAO.aggiornaPassword(username, passwordHash);
         }
         return false;
     }
@@ -110,7 +106,8 @@ public class GestoreUtenti {
         // Imposta nuova password
         String passwordHash = PasswordUtil.cifraPassword(nuovaPassword);
         utenteCorrente.setPasswordHash(passwordHash);
-        return true;
+        //Aggiorna nel db
+        return utenteDAO.aggiornaPassword(utenteCorrente.getUsername(), passwordHash);
     }
     
     /**
@@ -120,7 +117,7 @@ public class GestoreUtenti {
      * @return true se login riuscito, false altrimenti
      */
     public boolean login(String username, String password) {
-        Utente utente = cercaUtente(username);
+        Utente utente = utenteDAO.trovaPerUsername(username);
         if (utente != null && PasswordUtil.verificaPassword(password, utente.getPasswordHash())) {
             this.utenteCorrente = utente;
             return true;
@@ -157,12 +154,7 @@ public class GestoreUtenti {
      * @return L'utente trovato o null
      */
     public Utente cercaUtente(String username) {
-        for (Utente utente : utenti) {
-            if (utente.getUsername().equalsIgnoreCase(username)) {
-                return utente;
-            }
-        }
-        return null;
+        return utenteDAO.trovaPerUsername(username);
     }
     
     /**
@@ -170,7 +162,7 @@ public class GestoreUtenti {
      * @return Lista degli utenti
      */
     public List<Utente> getUtenti() {
-        return new ArrayList<>(utenti);
+        return utenteDAO.getTuttiUtenti();
     }
     
     // ===============================================================
@@ -193,12 +185,7 @@ public class GestoreUtenti {
      * @return true se eliminato con successo
      */
     public boolean adminEliminaUtente(String username) {
-        Utente utente = cercaUtente(username);
-        if (utente != null) {
-            utenti.remove(utente);
-            return true;
-        }
-        return false;
+      return utenteDAO.eliminaUtente(username);
     }
     
     /**
@@ -206,12 +193,14 @@ public class GestoreUtenti {
      * @return Stringa con le statistiche
      */
     public String adminStatistiche() {
-        int totaleUtenti = utenti.size();
+        //Prende gli utenti dal db non più dalla lista in memoria
+        List<Utente> utentiDb = utenteDAO.getTuttiUtenti();
+        int totaleUtenti = utentiDb.size();
         int clienti = 0;
         int ristoratori = 0;
         int conDomandaSicurezza = 0;
         
-        for (Utente u : utenti) {
+        for (Utente u : utentiDb) {
             if (u.getRuolo().equals("cliente")) {
                 clienti++;
             } else {
@@ -243,13 +232,12 @@ public class GestoreUtenti {
      * @param risposta Risposta alla domanda
      * @return true se impostata con successo
      */
-    public boolean adminImpostaDomandaSicurezza(String username, String domanda, String risposta) {
+  public boolean adminImpostaDomandaSicurezza(String username, String domanda, String risposta) {
         Utente utente = cercaUtente(username);
         if (utente != null) {
-            utente.setDomandaSicurezza(domanda);
             String rispostaCifrata = PasswordUtil.cifraPassword(risposta.toLowerCase().trim());
-            utente.setRispostaSicurezza(rispostaCifrata);
-            return true;
+            // Aggiorna nel database!
+            return utenteDAO.aggiornaDomandaSicurezza(username, domanda, rispostaCifrata);
         }
         return false;
     }
@@ -263,8 +251,7 @@ public class GestoreUtenti {
     public boolean adminModificaRuolo(String username, String nuovoRuolo) {
         Utente utente = cercaUtente(username);
         if (utente != null && (nuovoRuolo.equals("cliente") || nuovoRuolo.equals("ristoratore"))) {
-            utente.setRuolo(nuovoRuolo);
-            return true;
+           return utenteDAO.aggiornaRuolo(username, nuovoRuolo);
         }
         return false;
     }
