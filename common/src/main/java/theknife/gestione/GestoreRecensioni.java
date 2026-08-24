@@ -2,10 +2,11 @@ package theknife.gestione;
 
 import theknife.model.Recenzione;
 import theknife.model.Ristorante;
+import theknife.dao.RecensioneDAO;
 
-import java.util.ArrayList;
+
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 /**
  * Classe per la gestione delle recensioni.
@@ -14,8 +15,8 @@ import java.util.stream.Collectors;
  * @author [Nome Cognome - Matricola - Sede]
  */
 public class GestoreRecensioni {
-   
-    private List<Recenzione> recensioni;
+
+    private RecensioneDAO recensioneDAO = new RecensioneDAO();
     private GestoreRistoranti gestoreRistoranti;
     
     /**
@@ -23,7 +24,6 @@ public class GestoreRecensioni {
      * @param gestoreRistoranti Riferimento al gestore ristoranti per aggiornare le valutazioni
      */
     public GestoreRecensioni(GestoreRistoranti gestoreRistoranti) {
-        this.recensioni = new ArrayList<>();
         this.gestoreRistoranti = gestoreRistoranti;
     }
 
@@ -43,13 +43,13 @@ public class GestoreRecensioni {
         }
         
         Recenzione recensione = new Recenzione(idUtente, idRistorante, stelle, testo);
-        recensioni.add(recensione);
+        boolean successo = recensioneDAO.salvaRecensione(recensione);
         
         // Aggiorna la valutazione del ristorante
-        aggiornaValutazioneRistorante(idRistorante);
-        
-        // RIMOSSO salvaRecensioni(): Il DAO farà l'INSERT INTO SQL
-        return true;
+        if(successo) {
+            aggiornaValutazioneRistorante(idRistorante);
+        }
+        return successo;
     }
     
     /**
@@ -61,16 +61,11 @@ public class GestoreRecensioni {
      * @return true se modificata con successo, false altrimenti
      */
     public boolean modificaRecensione(int idUtente, int idRistorante, int nuoveStelle, String nuovoTesto) {
-        Recenzione recensione = getRecensione(idUtente, idRistorante);
-        if (recensione != null) {
-            recensione.setStelle(nuoveStelle);
-            recensione.setTesto(nuovoTesto);
-            
+        boolean successo = recensioneDAO.modificaRecensione(idUtente, idRistorante, nuoveStelle, nuovoTesto);
+        if (successo) {
             aggiornaValutazioneRistorante(idRistorante);
-            
-            return true;
         }
-        return false;
+        return successo;
     }
     
     /**
@@ -80,15 +75,11 @@ public class GestoreRecensioni {
      * @return true se eliminata con successo, false altrimenti
      */
     public boolean eliminaRecensione(int idUtente, int idRistorante) {
-        Recenzione recensione = getRecensione(idUtente, idRistorante);
-        if (recensione != null) {
-            recensioni.remove(recensione);
-            
+        boolean successo = recensioneDAO.eliminaRecensione(idUtente, idRistorante);
+        if (successo) {
             aggiornaValutazioneRistorante(idRistorante);
-            
-            return true;
         }
-        return false;
+        return successo;
     }
     
     /**
@@ -98,16 +89,7 @@ public class GestoreRecensioni {
      * @return true se aggiunta con successo, false altrimenti
      */
     public boolean rispondiRecensione(int idRecensione, String risposta) {
-        for (Recenzione recensione : recensioni) {
-            if (recensione.getId() == idRecensione) { // Usato == per gli int
-                if (!recensione.hasRisposta()) {
-                    recensione.setRispostaRistoratore(risposta);
-                    return true;
-                }
-                return false; // Già risposto
-            }
-        }
-        return false;
+        return recensioneDAO.rispondiRecensione(idRecensione, risposta);
     }
     
     /**
@@ -117,24 +99,9 @@ public class GestoreRecensioni {
      * @return true se ha già recensito, false altrimenti
      */
     public boolean hasRecensione(int idUtente, int idRistorante) {
-        return getRecensione(idUtente, idRistorante) != null;
+        return recensioneDAO.hasRecensione(idUtente, idRistorante);
     }
     
-    /**
-     * Ottiene la recensione di un cliente per un ristorante
-     * @param idUtente ID del cliente
-     * @param idRistorante ID del ristorante
-     * @return La recensione o null se non esiste
-     */
-    public Recenzione getRecensione(int idUtente, int idRistorante) {
-        for (Recenzione recensione : recensioni) {
-            if (recensione.getIdUtente() == idUtente && 
-                recensione.getIdRistorante() == idRistorante) {
-                return recensione;
-            }
-        }
-        return null;
-    }
     
     /**
      * Ottiene tutte le recensioni di un ristorante
@@ -142,9 +109,7 @@ public class GestoreRecensioni {
      * @return Lista delle recensioni
      */
     public List<Recenzione> getRecensioniRistorante(int idRistorante) {
-        return recensioni.stream()
-            .filter(r -> r.getIdRistorante() == idRistorante)
-            .collect(Collectors.toList());
+        return recensioneDAO.getRecensioniPerRistorante(idRistorante);
     }
     
     /**
@@ -153,9 +118,7 @@ public class GestoreRecensioni {
      * @return Lista delle recensioni
      */
     public List<Recenzione> getRecensioniCliente(int idUtente) {
-        return recensioni.stream()
-            .filter(r -> r.getIdUtente() == idUtente)
-            .collect(Collectors.toList());
+        return recensioneDAO.getRecensioniPerUtente(idUtente);
     }
     
     /**
@@ -182,9 +145,8 @@ public class GestoreRecensioni {
      * @param idRistorante ID del ristorante
      */
     private void aggiornaValutazioneRistorante(int idRistorante) {
-        List<Recenzione> recensioniRistorante = getRecensioniRistorante(idRistorante);
         double media = calcolaMediaStelle(idRistorante);
-        int numeroRecensioni = recensioniRistorante.size();
+        int numeroRecensioni = getRecensioniRistorante(idRistorante).size();
         
         // Assumendo che GestoreRistoranti abbia questo metodo (da sistemare nel prossimo file)
         gestoreRistoranti.aggiornaValutazione(idRistorante, media, numeroRecensioni);
