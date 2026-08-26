@@ -1,10 +1,13 @@
 package theknife.gestione;
 
+import theknife.model.Ristorante;
 import theknife.model.Utente;
 import theknife.util.PasswordUtil;
 import theknife.dao.UtenteDAO;
+import theknife.dao.PreferitoDAO;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -255,5 +258,40 @@ public class GestoreUtenti {
         }
         return false;
     }
+
+    // ===============================================================
+    // GESTIONE PREFERITI
+    // ===============================================================
+
+    private PreferitoDAO preferitoDAO = new PreferitoDAO();
+
+    public boolean aggiungiPreferito(int idRistorante) {
+        if (utenteCorrente == null) {
+            return false; // Nessun utente loggato
+        }
+        return preferitoDAO.aggiungiPreferito(utenteCorrente.getId(), idRistorante);
+    }
+
+    public boolean rimuoviPreferito(int idRistorante) {
+        if (utenteCorrente == null) {
+            return false; // Nessun utente loggato
+        }
+        return preferitoDAO.rimuoviPreferito(utenteCorrente.getId(), idRistorante);
+    }
+
+    public boolean isPreferito(int idRistorante) {
+        if (utenteCorrente == null) {
+            return false; // Nessun utente loggato
+        }
+        return preferitoDAO.isPreferito(utenteCorrente.getId(), idRistorante);
+    }
+
+    public List<Ristorante> getPreferiti() {
+        if (utenteCorrente == null) {
+            return new ArrayList<>(); // Nessun utente loggato
+        }
+        return preferitoDAO.getPreferiti(utenteCorrente.getId());
+    }
+
 }
 

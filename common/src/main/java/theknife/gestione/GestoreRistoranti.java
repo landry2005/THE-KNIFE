@@ -1,8 +1,8 @@
 package theknife.gestione;
 
 import theknife.model.Ristorante;
+import theknife.dao.RistoranteDAO;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,24 +14,17 @@ import java.util.stream.Collectors;
  */
 public class GestoreRistoranti {
     
-    private List<Ristorante> ristoranti;
-    
-    /**
-     * Costruttore del gestore ristoranti
-     */
-    public GestoreRistoranti() {
-        this.ristoranti = new ArrayList<>();
-    }
-    
+  private RistoranteDAO ristoranteDAO = new RistoranteDAO();
     /**
      * Aggiunge un nuovo ristorante alla lista
      * @param ristorante Ristorante da aggiungere
      */
 
     public void aggiungiRistorante(Ristorante ristorante) {
-        ristoranti.add(ristorante);
-//rimosso salvaRistoranti(): Il DAO farà l'INSERT INTO SQL
+        ristoranteDAO.salvaRistorante(ristorante);
     }
+//rimosso salvaRistoranti(): Il DAO farà l'INSERT INTO SQL
+    
 
     /**
      * Cerca un ristorante per ID
@@ -40,12 +33,7 @@ public class GestoreRistoranti {
      */
 
     public Ristorante cercaRistorantePerId(int idRistorante){
-        for (Ristorante r : ristoranti) {
-            if (r.getId() == idRistorante) {
-                return r;
-            }
-        }
-        return null;
+        return ristoranteDAO.trovaPerId(idRistorante);
     }
 
     /**
@@ -55,9 +43,7 @@ public class GestoreRistoranti {
      */
 
     public List<Ristorante> cercaPerCitta(String citta){
-        return ristoranti.stream()
-                .filter(r -> r.getCitta().toLowerCase().equals(citta.toLowerCase()))
-                .collect(Collectors.toList());
+        return ristoranteDAO.cercaPerCitta(citta);
     }
 
     /**
@@ -68,8 +54,7 @@ public class GestoreRistoranti {
      */
 
     public List<Ristorante> cercaPerTipoCucina(String tipoCucina, String citta){
-        return ristoranti.stream()
-                .filter(r -> r.getCitta().toLowerCase().contains(citta.toLowerCase()))
+        return cercaPerCitta(citta).stream()
                 .filter(r -> r.getTipoCucina().toLowerCase().contains(tipoCucina.toLowerCase()))
                 .collect(Collectors.toList());
 }
@@ -82,8 +67,7 @@ public class GestoreRistoranti {
      * @return Lista di ristoranti trovati
      */
     public List<Ristorante> cercaPerFasciaPrezzo(double prezzoMin, double prezzoMax, String citta) {
-        return ristoranti.stream()
-            .filter(r -> r.getCitta().toLowerCase().contains(citta.toLowerCase()))
+        return cercaPerCitta(citta).stream()
             .filter(r -> r.getPrezzoMedio() >= prezzoMin && r.getPrezzoMedio() <= prezzoMax)
             .collect(Collectors.toList());
     }
@@ -94,8 +78,7 @@ public class GestoreRistoranti {
      * @return Lista di ristoranti con delivery
      */
     public List<Ristorante> cercaConDelivery(String citta) {
-        return ristoranti.stream()
-            .filter(r -> r.getCitta().toLowerCase().contains(citta.toLowerCase()))
+        return cercaPerCitta(citta).stream()
             .filter(Ristorante::isDelivery)
             .collect(Collectors.toList());
     }
@@ -106,8 +89,7 @@ public class GestoreRistoranti {
      * @return Lista di ristoranti con prenotazione
      */
     public List<Ristorante> cercaConPrenotazione(String citta) {
-        return ristoranti.stream()
-            .filter(r -> r.getCitta().toLowerCase().contains(citta.toLowerCase()))
+        return cercaPerCitta(citta).stream()
             .filter(Ristorante::isPrenotazione)
             .collect(Collectors.toList());
     }
@@ -119,8 +101,7 @@ public class GestoreRistoranti {
      * @return Lista di ristoranti trovati
      */
     public List<Ristorante> cercaPerStelle(double stelleMin, String citta) {
-        return ristoranti.stream()
-            .filter(r -> r.getCitta().toLowerCase().contains(citta.toLowerCase()))
+        return cercaPerCitta(citta).stream()
             .filter(r -> r.getMediaStelle() >= stelleMin)
             .collect(Collectors.toList());
     }
@@ -131,14 +112,10 @@ public class GestoreRistoranti {
     public List<Ristorante> cercaRistorante(String citta, String tipoCucina, Double prezzoMin, 
                                            Double prezzoMax, Boolean delivery, Boolean prenotazione, 
                                            Double stelleMin) {
-        List<Ristorante> risultati = new ArrayList<>(ristoranti);
+
+        //Prendo tutti i ristoranti della citta dal db
+        List<Ristorante> risultati = cercaPerCitta(citta);
         
-        // Filtro per città (obbligatorio)
-        if (citta != null && !citta.isEmpty()) {
-            risultati = risultati.stream()
-                .filter(r -> r.getCitta().toLowerCase().contains(citta.toLowerCase()))
-                .collect(Collectors.toList());
-        }
         
         // Filtro per tipo di cucina
         if (tipoCucina != null && !tipoCucina.isEmpty()) {
@@ -188,7 +165,7 @@ public class GestoreRistoranti {
      * @return Lista di tutti i ristoranti
      */
     public List<Ristorante> getTuttiRistoranti() {
-        return new ArrayList<>(ristoranti);
+        return ristoranteDAO.cercaPerCitta("");
     }
     
     /**
@@ -197,9 +174,7 @@ public class GestoreRistoranti {
      * @return Lista dei ristoranti del ristoratore
      */
     public List<Ristorante> getRistorantiPerRistoratore(int idRistoratore) {
-        return ristoranti.stream()
-            .filter(r -> r.getIdRistoratore() != null && r.getIdRistoratore() == idRistoratore)
-            .collect(Collectors.toList());
+        return ristoranteDAO.getRistorantiPerRistoratore(idRistoratore);
     }
     
     /**
@@ -209,11 +184,13 @@ public class GestoreRistoranti {
      * @param numeroRecensioni Numero di recensioni
      */
     public void aggiornaValutazione(int idRistorante, double nuovaMedia, int numeroRecensioni) {
-        Ristorante ristorante = cercaRistorantePerId(idRistorante);
-        if (ristorante != null) {
-            ristorante.setMediaStelle(nuovaMedia);
-            ristorante.setNumeroRecensioni(numeroRecensioni);
-            // RIMOSSO salvaRistoranti(): Il DAO farà l'UPDATE SQL se necessario
+        // Questo metodo verrà chiamato dal GestoreRecensioni.
+        // Per ora non facciamo l'UPDATE su DB perché la media si calcola dinamicamente 
+        // tramite la vista SQL 'vista_valutazioni_ristoranti' che abbiamo creato ieri!
+        Ristorante r = cercaRistorantePerId(idRistorante);
+        if (r != null) {
+            r.setMediaStelle(nuovaMedia);
+            r.setNumeroRecensioni(numeroRecensioni);
         }
     }
 }

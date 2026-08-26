@@ -477,8 +477,6 @@ public class TheKnife {
         
         System.out.println("\n" + ristorante.toStringDettagliato());
         
-        Utente utente = gestoreUtenti.getUtenteCorrente();
-        
         // Menu azioni
         System.out.println("\nAzioni disponibili:");
         System.out.println("1) Aggiungi/Rimuovi dai preferiti");
@@ -490,8 +488,14 @@ public class TheKnife {
         
         switch (scelta) {
             case 1:
-               // TODO: Gestione preferiti tramite DAO
-                System.out.println("Funzionalità preferiti in fase di migrazione su Database.");
+               // Aggiungi/Rimuovi dai preferiti
+                if (gestoreUtenti.isPreferito(idRistorante)) {
+                    gestoreUtenti.rimuoviPreferito(idRistorante);
+                    System.out.println("Rimosso dai preferiti.");
+                } else {
+                    gestoreUtenti.aggiungiPreferito(idRistorante);
+                    System.out.println("Aggiunto ai preferiti.");
+                }
                 break;
             case 2:
                 gestoreRecensioni.visualizzaRecensioni(idRistorante);
@@ -565,10 +569,21 @@ public class TheKnife {
      * Visualizza ristoranti preferiti
      */
     private static void visualizzaPreferiti() {
-         // TODO: Gestione preferiti tramite DAO
-        System.out.println("\nFunzionalità preferiti in fase di migrazione su Database.");
+        List<Ristorante> preferiti = gestoreUtenti.getPreferiti();
+        
+        if (preferiti.isEmpty()) {
+            System.out.println("\nNon hai ancora ristoranti preferiti.");
+            return;
+        }
+        
+        System.out.println("\n═══════════════════════════════════════════════════════");
+        System.out.println("  I TUOI RISTORANTI PREFERITI");
+        System.out.println("═══════════════════════════════════════════════════════");
+        
+        for (int i = 0; i < preferiti.size(); i++) {
+            System.out.println((i + 1) + ") " + preferiti.get(i));
+        }
     }
-
     /**
      * Menu gestione recensioni cliente
      */
@@ -591,12 +606,9 @@ public class TheKnife {
                     visualizzaMieRecensioni();
                     break;
                 case 2:
-                    System.out.print("Nome del ristorante: ");
-                    String nome = scanner.nextLine();
-                    System.out.print("Città: ");
-                    String citta = scanner.nextLine();
-                    String id = nome.replaceAll("\\s+", "_") + "_" + citta.replaceAll("\\s+", "_");
-                    aggiungiRecensione(Integer.parseInt(id));
+                    // Chiediamo l'ID numerico, non più il nome!
+                    int id = leggiIntero("Inserisci l'ID del ristorante da recensire: ");
+                    aggiungiRecensione(id);
                     break;
                 case 3:
                     modificaRecensione();
