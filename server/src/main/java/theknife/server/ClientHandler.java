@@ -1,13 +1,14 @@
 package theknife.server;
 
+import theknife.gestione.GestoreUtenti;
 import theknife.network.Request;
 import theknife.network.Response;
-import theknife.gestione.GestoreUtenti;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.time.LocalDate;
 
 public class ClientHandler implements Runnable {
 
@@ -42,52 +43,102 @@ public class ClientHandler implements Runnable {
 
                 case LOGIN:
 
-    String username =
-        (String) request.getData("username");
+                    String username =
+                        (String) request.getData("username");
 
-    String password =
-        (String) request.getData("password");
+                    String password =
+                        (String) request.getData("password");
 
-    boolean loginOk =
-        gestoreUtenti.login(username, password);
+                    boolean loginOk =
+                        gestoreUtenti.login(username, password);
 
-    if (loginOk) {
+                    if (loginOk) {
+                        response = new Response(
+                            true,
+                            "Login effettuato con successo",
+                            gestoreUtenti.getUtenteCorrente()
+                        );
+                    } else {
+                        response = new Response(
+                            false,
+                            "Username o password non validi"
+                        );
+                    }
 
-        response = new Response(
-            true,
-            "Login effettuato con successo",
-            gestoreUtenti.getUtenteCorrente()
-        );
-
-    } else {
-
-        response = new Response(
-            false,
-            "Username o password non validi"
-        );
-    }
-
-    break;
+                    break;
 
                 case REGISTER:
-                    response = new Response(
-                        true,
-                        "Richiesta REGISTER ricevuta"
-                    );
+
+                    String nome =
+                        (String) request.getData("nome");
+
+                    String cognome =
+                        (String) request.getData("cognome");
+
+                    String usernameRegistrazione =
+                        (String) request.getData("username");
+
+                    String passwordRegistrazione =
+                        (String) request.getData("password");
+
+                    String ruolo =
+                        (String) request.getData("ruolo");
+
+                    LocalDate dataNascita =
+                        (LocalDate) request.getData("dataNascita");
+
+                    String cittaDomicilio =
+                        (String) request.getData("cittaDomicilio");
+
+                    String domandaSicurezza =
+                        (String) request.getData("domandaSicurezza");
+
+                    String rispostaSicurezza =
+                        (String) request.getData("rispostaSicurezza");
+
+                    boolean registrazioneOk =
+                        gestoreUtenti.registrazione(
+                            nome,
+                            cognome,
+                            usernameRegistrazione,
+                            passwordRegistrazione,
+                            ruolo,
+                            dataNascita,
+                            cittaDomicilio,
+                            domandaSicurezza,
+                            rispostaSicurezza
+                        );
+
+                    if (registrazioneOk) {
+                        response = new Response(
+                            true,
+                            "Registrazione effettuata con successo"
+                        );
+                    } else {
+                        response = new Response(
+                            false,
+                            "Username già esistente o errore durante la registrazione"
+                        );
+                    }
+
                     break;
 
                 case SEARCH:
+
                     response = new Response(
                         true,
                         "Richiesta SEARCH ricevuta"
                     );
+
                     break;
 
                 default:
+
                     response = new Response(
                         false,
                         "Tipo di richiesta non ancora gestito"
                     );
+
                     break;
             }
 
@@ -105,9 +156,7 @@ public class ClientHandler implements Runnable {
 
             try {
                 socket.close();
-
             } catch (IOException e) {
-
                 System.err.println(
                     "Errore nella chiusura del socket: "
                     + e.getMessage()
