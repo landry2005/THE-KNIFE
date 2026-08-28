@@ -1,23 +1,29 @@
 package theknife.server;
 
+import theknife.gestione.GestoreRistoranti;
 import theknife.gestione.GestoreUtenti;
+import theknife.model.Ristorante;
 import theknife.network.Request;
 import theknife.network.Response;
+import theknife.network.SearchCriteria;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.time.LocalDate;
+import java.util.List;
 
 public class ClientHandler implements Runnable {
 
     private final Socket socket;
     private final GestoreUtenti gestoreUtenti;
+    private final GestoreRistoranti gestoreRistoranti;
 
     public ClientHandler(Socket socket) {
         this.socket = socket;
         this.gestoreUtenti = new GestoreUtenti();
+        this.gestoreRistoranti = new GestoreRistoranti();
     }
 
     @Override
@@ -125,9 +131,36 @@ public class ClientHandler implements Runnable {
 
                 case SEARCH:
 
+                    SearchCriteria criteri =
+                        (SearchCriteria) request.getData("criteria");
+
+                    if (criteri == null
+                            || criteri.getCitta() == null
+                            || criteri.getCitta().isBlank()) {
+
+                        response = new Response(
+                            false,
+                            "La città è obbligatoria"
+                        );
+
+                        break;
+                    }
+
+                    List<Ristorante> risultati =
+                        gestoreRistoranti.cercaRistorante(
+                            criteri.getCitta(),
+                            criteri.getTipoCucina(),
+                            criteri.getPrezzoMin(),
+                            criteri.getPrezzoMax(),
+                            criteri.getDelivery(),
+                            criteri.getPrenotazione(),
+                            criteri.getStelleMin()
+                        );
+
                     response = new Response(
                         true,
-                        "Richiesta SEARCH ricevuta"
+                        "Ricerca completata",
+                        risultati
                     );
 
                     break;
@@ -156,7 +189,9 @@ public class ClientHandler implements Runnable {
 
             try {
                 socket.close();
+
             } catch (IOException e) {
+
                 System.err.println(
                     "Errore nella chiusura del socket: "
                     + e.getMessage()
