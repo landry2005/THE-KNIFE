@@ -6,7 +6,9 @@ import java.io.Serializable;
  * Classe che rappresenta un ristorante nella piattaforma TheKnife.
  * Contiene tutte le informazioni relative al ristorante.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class Ristorante implements Serializable{
     

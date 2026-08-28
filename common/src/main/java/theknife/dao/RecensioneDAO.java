@@ -11,6 +11,10 @@ import java.time.LocalDateTime;
 /**
  * Data Access Object per la tabella 'recensioni'.
  * Gestisce le operazioni CRUD relative alle recensioni.
+ * 
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
 */
 
 public class RecensioneDAO {

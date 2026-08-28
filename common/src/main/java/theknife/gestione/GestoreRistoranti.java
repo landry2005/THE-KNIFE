@@ -10,7 +10,9 @@ import java.util.stream.Collectors;
  * Classe per la gestione dei ristoranti.
  * Gestisce il caricamento, la ricerca e l'aggiunta di ristoranti.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class GestoreRistoranti {
     

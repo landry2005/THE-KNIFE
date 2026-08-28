@@ -7,6 +7,13 @@ import java.util.Properties;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * Classe utility per la gestione e l'ottenimento delle connessioni al database PostgreSQL tramite JDBC.
+ * 
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 
 public class DatabaseConnection {
 

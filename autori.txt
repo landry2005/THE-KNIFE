@@ -1,0 +1,15 @@
+Cognome: Scafidi
+Nome: Michaela
+Matricola: 760101
+Sede: VA 
+
+Cognome: Wafo Tene 
+Nome: Wilfried Landry
+Matricola: 763687
+Sede: VA 
+
+Cognome: Fotso 
+Nome: Alex Castany
+Matricola: 762919
+Sede: VA
+

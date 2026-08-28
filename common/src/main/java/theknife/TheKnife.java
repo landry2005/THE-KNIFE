@@ -18,7 +18,9 @@ import java.util.Scanner;
  * Classe principale dell'applicazione TheKnife.
  * È una piattaforma per la ricerca e recensione di ristoranti.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class TheKnife {
     private static Scanner scanner = new Scanner(System.in);

@@ -14,7 +14,9 @@ import java.util.List;
  * Classe per la gestione degli utenti (clienti e ristoratori).
  * Gestisce registrazione, autenticazione e persistenza su file.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class GestoreUtenti {
    
