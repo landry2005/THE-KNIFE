@@ -1,6 +1,11 @@
 package theknife.network;
 
 import java.io.Serializable;
+/**
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 
 public class Response implements Serializable {
 

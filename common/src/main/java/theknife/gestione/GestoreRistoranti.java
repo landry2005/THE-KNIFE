@@ -2,7 +2,7 @@ package theknife.gestione;
 
 import theknife.dao.RistoranteDAO;
 import theknife.model.Ristorante;
-import theknife.dao.RistoranteDAO;
+
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,6 +10,10 @@ import java.util.stream.Collectors;
 /**
  * Classe per la gestione dei ristoranti.
  * Gestisce il caricamento, la ricerca e l'aggiunta di ristoranti.
+ * 
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class GestoreRistoranti {
     
@@ -54,10 +58,7 @@ public class GestoreRistoranti {
      * @param citta Città in cui cercare
      * @return Lista dei ristoranti trovati
      */
-    public List<Ristorante> cercaPerTipoCucina(
-            String tipoCucina,
-            String citta) {
-
+   
     public List<Ristorante> cercaPerTipoCucina(String tipoCucina, String citta){
         return cercaPerCitta(citta).stream()
                 .filter(r -> r.getTipoCucina().toLowerCase().contains(tipoCucina.toLowerCase()))
