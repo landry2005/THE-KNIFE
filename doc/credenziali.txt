@@ -1,0 +1,14 @@
+CREDENZIALI DI TEST PER THEKNIFE
+================================
+
+Per testare rapidamente l'applicazione senza dover procedere con la registrazione, il database viene prepopolato con i seguenti utenti:
+
+Cliente:
+- Nome: Mario Verdi
+- Username: mv12
+- Password: 1234
+
+Ristoratore:
+- Nome: Sabrina Sasso
+- Username: sabri
+- Password: 1234

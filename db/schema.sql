@@ -106,3 +106,8 @@ SELECT
 FROM ristoranti r
 LEFT JOIN recensioni rec ON rec.id_ristorante = r.id
 GROUP BY r.id, r.nome;
+
+-- Inserimento utenti di test predefiniti (Password: 1234)
+INSERT INTO utenti (nome, cognome, username, password_hash, ruolo, citta_domicilio, domanda_sicurezza, risposta_sicurezza) VALUES
+('Mario', 'Verdi', 'mv12', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c2d53b', 'cliente', 'Busto Arsizio', 'Cibo preferito?', 'pizza'),
+('Sabrina', 'Sasso', 'sabri', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c2d53b', 'ristoratore', 'Varese', 'Cibo preferito?', 'sushi');
