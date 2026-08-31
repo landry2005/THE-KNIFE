@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
+
 import theknife.client.SessionManager;
 import theknife.model.Utente;
 import theknife.network.Request;
@@ -46,6 +47,7 @@ public class LoginView {
             messaggio.setText("Connessione in corso...");
 
             Task<Response> task = new Task<>() {
+
                 @Override
                 protected Response call() throws Exception {
 
@@ -66,22 +68,44 @@ public class LoginView {
                 loginButton.setDisable(false);
 
                 Response response = task.getValue();
-                messaggio.setText(response.getMessage());
 
-               if (response.isSuccess()
-        && response.getData() instanceof Utente) {
+                messaggio.setText(
+                        response.getMessage()
+                );
 
-    SessionManager.setUtente(
-            (Utente) response.getData()
-    );
+                if (response.isSuccess()
+                        && response.getData() instanceof Utente) {
 
-    SceneManager.showSearch();
-}
+                    Utente utente =
+                            (Utente) response.getData();
+
+                    // Salva l'utente nella sessione
+                    SessionManager.setUtente(utente);
+
+                    // Decide quale interfaccia mostrare
+                    // in base al ruolo dell'utente
+                    if (SessionManager.isRistoratore()) {
+
+                        SceneManager.showRistoratore();
+
+                    } else {
+
+                        SceneManager.showSearch();
+                    }
+                }
             });
 
             task.setOnFailed(done -> {
+
                 loginButton.setDisable(false);
-                messaggio.setText("Server non raggiungibile.");
+
+                messaggio.setText(
+                        "Server non raggiungibile."
+                );
+
+                if (task.getException() != null) {
+                    task.getException().printStackTrace();
+                }
             });
 
             Thread thread = new Thread(task);

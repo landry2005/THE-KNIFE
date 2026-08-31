@@ -23,9 +23,9 @@ public class GestoreRistoranti {
      *
      * @param ristorante Ristorante da aggiungere
      */
-    public void aggiungiRistorante(Ristorante ristorante) {
-        ristoranteDAO.salvaRistorante(ristorante);
-    }
+    public boolean aggiungiRistorante(Ristorante ristorante) {
+    return ristoranteDAO.salvaRistorante(ristorante);
+}
 //rimosso salvaRistoranti(): Il DAO farà l'INSERT INTO SQL
     
 
