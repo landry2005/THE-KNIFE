@@ -61,7 +61,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>theknife.client.gui.TheKnifeApp</mainClass>
+                                    <mainClass>theknife.client.gui.Launcher</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
