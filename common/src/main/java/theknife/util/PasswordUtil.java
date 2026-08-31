@@ -8,7 +8,9 @@ import java.nio.charset.StandardCharsets;
  * Classe di utilità per la gestione delle password.
  * Fornisce metodi per cifrare e verificare password usando SHA-256.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class PasswordUtil {
     

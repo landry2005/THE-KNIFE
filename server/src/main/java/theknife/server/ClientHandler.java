@@ -14,6 +14,12 @@ import java.net.Socket;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
+
 public class ClientHandler implements Runnable {
 
     private final Socket socket;

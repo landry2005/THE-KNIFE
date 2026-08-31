@@ -7,7 +7,9 @@ import java.io.Serializable;
  * Classe che rappresenta un utente della piattaforma TheKnife.
  * Un utente può essere un cliente o un ristoratore.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class Utente implements Serializable{
 

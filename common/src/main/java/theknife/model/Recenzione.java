@@ -9,7 +9,9 @@ import java.io.Serializable;
  * Contiene il numero di stelle (1-5), il testo della recensione,
  * e l'eventuale risposta del ristoratore.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class Recenzione implements Serializable{
 

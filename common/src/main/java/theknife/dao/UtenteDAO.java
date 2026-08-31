@@ -10,6 +10,10 @@ import java.util.List;
 /**
  * Data Access Object (DAO) per la gestione degli utenti nel database.
  * Fornisce metodi per operazioni CRUD (Create, Read, Update, Delete) sugli utenti.
+ * 
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class UtenteDAO {
 

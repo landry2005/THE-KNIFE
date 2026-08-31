@@ -6,6 +6,11 @@ import theknife.network.Response;
 
 import java.time.LocalDate;
 
+/**
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class TestClient {
 
     public static void main(String[] args) {

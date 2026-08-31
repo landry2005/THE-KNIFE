@@ -13,7 +13,9 @@ import java.util.Properties;
  * Classe di utilità per importare dati dal file Michelin Guide CSV
  * direttamente nel database PostgreSQL di TheKnife.
  * 
- * @author [Nome Cognome - Matricola - Sede]
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class ImportaMichelin {
     

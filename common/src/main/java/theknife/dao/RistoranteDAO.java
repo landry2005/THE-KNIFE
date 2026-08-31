@@ -9,6 +9,10 @@ import java.util.List;
 /**
  * Data Access Object per la tabella 'ristoranti'.
  * Gestisce le operazioni CRUD relative ai ristoranti.
+ * 
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
  */
 public class RistoranteDAO {
 
