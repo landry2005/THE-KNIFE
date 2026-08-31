@@ -69,7 +69,7 @@ THE-KNIFE/
 
 ### 1. Setup del Database PostgreSQL
 1. Avviare PostgreSQL e creare un database vuoto (es. `theknifedb`).
-2. Eseguire lo script `sql/schema.sql` tramite pgAdmin per creare le tabelle (`utenti`, `ristoranti`, `recensioni`, `preferiti`), i vincoli e gli indici.
+2. Eseguire lo script `db/schema.sql` tramite pgAdmin per creare le tabelle (`utenti`, `ristoranti`, `recensioni`, `preferiti`), i vincoli e gli indici.
 
 ### 2. Configurazione delle Credenziali
 Nella cartella radice del progetto, creare un file nominato `db.properties.env` con la seguente struttura:
@@ -90,27 +90,44 @@ Per popolare il database con i ristoranti della Guida Michelin:
    mvn clean compile exec:java -pl common "-Dexec.mainClass=theknife.util.ImportaMichelin"
    ```
 
-## Compilazione e Avvio
+## Avvio dell'Applicazione
 
-Essendo un'applicazione distribuita, è necessario avviare separatamente il Server e il Client.
+L'applicazione è un sistema distribuito Client/Server. È possibile avviarla tramite i file `.jar` precompilati o direttamente tramite Maven dal codice sorgente. In entrambi i casi, è necessario avviare il Server e il Client in due terminali separati.
 
-### 1. Compilazione generale
-Per compilare l'intero progetto e installare i moduli in locale:
-```bash
-mvn clean install
-```
+### Metodo 1: Avvio tramite File JAR (Consigliato)
+Nella cartella `bin/` sono presenti i due file eseguibili `.jar` (con tutte le dipendenze incluse).
 
-### 2. Avvio del Server (Modulo `serverTK`)
-Avvia il server in ascolto sulla porta 5000:
-```bash
-mvn exec:java -pl server "-Dexec.mainClass=theknife.server.ServerMain"
-```
+1. **Avvio del Server:**
+   Aprire un terminale, navigare nella cartella `bin/` ed eseguire:
+   ```bash
+   java -jar serverTK.jar
+   ```
+   *(Il terminale mostrerà "Server in ascolto sulla porta 5000". Lasciare il terminale aperto).*
 
-### 3. Avvio del Client GUI (Modulo `clientTK`)
-Apri un **nuovo terminale** e avvia l'interfaccia grafica JavaFX:
-```bash
-mvn javafx:run -pl client
-```
+2. **Avvio del Client (GUI):**
+   Aprire un **nuovo terminale**, navigare nella cartella `bin/` ed eseguire:
+   ```bash
+   java -jar clientTK.jar
+   ```
+
+### Metodo 2: Avvio tramite Maven (Sviluppo)
+Per compilare e avviare l'applicazione direttamente dal codice sorgente:
+
+1. **Compilazione iniziale (nella root del progetto):**
+   ```bash
+   mvn clean install
+   ```
+
+2. **Avvio del Server:**
+   ```bash
+   mvn exec:java -pl server "-Dexec.mainClass=theknife.server.ServerMain"
+   ```
+
+3. **Avvio del Client (GUI):**
+   Aprire un nuovo terminale ed eseguire:
+   ```bash
+   mvn javafx:run -pl client
+   ```
 
 ## Funzionalità
 
