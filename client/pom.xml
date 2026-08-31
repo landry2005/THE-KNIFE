@@ -15,31 +15,60 @@
     </parent>
 
     <artifactId>client</artifactId>
+
     <dependencies>
-    <dependency>
-    <groupId>it.uninsubria</groupId>
-    <artifactId>common</artifactId>
-    <version>1.0-SNAPSHOT</version>
-</dependency>
+        <dependency>
+            <groupId>it.uninsubria</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-controls</artifactId>
-        <version>21.0.8</version>
-    </dependency>
-
-</dependencies>
-<build>
-    <plugins>
-        <plugin>
+        <dependency>
             <groupId>org.openjfx</groupId>
-            <artifactId>javafx-maven-plugin</artifactId>
-            <version>0.0.8</version>
-            <configuration>
-                <mainClass>theknife.client.gui.TheKnifeApp</mainClass>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+            <artifactId>javafx-controls</artifactId>
+            <version>21.0.8</version>
+        </dependency>
+        
+        <!-- Aggiungiamo anche javafx-fxml se usate file .fxml per la GUI -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>21.0.8</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Plugin per avviare JavaFX durante lo sviluppo -->
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+                <configuration>
+                    <mainClass>theknife.client.gui.TheKnifeApp</mainClass>
+                </configuration>
+            </plugin>
+            
+            <!-- Plugin per creare il file .jar eseguibile del Client (Fat Jar) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals><goal>shade</goal></goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>theknife.client.gui.TheKnifeApp</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

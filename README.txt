@@ -7,7 +7,7 @@ Università degli Studi dell'Insubria
 ------------------------------------------------------------------
 Assicurarsi di avere installato sul proprio sistema:
 - Java Development Kit (JDK) versione 17 o superiore.
-- Apache Maven versione 3.6 o superiore.
+- Apache Maven (versione 3.6 o superiore) se si vuole compilare da sorgente.
 - PostgreSQL (versione 14 o superiore) installato e in esecuzione.
 
 
@@ -18,7 +18,7 @@ Prima di avviare l'applicazione, è necessario configurare il database:
 a) Aprire pgAdmin (o psql) e creare un nuovo database vuoto 
    chiamato "theknifedb".
 
-b) Eseguire lo script SQL presente in:
+b) Eseguire lo script SQL presente nella cartella:
    db/schema.sql
    Questo creerà le tabelle (utenti, ristoranti, recensioni, 
    preferiti) e tutti i vincoli necessari.
@@ -34,43 +34,43 @@ c) Creare un file chiamato "db.properties.env" nella cartella
    db.password=latuapassword
 
 
-3. IMPORTAZIONE DATI MICHELIN (Opzionale ma consigliato)
+3. AVVIO DELL'APPLICAZIONE
 ------------------------------------------------------------------
-Per popolare il database con i ristoranti della Guida Michelin:
+L'applicazione è un sistema Client/Server e richiede l'avvio 
+separato di Server e Client su due terminali diversi.
 
-a) Posizionare il file "michelin_my_maps.csv" in una cartella 
-   chiamata "data/" nella root del progetto.
+METODO A: AVVIO TRAMITE FILE JAR (Consigliato)
+I file eseguibili .jar si trovano nella cartella "bin/".
 
-b) Eseguire la classe di importazione tramite Maven con il comando:
-   mvn clean compile exec:java -pl common "-Dexec.mainClass=theknife.util.ImportaMichelin"
+A1) Avvio del Server:
+    Aprire un terminale, posizionarsi nella cartella "bin/" ed eseguire:
+    java -jar serverTK.jar
+
+A2) Avvio del Client (GUI):
+    Aprire un NUOVO terminale, posizionarsi in "bin/" ed eseguire:
+    java -jar clientTK.jar
 
 
-4. COMPILAZIONE E AVVIO DELL'APPLICAZIONE
+METODO B: AVVIO TRAMITE MAVEN (Da codice sorgente)
+
+B1) Compilare l'intero progetto dalla root:
+    mvn clean install
+
+B2) Avvio del Server:
+    mvn exec:java -pl server "-Dexec.mainClass=theknife.server.ServerMain"
+
+B3) Avvio del Client (GUI) su un nuovo terminale:
+    mvn javafx:run -pl client
+
+
+4. STRUTTURA DELLE CARTELLE
 ------------------------------------------------------------------
-L'applicazione è strutturata come progetto Maven Multi-Modulo 
-(common, server, client).
-
-Per compilare l'intero progetto e installare le dipendenze in locale:
-mvn clean install
-
-L'applicazione richiede l'avvio separato di Server e Client.
-
-A) AVVIO DEL SERVER (Modulo serverTK):
-Per avviare il server in ascolto sulla porta 5000:
-mvn exec:java -pl server "-Dexec.mainClass=theknife.server.ServerMain"
-
-B) AVVIO DEL CLIENT (Modulo clientTK - Interfaccia Grafica JavaFX):
-Aprire un nuovo terminale e lanciare:
-mvn javafx:run -pl client
-
-
-5. STRUTTURA DELLE CARTELLE
-------------------------------------------------------------------
-- /common       -> Contiene il codice sorgente, i Model, i DAO 
-                   e la logica di business.
-- /server       -> Modulo server per la gestione concorrente (Socket TCP).
-- /client       -> Modulo client con interfaccia grafica (JavaFX).
-- /db          -> Contiene lo script schema.sql per il database.
-- /doc          -> Manuale Utente, Manuale Tecnico e Diagrammi UML/ER.
+- /bin        -> Contiene i file eseguibili .jar (Server e Client).
+- /common     -> Contiene il codice sorgente, i Model, i DAO 
+                 e la logica di business.
+- /server     -> Codice sorgente del server (Socket TCP).
+- /client     -> Codice sorgente del client (Interfaccia JavaFX).
+- /db        -> Contiene lo script schema.sql per il database.
+- /doc        -> Manuale Utente, Manuale Tecnico, Diagrammi e Javadoc.
 
 ==================================================================
