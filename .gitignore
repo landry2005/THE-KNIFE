@@ -1,5 +1,4 @@
 target/
-bin/
 *.class
 .vscode/
 db.properties.env
