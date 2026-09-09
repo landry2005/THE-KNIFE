@@ -15,6 +15,15 @@ import theknife.network.Request;
 import theknife.network.RequestType;
 import theknife.network.Response;
 
+/**
+ * Schermata riservata al ristoratore autenticato che permette di
+ * inserire un nuovo ristorante, con tutte le sue caratteristiche
+ * (locazione, fascia di prezzo, tipo di cucina, servizi offerti).
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class AddRestaurantView {
 
     private final Label messaggio = new Label();

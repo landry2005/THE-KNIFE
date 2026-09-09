@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Data Access Object per la tabella 'ristoranti'.
  * Gestisce le operazioni CRUD relative ai ristoranti.
- * 
+ *
  * @author Scafidi Michaela - 760101 - VA
  * @author Wafo Tene Wilfried Landry - 763687 - VA
  * @author Fotso Alex Castany - 762919 - VA
@@ -17,16 +17,22 @@ import java.util.List;
 public class RistoranteDAO {
 
     /**
-     * Salva un nuovo ristorante nel database
+     * Salva un nuovo ristorante nel database.
+     *
+     * @param ristorante ristorante da salvare
+     * @return true se il salvataggio è avvenuto correttamente
      */
     public boolean salvaRistorante(Ristorante ristorante) {
-        String sql = "INSERT INTO ristoranti (nome, nazione, citta, indirizzo, latitudine, longitudine, " +
-                     "fascia_prezzo, delivery, prenotazione_online, tipo_cucina, id_gestore) " +
-                     "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-        
+
+        String sql =
+                "INSERT INTO ristoranti " +
+                "(nome, nazione, citta, indirizzo, latitudine, longitudine, " +
+                "fascia_prezzo, delivery, prenotazione_online, tipo_cucina, id_gestore) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            
+
             pstmt.setString(1, ristorante.getNome());
             pstmt.setString(2, ristorante.getNazione());
             pstmt.setString(3, ristorante.getCitta());
@@ -37,112 +43,307 @@ public class RistoranteDAO {
             pstmt.setBoolean(8, ristorante.isDelivery());
             pstmt.setBoolean(9, ristorante.isPrenotazione());
             pstmt.setString(10, ristorante.getTipoCucina());
-            
+
             if (ristorante.getIdRistoratore() != null) {
                 pstmt.setInt(11, ristorante.getIdRistoratore());
             } else {
                 pstmt.setNull(11, Types.INTEGER);
             }
-            
+
             return pstmt.executeUpdate() > 0;
-            
+
         } catch (SQLException e) {
+
             if ("23505".equals(e.getSQLState())) {
-                System.err.println("Errore: Ristorante già esistente nel database.");
+                System.err.println(
+                        "Errore: Ristorante già esistente nel database."
+                );
             } else {
-                System.err.println("Errore SQL durante il salvataggio del ristorante: " + e.getMessage());
+                System.err.println(
+                        "Errore SQL durante il salvataggio del ristorante: "
+                                + e.getMessage()
+                );
             }
+
             return false;
         }
     }
 
     /**
-     * Cerca un ristorante per ID numerico
+     * Cerca un ristorante per ID numerico.
+     *
+     * @param id ID del ristorante
+     * @return ristorante trovato oppure null
      */
     public Ristorante trovaPerId(int id) {
+
         String sql = "SELECT * FROM ristoranti WHERE id = ?";
-        
+
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            
+
             pstmt.setInt(1, id);
+
             try (ResultSet rs = pstmt.executeQuery()) {
+
                 if (rs.next()) {
                     return mappaRiga(rs);
                 }
             }
+
         } catch (SQLException e) {
-            System.err.println("Errore SQL ricerca ristorante per ID: " + e.getMessage());
+            System.err.println(
+                    "Errore SQL ricerca ristorante per ID: "
+                            + e.getMessage()
+            );
         }
+
         return null;
     }
 
     /**
-     * Cerca ristoranti per città (Case Insensitive)
+     * Cerca ristoranti per città.
+     *
+     * Recupera anche la valutazione media e il numero
+     * di recensioni tramite la vista
+     * vista_valutazioni_ristoranti.
+     *
+     * @param citta città in cui cercare
+     * @return lista dei ristoranti trovati
      */
     public List<Ristorante> cercaPerCitta(String citta) {
+
         List<Ristorante> lista = new ArrayList<>();
-        // Usiamo ILIKE per rendere la ricerca insensibile alle maiuscole/minuscole
-        String sql = "SELECT * FROM ristoranti WHERE citta ILIKE ?";
-        
+
+        String sql =
+                "SELECT r.*, " +
+                "COALESCE(v.media_stelle, 0) AS media_stelle, " +
+                "COALESCE(v.numero_recensioni, 0) AS numero_recensioni " +
+                "FROM ristoranti r " +
+                "LEFT JOIN vista_valutazioni_ristoranti v ON v.id = r.id " +
+                "WHERE r.citta ILIKE ?";
+
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            
+
             pstmt.setString(1, "%" + citta + "%");
+
             try (ResultSet rs = pstmt.executeQuery()) {
+
                 while (rs.next()) {
-                    lista.add(mappaRiga(rs));
+
+                    Ristorante ristorante = mappaRiga(rs);
+
+                    ristorante.setMediaStelle(
+                            rs.getDouble("media_stelle")
+                    );
+
+                    ristorante.setNumeroRecensioni(
+                            rs.getInt("numero_recensioni")
+                    );
+
+                    lista.add(ristorante);
                 }
             }
+
         } catch (SQLException e) {
-            System.err.println("Errore SQL ricerca per città: " + e.getMessage());
+            System.err.println(
+                    "Errore SQL ricerca per città: "
+                            + e.getMessage()
+            );
         }
+
         return lista;
     }
 
     /**
-     * Restituisce i ristoranti creati da un determinato gestore
+     * Restituisce i ristoranti creati da un determinato gestore.
+     *
+     * @param idGestore ID del gestore
+     * @return lista dei ristoranti del gestore
      */
     public List<Ristorante> getRistorantiPerRistoratore(int idGestore) {
+
         List<Ristorante> lista = new ArrayList<>();
-        String sql = "SELECT * FROM ristoranti WHERE id_gestore = ?";
-        
+
+        String sql =
+                "SELECT * FROM ristoranti WHERE id_gestore = ?";
+
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            
+
             pstmt.setInt(1, idGestore);
+
             try (ResultSet rs = pstmt.executeQuery()) {
+
                 while (rs.next()) {
                     lista.add(mappaRiga(rs));
                 }
             }
+
         } catch (SQLException e) {
-            System.err.println("Errore SQL ricerca ristoranti per gestore: " + e.getMessage());
+            System.err.println(
+                    "Errore SQL ricerca ristoranti per gestore: "
+                            + e.getMessage()
+            );
         }
+
         return lista;
     }
 
     /**
-     * Metodo utility privato per mappare una riga del ResultSet in un oggetto Ristorante
+     * Ricerca avanzata con criteri multipli direttamente sul database.
+     *
+     * @param citta città
+     * @param tipoCucina tipo di cucina
+     * @param prezzoMin prezzo minimo
+     * @param prezzoMax prezzo massimo
+     * @param delivery disponibilità delivery
+     * @param prenotazione disponibilità prenotazione online
+     * @param stelleMin valutazione minima
+     * @return lista dei ristoranti corrispondenti
      */
-    private Ristorante mappaRiga(ResultSet rs) throws SQLException {
+    public List<Ristorante> cercaConCriteri(
+            String citta,
+            String tipoCucina,
+            Double prezzoMin,
+            Double prezzoMax,
+            Boolean delivery,
+            Boolean prenotazione,
+            Double stelleMin) {
+
+        List<Ristorante> risultati = new ArrayList<>();
+
+        StringBuilder sql = new StringBuilder(
+                "SELECT r.*, " +
+                "COALESCE(v.media_stelle, 0) AS media_stelle, " +
+                "COALESCE(v.numero_recensioni, 0) AS numero_recensioni " +
+                "FROM ristoranti r " +
+                "LEFT JOIN vista_valutazioni_ristoranti v ON v.id = r.id " +
+                "WHERE r.citta ILIKE ?"
+        );
+
+        List<Object> parametri = new ArrayList<>();
+        parametri.add("%" + citta + "%");
+
+        if (tipoCucina != null && !tipoCucina.isBlank()) {
+            sql.append(" AND r.tipo_cucina ILIKE ?");
+            parametri.add("%" + tipoCucina + "%");
+        }
+
+        if (prezzoMin != null) {
+            sql.append(" AND r.fascia_prezzo >= ?");
+            parametri.add(prezzoMin);
+        }
+
+        if (prezzoMax != null) {
+            sql.append(" AND r.fascia_prezzo <= ?");
+            parametri.add(prezzoMax);
+        }
+
+        if (Boolean.TRUE.equals(delivery)) {
+            sql.append(" AND r.delivery = TRUE");
+        }
+
+        if (Boolean.TRUE.equals(prenotazione)) {
+            sql.append(" AND r.prenotazione_online = TRUE");
+        }
+
+        if (stelleMin != null) {
+            sql.append(
+                    " AND COALESCE(v.media_stelle, 0) >= ?"
+            );
+            parametri.add(stelleMin);
+        }
+
+        sql.append(" ORDER BY r.nome");
+
+        try (Connection conn = DatabaseConnection.getConnection();
+             PreparedStatement pstmt =
+                     conn.prepareStatement(sql.toString())) {
+
+            for (int i = 0; i < parametri.size(); i++) {
+                pstmt.setObject(i + 1, parametri.get(i));
+            }
+
+            try (ResultSet rs = pstmt.executeQuery()) {
+
+                while (rs.next()) {
+
+                    Ristorante ristorante = mappaRiga(rs);
+
+                    ristorante.setMediaStelle(
+                            rs.getDouble("media_stelle")
+                    );
+
+                    ristorante.setNumeroRecensioni(
+                            rs.getInt("numero_recensioni")
+                    );
+
+                    risultati.add(ristorante);
+                }
+            }
+
+        } catch (SQLException e) {
+            System.err.println(
+                    "Errore SQL durante la ricerca avanzata: "
+                            + e.getMessage()
+            );
+        }
+
+        return risultati;
+    }
+
+    /**
+     * Metodo utility per convertire una riga del ResultSet
+     * in un oggetto Ristorante.
+     *
+     * @param rs ResultSet
+     * @return ristorante
+     * @throws SQLException in caso di errore SQL
+     */
+    private Ristorante mappaRiga(ResultSet rs)
+            throws SQLException {
+
         int id = rs.getInt("id");
         String nome = rs.getString("nome");
         String nazione = rs.getString("nazione");
         String citta = rs.getString("citta");
         String indirizzo = rs.getString("indirizzo");
+
         double lat = rs.getDouble("latitudine");
         double lon = rs.getDouble("longitudine");
+
         double prezzo = rs.getDouble("fascia_prezzo");
-        boolean delivery = rs.getBoolean("delivery");
-        boolean prenotazione = rs.getBoolean("prenotazione_online");
-        String cucina = rs.getString("tipo_cucina");
-        
-        // Gestione chiave esterna nullable
-        int idGest = rs.getInt("id_gestore");
-        Integer idGestore = rs.wasNull() ? null : idGest;
-        
-        return new Ristorante(id, nome, nazione, citta, indirizzo, lat, lon, cucina, 
-                              prezzo, delivery, prenotazione, idGestore);
+
+        boolean delivery =
+                rs.getBoolean("delivery");
+
+        boolean prenotazione =
+                rs.getBoolean("prenotazione_online");
+
+        String cucina =
+                rs.getString("tipo_cucina");
+
+        int idGest =
+                rs.getInt("id_gestore");
+
+        Integer idGestore =
+                rs.wasNull() ? null : idGest;
+
+        return new Ristorante(
+                id,
+                nome,
+                nazione,
+                citta,
+                indirizzo,
+                lat,
+                lon,
+                cucina,
+                prezzo,
+                delivery,
+                prenotazione,
+                idGestore
+        );
     }
 }

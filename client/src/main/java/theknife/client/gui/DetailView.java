@@ -27,6 +27,18 @@ import theknife.network.Response;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
+/**
+ * Schermata di dettaglio di un ristorante: mostra le sue
+ * caratteristiche, l'elenco delle recensioni con la relativa media
+ * delle stelle, e permette (per gli utenti clienti autenticati) di
+ * aggiungerlo ai preferiti e di inserire/modificare/eliminare la
+ * propria recensione. Accessibile in sola lettura anche agli utenti
+ * guest.
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class DetailView {
 
     private final Ristorante ristorante;

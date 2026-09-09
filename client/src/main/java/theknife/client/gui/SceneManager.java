@@ -6,6 +6,17 @@ import javafx.stage.Stage;
 import theknife.client.ServerConnection;
 import theknife.model.Ristorante;
 
+/**
+ * Gestore centralizzato della navigazione tra le schermate (scene)
+ * dell'applicazione client. Mantiene un riferimento unico allo
+ * {@link javafx.stage.Stage} principale e alla connessione al
+ * server, ed espone un metodo statico per ciascuna schermata
+ * dell'applicazione.
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public final class SceneManager {
 
     private static Stage stage;
@@ -53,6 +64,25 @@ public final class SceneManager {
         stage.setScene(
                 new Scene(
                         new SearchView().getView(),
+                        1000,
+                        650
+                )
+        );
+    }
+
+    /**
+     * Mostra la schermata iniziale (Home) con l'elenco dei
+     * ristoranti vicini al luogo indicato oppure, se l'utente è
+     * loggato, al proprio domicilio.
+     *
+     * @param luogoIniziale luogo da usare per la prima ricerca
+     *                      automatica (può essere {@code null})
+     */
+    public static void showHome(String luogoIniziale) {
+
+        stage.setScene(
+                new Scene(
+                        new HomeView().getView(luogoIniziale),
                         1000,
                         650
                 )
