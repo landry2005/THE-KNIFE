@@ -17,6 +17,16 @@ import theknife.network.Response;
 
 import java.util.List;
 
+/**
+ * Schermata riservata al ristoratore autenticato che mostra le
+ * recensioni ricevute da un proprio ristorante, con il dettaglio
+ * delle stelle e la possibilità di rispondere a ciascuna recensione
+ * (al massimo una risposta per recensione).
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class RestaurantReviewsView {
 
     private final Ristorante ristorante;

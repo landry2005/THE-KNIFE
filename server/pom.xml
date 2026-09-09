@@ -25,6 +25,7 @@
     </dependencies>
 
     <build>
+        <finalName>serverTK</finalName>
         <plugins>
             <!-- Plugin per creare il file .jar eseguibile del Server -->
             <plugin>

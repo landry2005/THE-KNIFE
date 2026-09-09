@@ -4,6 +4,15 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 import theknife.client.ServerConnection;
 
+/**
+ * Punto di ingresso dell'applicazione client JavaFX. Inizializza la
+ * connessione al server e avvia l'interfaccia grafica mostrando la
+ * schermata di login iniziale.
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class TheKnifeApp extends Application {
 
     @Override

@@ -16,6 +16,15 @@ import theknife.network.Request;
 import theknife.network.RequestType;
 import theknife.network.Response;
 
+/**
+ * Schermata iniziale dell'applicazione: permette all'utente di
+ * autenticarsi, di accedere alla registrazione oppure di proseguire
+ * come utente "guest" senza effettuare il login.
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class LoginView {
 
     public Parent getView() {
@@ -90,7 +99,7 @@ public class LoginView {
 
                     } else {
 
-                        SceneManager.showSearch();
+                        SceneManager.showHome(null);
                     }
                 }
             });
@@ -117,6 +126,34 @@ public class LoginView {
                 event -> SceneManager.showRegister()
         );
 
+        // Accesso come utente "guest": basta indicare un luogo,
+        // nessuna credenziale è richiesta.
+        Label separatore = new Label("oppure");
+
+        TextField luogoGuestField = new TextField();
+        luogoGuestField.setPromptText("Luogo (es. Milano)");
+        luogoGuestField.setMaxWidth(300);
+
+        Button guestButton = new Button("Continua come ospite");
+
+        guestButton.setOnAction(event -> {
+
+            String luogo = luogoGuestField.getText().trim();
+
+            if (luogo.isEmpty()) {
+
+                messaggio.setText(
+                        "Inserire un luogo per proseguire come ospite."
+                );
+
+                return;
+            }
+
+            // Nessun login: la sessione resta vuota, l'utente
+            // naviga in sola lettura come da specifica.
+            SceneManager.showHome(luogo);
+        });
+
         VBox root = new VBox(
                 15,
                 titolo,
@@ -124,6 +161,9 @@ public class LoginView {
                 passwordField,
                 loginButton,
                 registerButton,
+                separatore,
+                luogoGuestField,
+                guestButton,
                 messaggio
         );
 

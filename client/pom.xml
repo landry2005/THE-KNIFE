@@ -38,6 +38,7 @@
     </dependencies>
 
     <build>
+        <finalName>clientTK</finalName>
         <plugins>
             <!-- Plugin per avviare JavaFX durante lo sviluppo -->
             <plugin>

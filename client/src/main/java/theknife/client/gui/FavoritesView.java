@@ -21,6 +21,14 @@ import theknife.network.Response;
 
 import java.util.List;
 
+/**
+ * Schermata riservata al cliente autenticato che mostra l'elenco
+ * dei ristoranti salvati nella propria lista dei preferiti.
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class FavoritesView {
 
     private final TableView<Ristorante> table =

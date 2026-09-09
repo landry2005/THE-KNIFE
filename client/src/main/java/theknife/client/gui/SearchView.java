@@ -25,6 +25,16 @@ import theknife.network.SearchCriteria;
 
 import java.util.List;
 
+/**
+ * Schermata di ricerca avanzata dei ristoranti, con filtri
+ * combinabili per città, tipo di cucina, fascia di prezzo,
+ * disponibilità di delivery/prenotazione online e stelle minime.
+ * Accessibile sia agli utenti registrati sia agli utenti guest.
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class SearchView {
 
     private final TableView<Ristorante> table =
@@ -92,8 +102,19 @@ public class SearchView {
                         "I miei preferiti"
                 );
 
+        Button homeButton =
+                new Button("Home");
+
+        homeButton.setOnAction(
+                event -> SceneManager.showHome(null)
+        );
+
         Button logoutButton =
-                new Button("Logout");
+                new Button(
+                        SessionManager.isLoggato()
+                                ? "Logout"
+                                : "Accedi / Registrati"
+                );
 
         Label messaggio =
                 new Label();
@@ -111,7 +132,9 @@ public class SearchView {
 
         logoutButton.setOnAction(event -> {
 
-            SessionManager.logout();
+            if (SessionManager.isLoggato()) {
+                SessionManager.logout();
+            }
 
             SceneManager.showLogin();
         });
@@ -319,6 +342,7 @@ public class SearchView {
                         deliveryBox,
                         prenotazioneBox,
                         cercaButton,
+                        homeButton,
                         preferitiButton,
                         logoutButton
                 );

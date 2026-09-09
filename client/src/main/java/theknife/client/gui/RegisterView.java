@@ -10,6 +10,15 @@ import theknife.network.Request;
 import theknife.network.RequestType;
 import theknife.network.Response;
 
+/**
+ * Schermata di registrazione di un nuovo utente (cliente o
+ * ristoratore), con raccolta dei dati anagrafici e delle domande
+ * di sicurezza per il recupero password.
+ *
+ * @author Scafidi Michaela - 760101 - VA
+ * @author Wafo Tene Wilfried Landry - 763687 - VA
+ * @author Fotso Alex Castany - 762919 - VA
+ */
 public class RegisterView {
 
     public Parent getView() {
