@@ -5,7 +5,6 @@
 
 -- 1. PULIZIA INIZIALE
 DROP VIEW IF EXISTS vista_valutazioni_ristoranti CASCADE;
-DROP FUNCTION IF EXISTS verifica_ruolo_gestore() CASCADE;
 DROP TABLE IF EXISTS preferiti CASCADE;
 DROP TABLE IF EXISTS recensioni CASCADE;
 DROP TABLE IF EXISTS ristoranti CASCADE;
@@ -63,26 +62,7 @@ CREATE TABLE preferiti (
     PRIMARY KEY (id_utente, id_ristorante)
 );
 
--- ============================================================
--- 3. LOGICA AVANZATA (TRIGGER)
--- ============================================================
 
-CREATE OR REPLACE FUNCTION verifica_ruolo_gestore() 
-RETURNS TRIGGER AS $$ BEGIN
-    IF NEW.id_gestore IS NOT NULL THEN
-        IF NOT EXISTS (
-            SELECT 1 FROM utenti WHERE id = NEW.id_gestore AND ruolo = 'ristoratore'
-        ) THEN
-            RAISE EXCEPTION 'Errore: l''utente con id % non è un ristoratore valido.', NEW.id_gestore;
-        END IF;
-    END IF;
-    RETURN NEW;
-END;
- $$ LANGUAGE plpgsql;
-
-CREATE TRIGGER trg_verifica_ruolo_gestore
-    BEFORE INSERT OR UPDATE ON ristoranti
-    FOR EACH ROW EXECUTE FUNCTION verifica_ruolo_gestore();
 
 -- ============================================================
 -- 4. OTTIMIZZAZIONE (INDICI)

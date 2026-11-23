@@ -6,6 +6,7 @@ import theknife.gestione.GestoreRistoranti;
 import theknife.gestione.GestoreUtenti;
 import theknife.model.Recenzione;
 import theknife.model.Ristorante;
+import theknife.model.Utente;
 import theknife.network.Request;
 import theknife.network.Response;
 import theknife.network.SearchCriteria;
@@ -23,7 +24,6 @@ import java.util.List;
  * @author Wafo Tene Wilfried Landry - 763687 - VA
  * @author Fotso Alex Castany - 762919 - VA
  */
-
 public class ClientHandler implements Runnable {
 
     private final Socket socket;
@@ -280,18 +280,6 @@ public class ClientHandler implements Runnable {
                         break;
                     }
 
-                    if (recensioneDAO.hasRecensione(
-                            idUtenteRecensione,
-                            idRistoranteRecensione)) {
-
-                        response = new Response(
-                            false,
-                            "Hai già recensito questo ristorante"
-                        );
-
-                        break;
-                    }
-
                     Recenzione nuovaRecensione =
                         new Recenzione(
                             -1,
@@ -313,7 +301,7 @@ public class ClientHandler implements Runnable {
                         recensioneAggiunta,
                         recensioneAggiunta
                             ? "Recensione aggiunta con successo"
-                            : "Errore durante l'aggiunta della recensione"
+                            : "Hai già recensito questo ristorante"
                     );
 
                     break;
@@ -394,6 +382,26 @@ public class ClientHandler implements Runnable {
                         true,
                         "Recensioni recuperate",
                         recensioni
+                    );
+
+                    break;
+
+                case GET_MY_REVIEWS:
+
+                    int idUtenteMieRecensioni =
+                        (Integer)
+                            request.getData("idUtente");
+
+                    List<Recenzione> mieRecensioni =
+                        recensioneDAO
+                            .getRecensioniPerUtente(
+                                idUtenteMieRecensioni
+                            );
+
+                    response = new Response(
+                        true,
+                        "Recensioni recuperate",
+                        mieRecensioni
                     );
 
                     break;
@@ -483,6 +491,32 @@ public class ClientHandler implements Runnable {
                             ? "Risposta aggiunta con successo"
                             : "Impossibile aggiungere la risposta"
                     );
+
+                    break;
+
+                case RESET_PASSWORD:
+
+                    String usernameReset = (String) request.getData("username");
+                    String stepReset = (String) request.getData("step");
+
+                    if ("get_domanda".equals(stepReset)) {
+                        Utente utenteReset = gestoreUtenti.cercaUtente(usernameReset);
+                        if (utenteReset != null && utenteReset.getDomandaSicurezza() != null) {
+                            response = new Response(true, "Domanda trovata", utenteReset.getDomandaSicurezza());
+                        } else {
+                            response = new Response(false, "Utente non trovato o senza domanda di sicurezza");
+                        }
+                    } else if ("verifica_risposta".equals(stepReset)) {
+                        String rispostaReset = (String) request.getData("risposta");
+                        boolean ok = gestoreUtenti.verificaRispostaSicurezza(usernameReset, rispostaReset);
+                        response = new Response(ok, ok ? "Risposta corretta" : "Risposta errata");
+                    } else if ("nuova_password".equals(stepReset)) {
+                        String nuovaPassword = (String) request.getData("nuovaPassword");
+                        boolean ok = gestoreUtenti.reimpostaPassword(usernameReset, nuovaPassword);
+                        response = new Response(ok, ok ? "Password reimpostata con successo" : "Errore reimpostazione");
+                    } else {
+                        response = new Response(false, "Step non valido");
+                    }
 
                     break;
 

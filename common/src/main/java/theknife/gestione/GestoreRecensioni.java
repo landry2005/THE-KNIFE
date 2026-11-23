@@ -4,13 +4,13 @@ import theknife.model.Recenzione;
 import theknife.model.Ristorante;
 import theknife.dao.RecensioneDAO;
 
-
 import java.util.List;
-
 
 /**
  * Classe per la gestione delle recensioni.
- * Gestisce l'aggiunta, modifica, cancellazione e persistenza delle recensioni.
+ * Delega la persistenza al RecensioneDAO.
+ * La media delle stelle viene calcolata automaticamente
+ * dalla vista SQL vista_valutazioni_ristoranti.
  * 
  * @author Scafidi Michaela - 760101 - VA
  * @author Wafo Tene Wilfried Landry - 763687 - VA
@@ -18,181 +18,166 @@ import java.util.List;
  */
 public class GestoreRecensioni {
 
-    private RecensioneDAO recensioneDAO = new RecensioneDAO();
-    private GestoreRistoranti gestoreRistoranti;
-    
+    private final RecensioneDAO recensioneDAO;
+    private final GestoreRistoranti gestoreRistoranti;
+
     /**
-     * Costruttore del gestore recensioni
-     * @param gestoreRistoranti Riferimento al gestore ristoranti per aggiornare le valutazioni
+     * Costruttore del gestore recensioni.
+     *
+     * @param gestoreRistoranti riferimento al gestore ristoranti
+     *                          per aggiornare le valutazioni
      */
     public GestoreRecensioni(GestoreRistoranti gestoreRistoranti) {
+        this.recensioneDAO = new RecensioneDAO();
         this.gestoreRistoranti = gestoreRistoranti;
     }
 
     /**
-     * Aggiunge una nuova recensione e aggiorna la media stelle del ristorante
-     * @param idUtente ID dell'utente che lascia la recensione
+     * Aggiunge una nuova recensione.
+     * Il constraint UNIQUE del database protegge già
+     * dai duplicati: se l'utente ha già recensito,
+     * salvaRecensione() restituisce false.
+     *
+     * @param idUtente     ID del cliente che scrive la recensione
      * @param idRistorante ID del ristorante recensito
-     * @param stelle Numero di stelle (1-5)
-     * @param testo Testo della recensione
-     * @return true se aggiunta con successo, false se il clienta ha gia recensito il ristorante
+     * @param stelle       numero di stelle (1-5)
+     * @param testo        testo della recensione
+     * @return true se aggiunta con successo,
+     *         false se l'utente ha già recensito o errore
      */
-    
-  public boolean aggiungiRecensione(int idUtente, int idRistorante, int stelle, String testo) {
-        // Verifica se l'utente ha già recensito questo ristorante
-        if (hasRecensione(idUtente, idRistorante)) {
-            return false;
-        }
-        
+    public boolean aggiungiRecensione(int idUtente, int idRistorante, int stelle, String testo) {
         Recenzione recensione = new Recenzione(idUtente, idRistorante, stelle, testo);
-        boolean successo = recensioneDAO.salvaRecensione(recensione);
-        
-        // Aggiorna la valutazione del ristorante
-        if(successo) {
-            aggiornaValutazioneRistorante(idRistorante);
-        }
-        return successo;
+        return recensioneDAO.salvaRecensione(recensione);
     }
-    
+
     /**
-     * Modifica una recensione esistente
-     * @param idUtente ID del cliente
+     * Modifica una recensione esistente.
+     *
+     * @param idUtente     ID del cliente
      * @param idRistorante ID del ristorante
-     * @param nuoveStelle Nuovo numero di stelle
-     * @param nuovoTesto Nuovo testo
+     * @param nuoveStelle  nuovo numero di stelle (1-5)
+     * @param nuovoTesto   nuovo testo
      * @return true se modificata con successo, false altrimenti
      */
     public boolean modificaRecensione(int idUtente, int idRistorante, int nuoveStelle, String nuovoTesto) {
-        boolean successo = recensioneDAO.modificaRecensione(idUtente, idRistorante, nuoveStelle, nuovoTesto);
-        if (successo) {
-            aggiornaValutazioneRistorante(idRistorante);
-        }
-        return successo;
+        return recensioneDAO.modificaRecensione(idUtente, idRistorante, nuoveStelle, nuovoTesto);
     }
-    
+
     /**
-     * Elimina una recensione
-     * @param idUtente ID del cliente
+     * Elimina una recensione.
+     *
+     * @param idUtente     ID del cliente
      * @param idRistorante ID del ristorante
      * @return true se eliminata con successo, false altrimenti
      */
     public boolean eliminaRecensione(int idUtente, int idRistorante) {
-        boolean successo = recensioneDAO.eliminaRecensione(idUtente, idRistorante);
-        if (successo) {
-            aggiornaValutazioneRistorante(idRistorante);
-        }
-        return successo;
+        return recensioneDAO.eliminaRecensione(idUtente, idRistorante);
     }
-    
+
     /**
-     * Aggiunge una risposta del ristoratore a una recensione
+     * Aggiunge la risposta del ristoratore a una recensione.
+     *
      * @param idRecensione ID della recensione
-     * @param risposta Testo della risposta
+     * @param risposta     testo della risposta
      * @return true se aggiunta con successo, false altrimenti
      */
     public boolean rispondiRecensione(int idRecensione, String risposta) {
         return recensioneDAO.rispondiRecensione(idRecensione, risposta);
     }
-    
+
     /**
-     * Verifica se un cliente ha già recensito un ristorante
-     * @param idUtente ID del cliente
+     * Verifica se un utente ha già recensito un ristorante.
+     * Metodo utility: il controllo reale sui duplicati
+     * è garantito dal constraint UNIQUE del database.
+     *
+     * @param idUtente     ID del cliente
      * @param idRistorante ID del ristorante
      * @return true se ha già recensito, false altrimenti
      */
     public boolean hasRecensione(int idUtente, int idRistorante) {
         return recensioneDAO.hasRecensione(idUtente, idRistorante);
     }
-    
-    
+
     /**
-     * Ottiene tutte le recensioni di un ristorante
+     * Ottiene tutte le recensioni di un ristorante.
+     *
      * @param idRistorante ID del ristorante
-     * @return Lista delle recensioni
+     * @return lista delle recensioni
      */
     public List<Recenzione> getRecensioniRistorante(int idRistorante) {
         return recensioneDAO.getRecensioniPerRistorante(idRistorante);
     }
-    
+
     /**
-     * Ottiene tutte le recensioni di un cliente
+     * Ottiene tutte le recensioni scritte da un utente.
+     *
      * @param idUtente ID del cliente
-     * @return Lista delle recensioni
+     * @return lista delle recensioni
      */
     public List<Recenzione> getRecensioniCliente(int idUtente) {
         return recensioneDAO.getRecensioniPerUtente(idUtente);
     }
-    
+
     /**
-     * Calcola la media delle stelle per un ristorante
+     * Calcola la media delle stelle per un ristorante.
+     *
      * @param idRistorante ID del ristorante
-     * @return Media delle stelle
+     * @return media delle stelle (0.0 se nessuna recensione)
      */
     public double calcolaMediaStelle(int idRistorante) {
         List<Recenzione> recensioniRistorante = getRecensioniRistorante(idRistorante);
         if (recensioniRistorante.isEmpty()) {
             return 0.0;
         }
-        
         double somma = 0;
         for (Recenzione recensione : recensioniRistorante) {
             somma += recensione.getStelle();
         }
-        
         return somma / recensioniRistorante.size();
     }
-    
+
     /**
-     * Aggiorna la valutazione di un ristorante
-     * @param idRistorante ID del ristorante
-     */
-    private void aggiornaValutazioneRistorante(int idRistorante) {
-        double media = calcolaMediaStelle(idRistorante);
-        int numeroRecensioni = getRecensioniRistorante(idRistorante).size();
-        
-        // Assumendo che GestoreRistoranti abbia questo metodo (da sistemare nel prossimo file)
-        gestoreRistoranti.aggiornaValutazione(idRistorante, media, numeroRecensioni);
-    }
-    
-    /**
-     * Visualizza le recensioni di un ristorante
+     * Visualizza le recensioni di un ristorante.
+     *
      * @param idRistorante ID del ristorante
      */
     public void visualizzaRecensioni(int idRistorante) {
         List<Recenzione> recensioniRistorante = getRecensioniRistorante(idRistorante);
-        
+
         if (recensioniRistorante.isEmpty()) {
             System.out.println("Nessuna recensione disponibile per questo ristorante.");
             return;
         }
-        
+
         System.out.println("\n═══════════════════════════════════════════════════════");
         System.out.println("  RECENSIONI (" + recensioniRistorante.size() + ")");
         System.out.println("  Media: ★ " + String.format("%.1f", calcolaMediaStelle(idRistorante)));
         System.out.println("═══════════════════════════════════════════════════════\n");
-        
+
         for (Recenzione recensione : recensioniRistorante) {
             System.out.println(recensione);
         }
     }
-    
+
     /**
-     * Visualizza il riepilogo delle recensioni per i ristoranti di un ristoratore
-     * @param idRistoratore ID del ristoratore
-     * @param gestoreRistoranti Gestore ristoranti
+     * Visualizza il riepilogo delle recensioni per i ristoranti
+     * di un ristoratore.
+     *
+     * @param idRistoratore      ID del ristoratore
+     * @param gestoreRistoranti  gestore ristoranti
      */
     public void visualizzaRiepilogo(int idRistoratore, GestoreRistoranti gestoreRistoranti) {
         List<Ristorante> ristoranti = gestoreRistoranti.getRistorantiPerRistoratore(idRistoratore);
-        
+
         if (ristoranti.isEmpty()) {
             System.out.println("Non hai ancora aggiunto ristoranti.");
             return;
         }
-        
+
         System.out.println("\n═══════════════════════════════════════════════════════");
         System.out.println("  RIEPILOGO RISTORANTI");
         System.out.println("═══════════════════════════════════════════════════════\n");
-        
+
         for (Ristorante ristorante : ristoranti) {
             System.out.println(ristorante.getNome() + " (" + ristorante.getCitta() + ")");
             System.out.println("  Valutazione: ★ " + String.format("%.1f", ristorante.getMediaStelle()));

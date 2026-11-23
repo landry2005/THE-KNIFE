@@ -94,6 +94,12 @@ public class HomeView {
                 event -> SceneManager.showFavorites()
         );
 
+        Button mieRecensioniButton = new Button("Le mie recensioni");
+        mieRecensioniButton.setVisible(SessionManager.isCliente());
+        mieRecensioniButton.setManaged(SessionManager.isCliente());
+        mieRecensioniButton.setOnAction(
+                event -> SceneManager.showMyReviews()
+        );
         Button accountButton = new Button(
                 loggato ? "Logout" : "Accedi / Registrati"
         );
@@ -138,6 +144,7 @@ public class HomeView {
                 cercaButton,
                 ricercaAvanzataButton,
                 preferitiButton,
+                mieRecensioniButton,
                 accountButton
         );
 

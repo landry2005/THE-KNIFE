@@ -22,6 +22,7 @@ public enum RequestType {
     EDIT_REVIEW,
     DELETE_REVIEW,
     GET_REVIEWS,
+    GET_MY_REVIEWS, //Aggiunta
     REPLY_REVIEW,
 
     // Preferiti

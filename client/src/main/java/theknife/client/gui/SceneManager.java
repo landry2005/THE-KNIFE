@@ -148,5 +148,17 @@ public final class SceneManager {
                         700
                 )
         );
+        
+    }
+
+        public static void showMyReviews() {
+
+        stage.setScene(
+                new Scene(
+                        new MyReviewsView().getView(),
+                        850,
+                        650
+                )
+        );
     }
 }

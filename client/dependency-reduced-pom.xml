@@ -8,6 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>client</artifactId>
   <build>
+    <finalName>clientTK</finalName>
     <plugins>
       <plugin>
         <groupId>org.openjfx</groupId>
